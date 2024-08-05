@@ -1,0 +1,1420 @@
+<html>
+
+<head>
+  <title>Image map created by yEd</title>
+  <style type="text/css">
+    .tooltip {
+      font-size: 10pt;
+      background-color: #FFFFCC;
+      border: 1px solid black;
+      padding: 2px
+    }
+  </style>
+  <style type="text/css">
+    .tooltip {
+      position: absolute;
+      display: none
+    }
+  </style>
+</head>
+
+<body>
+
+  <script type="text/javascript">
+    tooltip = null;
+    document.onmousemove = updateTooltip;
+    function updateTooltip(e) {
+      try {
+        if (document.all) {
+          if (document.documentElement && document.documentElement.scrollTop) { // Explorer 6 Strict
+            x = document.documentElement.scrollLeft + window.event.x;
+            y = document.documentElement.scrollTop + window.event.y;
+          }
+          else { // all other Explorers
+            x = document.body.scrollLeft + window.event.x;
+            y = document.body.scrollTop + window.event.y;
+          }
+        }
+        else {
+          x = e.pageX;
+          y = e.pageY;
+        }
+        if (tooltip != null) {
+          o = 20;
+          var sx, sy;
+          if (self.pageYOffset) { // all except Explorer
+            sx = self.pageXOffset;
+            sy = self.pageYOffset;
+          }
+          else if (document.documentElement && document.documentElement.scrollTop) { // Explorer 6 Strict
+            sx = document.documentElement.scrollLeft;
+            sy = document.documentElement.scrollTop;
+          }
+          else if (document.body) { // all other Explorers
+            sx = document.body.scrollLeft;
+            sy = document.body.scrollTop;
+          }
+          t = y + o + tooltip.offsetHeight;
+          w = sy + document.body.clientHeight;
+          if (t > w) {
+            y = y - o - tooltip.offsetHeight;
+          }
+          else {
+            y = y + o;
+          }
+          t = x + o + tooltip.offsetWidth;
+          w = sx + document.body.clientWidth;
+          if (t > w) {
+            x = x - o - tooltip.offsetWidth;
+          }
+          else {
+            x = x + o;
+          }
+          if ((tooltip.style.top == '' || tooltip.style.top == 0) && (tooltip.style.left == '' || tooltip.style.left == 0)) {
+            tooltip.style.width = tooltip.offsetWidth + 'px';
+            tooltip.style.height = tooltip.offsetHeight + 'px';
+          }
+          tooltip.style.left = x + "px";
+          tooltip.style.top = y + "px";
+        }
+      } catch (error) { error = null; }
+    }
+    function showTooltip(id) {
+      try {
+        tooltip = document.getElementById(id);
+        tooltip.style.display = "block";
+      } catch (error) { error = null; }
+    }
+    function hideTooltip() {
+      try {
+        tooltip.style.display = "none";
+      } catch (error) { error = null; }
+    }
+  </script>
+
+  <div class="tooltip" id="n0">Tgs.Op-Api</div>
+  <div class="tooltip" id="n1">tgs-agent-service</div>
+  <div class="tooltip" id="n2">Tgs.ArticleManagementService</div>
+  <div class="tooltip" id="n3">tgs-brand-certificate</div>
+  <div class="tooltip" id="n4">tgs-cashservice</div>
+  <div class="tooltip" id="n5">tgs-promotion-deposit-accumulate-roulette-service</div>
+  <div class="tooltip" id="n6">tgs-email-sender-api</div>
+  <div class="tooltip" id="n7">tgs-file-service</div>
+  <div class="tooltip" id="n8">tgs-gameproviders-pluggableservice</div>
+  <div class="tooltip" id="n9">Tgs.NotificationCenter</div>
+  <div class="tooltip" id="n10">tgs-payment</div>
+  <div class="tooltip" id="n11">Tgs.PlayerBucketServcie</div>
+  <div class="tooltip" id="n12">tgs-player-service</div>
+  <div class="tooltip" id="n13">tgs-promotion-service</div>
+  <div class="tooltip" id="n14">tgs-report-service</div>
+  <div class="tooltip" id="n15">Tgs.StationLetter</div>
+  <div class="tooltip" id="n16">sms-service</div>
+  <div class="tooltip" id="n17">tgs-validatecode</div>
+  <div class="tooltip" id="n18">Tgs.VipLevelService</div>
+  <div class="tooltip" id="n19">Tgs.OfflineLoginReward</div>
+  <div class="tooltip" id="n20">tgs-agent-api</div>
+  <div class="tooltip" id="n21">tgs-agent-dividend-service</div>
+  <div class="tooltip" id="n22">Tgs.Bo-Api</div>
+  <div class="tooltip" id="n23">tgs-domainsetting-service</div>
+  <div class="tooltip" id="n24">tgs-gamewagers</div>
+  <div class="tooltip" id="n25">tgs-marketing-report-service</div>
+  <div class="tooltip" id="n26">tgs-notification-contacts</div>
+  <div class="tooltip" id="n27">tgs-payment-manual-deposit</div>
+  <div class="tooltip" id="n28">tgs-player-all-agent-service</div>
+  <div class="tooltip" id="n29">tgs-brandgamecredits-notification</div>
+  <div class="tooltip" id="n30">tgs-brandgamecredits</div>
+  <div class="tooltip" id="n31">tgs-brandgamecredits-handler</div>
+  <div class="tooltip" id="n32">tgs-gamewagers-stat-hourly</div>
+  <div class="tooltip" id="n33">tgs-gamewagers-stat-daily</div>
+  <div class="tooltip" id="n34">tgs-fill-in-player-bucket-service</div>
+  <div class="tooltip" id="n35">tgs-marketing-report-daily-aggregate-service</div>
+  <div class="tooltip" id="n36">tgs-player-bucket-scheduler</div>
+  <div class="tooltip" id="n37">tgs-profit-rebate-service</div>
+  <div class="tooltip" id="n38">tgs-promotion-deposit-service</div>
+  <div class="tooltip" id="n39">tgs-promotion-register-service</div>
+  <div class="tooltip" id="n40">tgs-promotion-relief-money-service</div>
+  <div class="tooltip" id="n41">tgs-report-aggregate-service</div>
+  <div class="tooltip" id="n42">tgs-schedule-service</div>
+  <div class="tooltip" id="n43">tgs-brand-game-provider-service</div>
+  <div class="tooltip" id="n44">tgs-game-type-round-aggregate-service</div>
+  <div class="tooltip" id="n45">Tgs.PromotionRebate</div>
+  <div class="tooltip" id="n46">Tgs.PromoteDepositChannel</div>
+  <div class="tooltip" id="n47">Tgs.Promotion.AccountFirstDeposit</div>
+  <div class="tooltip" id="n48">Tgs.CalculateService</div>
+  <div class="tooltip" id="n49">Tgs.Sms.ChuanXin</div>
+  <div class="tooltip" id="n50">Tgs.Payment.AlfaPay</div>
+  <div class="tooltip" id="n51">tgs-gamecommand</div>
+  <div class="tooltip" id="n52">tgs-gamecurrency</div>
+  <div class="tooltip" id="n53">tgs-gameexternalinterface-skywindservice</div>
+  <div class="tooltip" id="n54">tgs-gameproviders</div>
+  <div class="tooltip" id="n55">tgs-gameinterface-awc</div>
+  <div class="tooltip" id="n56">tgs-gameinterface-btiservice</div>
+  <div class="tooltip" id="n57">tgs-gameinterface-cards365</div>
+  <div class="tooltip" id="n58">tgs-gameinterface-crpati</div>
+  <div class="tooltip" id="n59">tgs-gameinterface-dreamgamingservice</div>
+  <div class="tooltip" id="n60">tgs-gameinterface-endorphinaservice</div>
+  <div class="tooltip" id="n61">tgs-gameinterface-evolutionservice</div>
+  <div class="tooltip" id="n62">tgs-gameinterface-fachai</div>
+  <div class="tooltip" id="n63">tgs-gameinterface-gkxgaming</div>
+  <div class="tooltip" id="n64">tgs-gameinterface-habaneroservice</div>
+  <div class="tooltip" id="n65">tgs-gameinterface-inplaymatrix</div>
+  <div class="tooltip" id="n66">tgs-gameinterface-jdbservice</div>
+  <div class="tooltip" id="n67">tgs-gameinterface-jili</div>
+  <div class="tooltip" id="n68">tgs-gameinterface-joker</div>
+  <div class="tooltip" id="n69">tgs-gameinterface-kaiyuan</div>
+  <div class="tooltip" id="n70">tgs-gameinterface-legaming</div>
+  <div class="tooltip" id="n71">tgs-gameinterface-obet</div>
+  <div class="tooltip" id="n72">tgs-gameinterface-pinnacle</div>
+  <div class="tooltip" id="n73">tgs-gameinterface-pragmaticplay</div>
+  <div class="tooltip" id="n74">tgs-gameinterface-sabaservice</div>
+  <div class="tooltip" id="n75">tgs-gameinterface-sboservice</div>
+  <div class="tooltip" id="n76">tgs-gameinterface-skywindservice</div>
+  <div class="tooltip" id="n77">tgs-gameinterface-sm01service</div>
+  <div class="tooltip" id="n78">tgs-gameinterface-tfgamingservice</div>
+  <div class="tooltip" id="n79">tgs-gameinterface-v8poker</div>
+  <div class="tooltip" id="n80">tgs-gameinterface-vrgaming</div>
+  <div class="tooltip" id="n81">tgs-gameinterface-wgfmgamingservice</div>
+  <div class="tooltip" id="n82">tgs-gameinterface-wgviagaming</div>
+  <div class="tooltip" id="n83">tgs-gameinterface-wicketcricket</div>
+  <div class="tooltip" id="n84">tgs-gameinterface-wmcasinoservice</div>
+  <div class="tooltip" id="n85">tgs-gameinterface-yeebet</div>
+  <div class="tooltip" id="n86">tgs-gamerecord-endorphina-session</div>
+  <div class="tooltip" id="n87">tgs-gamerounds</div>
+  <div class="tooltip" id="n88">tgs-gametoken</div>
+  <div class="tooltip" id="n89">Tgs.Payment.DibaoPay</div>
+  <div class="tooltip" id="n90">Tgs.Payment.Background</div>
+  <div class="tooltip" id="n91">tgs-gamefundtransfer</div>
+  <div class="tooltip" id="n92">tgs-gameplayerlogout</div>
+  <div class="tooltip" id="n93">tgs-gamerecord-handle</div>
+  <div class="tooltip" id="n94">tgs-viplevels-birthday</div>
+  <div class="tooltip" id="n95">tgs-viplevels-cycle</div>
+  <div class="tooltip" id="n96">tgs-viplevels-level</div>
+  <div class="tooltip" id="n97">tgs-sms-maiteng</div>
+  <div class="tooltip" id="n98">tgs-sms-movider</div>
+  <div class="tooltip" id="n99">tgs-sms-globalcall</div>
+  <div class="tooltip" id="n100">tgs-sms-plivo</div>
+  <div class="tooltip" id="n101">Tgs.Sms.CYN</div>
+  <div class="tooltip" id="n102">tgs-payment-scheduler</div>
+  <div class="tooltip" id="n103">tgs-gamerecord-tfgaming</div>
+  <div class="tooltip" id="n104">Tgs.OfflineEventDepositPromotion</div>
+  <div class="tooltip" id="n105">tgs-gamewagers-stat-check</div>
+  <div class="tooltip" id="n106">tgs-gamewagers-domains</div>
+  <div class="tooltip" id="n107">tgs-gameplayerbalance</div>
+  <div class="tooltip" id="n108">tgs-brand-service</div>
+  <div class="tooltip" id="n109">Tgs.Payment.WithdrawLimit</div>
+  <div class="tooltip" id="n110">Tgs.Payment.PhpGoPay</div>
+  <div class="tooltip" id="n111">Tgs.Payment.GCPay</div>
+  <div class="tooltip" id="n112">tgs-notification-receiver-service</div>
+  <div class="tooltip" id="n113">Tgs.GameServer</div>
+  <div class="tooltip" id="n114">Tgs.MemoNotify</div>
+  <div class="tooltip" id="e0">IAgentClient</div>
+  <div class="tooltip" id="e1">IArticleManagementClient</div>
+  <div class="tooltip" id="e2">
+    IBrandCertificateClient<br>IBrandServiceClient<br><br>IMessageHandler<br>tgs.brand.frontendinfo.changed</div>
+  <div class="tooltip" id="e3">ICashServiceClient</div>
+  <div class="tooltip" id="e4">IDepositAccumulateRouletteClient</div>
+  <div class="tooltip" id="e5">IEmailClient</div>
+  <div class="tooltip" id="e6">IFileServiceClient</div>
+  <div class="tooltip" id="e7">IGameProvidersOperatorPluggableClient</div>
+  <div class="tooltip" id="e8">INotificationClient</div>
+  <div class="tooltip" id="e9">IPaymentClient<br>IPaymentServiceClient<br><br>IMessageHandler
+    HandleAsync<br>tgs.payment.deposit.status_ex<br>tgs.payment.withdraw.status_ex</div>
+  <div class="tooltip" id="e10">IPlayerBucketClient<br>IPlayerBucketForTypesClient</div>
+  <div class="tooltip" id="e11">IPlayerServiceClient</div>
+  <div class="tooltip" id="e12">IPromotionClient</div>
+  <div class="tooltip" id="e13">IReportClient</div>
+  <div class="tooltip" id="e14">IStationLetterClient</div>
+  <div class="tooltip" id="e15">ISmsServiceClient</div>
+  <div class="tooltip" id="e16">IValidateCodeServiceClient</div>
+  <div class="tooltip" id="e17">IVipLevelServiceClient</div>
+  <div class="tooltip" id="e18">IMessageSender PublishAsync<br>tgs.operator.player.logged_in</div>
+  <div class="tooltip" id="e19">IMessageSender PublishAsync
+    Subject<br>tgs.payment.deposit.status_ex<br>tgs.payment.withdraw.status_ex</div>
+  <div class="tooltip" id="e20">IPlayerServiceClient</div>
+  <div class="tooltip" id="e21">IPromotionServiceClient</div>
+  <div class="tooltip" id="e22">IMessageSender PublishAsync Subject<br>tgs.brand.frontendinfo.changed</div>
+  <div class="tooltip" id="e23">IMessageSender PublishAsync Subject<br>tgs.brand.frontendinfo.changed</div>
+  <div class="tooltip" id="e24">IAgentClient</div>
+  <div class="tooltip" id="e25">IBrandServiceClient</div>
+  <div class="tooltip" id="e26">ICashServiceClient</div>
+  <div class="tooltip" id="e27">IEmailClient</div>
+  <div class="tooltip" id="e28">IPaymentServiceClient</div>
+  <div class="tooltip" id="e29">IPlayerBucketClient</div>
+  <div class="tooltip" id="e30">IPlayerServiceClient</div>
+  <div class="tooltip" id="e31">IReportClient</div>
+  <div class="tooltip" id="e32">ISmsServiceClient</div>
+  <div class="tooltip" id="e33">IValidateCodeServiceClient</div>
+  <div class="tooltip" id="e34">IVipLevelServiceClient</div>
+  <div class="tooltip" id="e35">IAgentClient</div>
+  <div class="tooltip" id="e36">ICashServiceClient</div>
+  <div class="tooltip" id="e37">ICashServiceClient</div>
+  <div class="tooltip" id="e38">IPlayerServiceClient</div>
+  <div class="tooltip" id="e39">IAgentClient</div>
+  <div class="tooltip" id="e40">IAgentDividendClient</div>
+  <div class="tooltip" id="e41">IArticleManagementClient</div>
+  <div class="tooltip" id="e42">IBrandCertificateClient<br>IBrandServiceClient</div>
+  <div class="tooltip" id="e43">ICashServiceClient<br>ICashQueryClient</div>
+  <div class="tooltip" id="e44">IGameProvidersBackofficePluggableClient</div>
+  <div class="tooltip" id="e45">IDomainSettingClient</div>
+  <div class="tooltip" id="e46">IGameWagersClient</div>
+  <div class="tooltip" id="e47">IMarketingReportClient</div>
+  <div class="tooltip" id="e48">INotificationContactsClient</div>
+  <div class="tooltip" id="e49">IPaymentClient<br>IPaymentServiceClient</div>
+  <div class="tooltip" id="e51">IBrandAllAgentClient</div>
+  <div class="tooltip" id="e52">IPlayerBucketClient<br>IPlayerBucketForTypesClient</div>
+  <div class="tooltip" id="e53">IPlayerServiceClient</div>
+  <div class="tooltip" id="e54">IReportClient<br>IReportPlayerAllAgentClient</div>
+  <div class="tooltip" id="e55">IPromotionClient<br>IPromotionServiceClient<br>IPromotionHistoryClient</div>
+  <div class="tooltip" id="e56">IStationLetterClient</div>
+  <div class="tooltip" id="e57">IVipLevelServiceClient</div>
+  <div class="tooltip" id="e58">IFileServiceClient</div>
+  <div class="tooltip" id="e59">IBrandGameCreditsClient</div>
+  <div class="tooltip" id="e60">brandgamecreditshandlercommon.proto</div>
+  <div class="tooltip" id="e61">GameWagersStatHourlyCommon.proto</div>
+  <div class="tooltip" id="e63">IPlayerBucketClient<br>IPlayerBucketForTypesClient</div>
+  <div class="tooltip" id="e64">IFillInPlayerBucketClient</div>
+  <div class="tooltip" id="e65">IPlayerServiceClient</div>
+  <div class="tooltip" id="e66">IPlayerBucketClient</div>
+  <div class="tooltip" id="e67">INotificationClient</div>
+  <div class="tooltip" id="e68">ICashServiceClient</div>
+  <div class="tooltip" id="e69">ICashServiceClient</div>
+  <div class="tooltip" id="e70">IPaymentServiceClient</div>
+  <div class="tooltip" id="e71">IPlayerBucketForTypesClient</div>
+  <div class="tooltip" id="e72">IPromotionClient</div>
+  <div class="tooltip" id="e73">IPromotionServiceClient</div>
+  <div class="tooltip" id="e74">IPlayerServiceClient</div>
+  <div class="tooltip" id="e75">IBrandServiceClient</div>
+  <div class="tooltip" id="e76">IPromotionServiceClient</div>
+  <div class="tooltip" id="e77">IPlayerBucketClient</div>
+  <div class="tooltip" id="e78">IAgentDividendClient</div>
+  <div class="tooltip" id="e79">IBrandGameProviderClient</div>
+  <div class="tooltip" id="e80">IGameTypeRoundClient</div>
+  <div class="tooltip" id="e81">IPlayerAllAgentScheduleClient</div>
+  <div class="tooltip" id="e82">IProfitRebateClient</div>
+  <div class="tooltip" id="e83">IPromotionReliefClient</div>
+  <div class="tooltip" id="e84">IPromotionRebateClient</div>
+  <div class="tooltip" id="e85">IReportAggregateClient</div>
+  <div class="tooltip" id="e86">IReportClient</div>
+  <div class="tooltip" id="e87">IPaymentServiceClient<br><br>payment.proto</div>
+  <div class="tooltip" id="e88">IPlayerServiceClient</div>
+  <div class="tooltip" id="e89">IPromotionServiceClient</div>
+  <div class="tooltip" id="e90">IVipLevelServiceClient</div>
+  <div class="tooltip" id="e91">IPaymentServiceClient<br><br>payment.proto</div>
+  <div class="tooltip" id="e92">IPromotionServiceClient</div>
+  <div class="tooltip" id="e93">ICalculateClient</div>
+  <div class="tooltip" id="e94">sms.proto</div>
+  <div class="tooltip" id="e95">IBrandServiceClient</div>
+  <div class="tooltip" id="e96">IPaymentClient<br>IPaymentServiceClient</div>
+  <div class="tooltip" id="e97">IGameCommandClient</div>
+  <div class="tooltip" id="e98">IGameInterfaceAwcClient</div>
+  <div class="tooltip" id="e99">IGameInterfaceBTiClient</div>
+  <div class="tooltip" id="e100">IGameInterfaceCards365Client</div>
+  <div class="tooltip" id="e101">IGameInterfaceCrPatiClient</div>
+  <div class="tooltip" id="e102">IGameInterfaceDreamGamingClient</div>
+  <div class="tooltip" id="e103">IGameInterfaceEndorphinaClient</div>
+  <div class="tooltip" id="e104">IGameInterfaceEvolutionClient</div>
+  <div class="tooltip" id="e105">IGameInterfaceFaChaiClient</div>
+  <div class="tooltip" id="e106">IGameInterfaceGKXGamingClient</div>
+  <div class="tooltip" id="e107">IGameInterfaceHabaneroClient</div>
+  <div class="tooltip" id="e108">IGameInterfaceInplayMatrixClient</div>
+  <div class="tooltip" id="e109">IGameInterfaceJDBClient</div>
+  <div class="tooltip" id="e110">IGameInterfaceJiliClient</div>
+  <div class="tooltip" id="e111">IGameInterfaceJokerClient</div>
+  <div class="tooltip" id="e112">IGameInterfaceKaiyuanClient</div>
+  <div class="tooltip" id="e113">IGameInterfaceLEGamingClient</div>
+  <div class="tooltip" id="e114">IGameInterfaceOBetClient</div>
+  <div class="tooltip" id="e115">IGameInterfacePinnacleClient</div>
+  <div class="tooltip" id="e116">IGameInterfacePragmaticPlayClient</div>
+  <div class="tooltip" id="e117">IGameInterfaceSabaClient</div>
+  <div class="tooltip" id="e118">IGameInterfaceSBOClient</div>
+  <div class="tooltip" id="e119">IGameInterfaceSkywindClient</div>
+  <div class="tooltip" id="e120">IGameInterfaceSM01Client</div>
+  <div class="tooltip" id="e121">IGameInterfaceTFGamingClient</div>
+  <div class="tooltip" id="e122">IGameInterfaceV8PokerClient</div>
+  <div class="tooltip" id="e123">IGameInterfaceVRGamingClient</div>
+  <div class="tooltip" id="e124">IGameInterfaceWGFmGamingClient</div>
+  <div class="tooltip" id="e125">IGameInterfaceWGViaGamingClient</div>
+  <div class="tooltip" id="e126">IGameInterfaceWicketCricketClient</div>
+  <div class="tooltip" id="e127">IGameInterfaceWMCasinoServiceClient</div>
+  <div class="tooltip" id="e128">IGameInterfaceYeeBetClient</div>
+  <div class="tooltip" id="e129">IGameRecordEndorphinaSessionClient</div>
+  <div class="tooltip" id="e130">IGameRoundsClient</div>
+  <div class="tooltip" id="e131">IGameTokenClient</div>
+  <div class="tooltip" id="e132">IMessageSender RequestAsync
+    Subject<br>tgs.payment.alfapay.balance<br><br>AlfaPayUtility<br>AlfaPayWithdrawSettings<br>AlfaPayBankInfo<br></div>
+  <div class="tooltip" id="e133">AlfaPayDepositSettings<br>AlfaPayDepositApplyInfo<br>AlfaPayUtility</div>
+  <div class="tooltip" id="e134">IPaymentClient<br>IPaymentServiceClient</div>
+  <div class="tooltip" id="e135">IMessageSender RequestAsync
+    Subject<br>tgs.payment.dibaopay.balance<br><br>DibaoPayUtility<br>DibaoPayWithdrawSettings<br>DibaoPayBankInfo</div>
+  <div class="tooltip" id="e136">DibaoPayDepositSettings<br>DibaoPayDepositApplyInfo<br>DibaoPayUtility</div>
+  <div class="tooltip" id="e137">IBrandGameCreditsClient</div>
+  <div class="tooltip" id="e138">ICashServiceClient</div>
+  <div class="tooltip" id="e139">IGameCommandClient</div>
+  <div class="tooltip" id="e140">IGameCurrencyClient</div>
+  <div class="tooltip" id="e141">IGameFundTransferClient</div>
+  <div class="tooltip" id="e142">IGamePlayerLogOutClient</div>
+  <div class="tooltip" id="e143">IGameProvidersClient</div>
+  <div class="tooltip" id="e144">IGameRoundsClient</div>
+  <div class="tooltip" id="e145">IGameRecordHandleClient</div>
+  <div class="tooltip" id="e146">IPaymentServiceClient<br><br>payment.proto</div>
+  <div class="tooltip" id="e147">IVipLevelServiceClient</div>
+  <div class="tooltip" id="e148">IVipLevelServiceClient</div>
+  <div class="tooltip" id="e149">IPlayerServiceClient</div>
+  <div class="tooltip" id="e150">IVipLevelServiceClient</div>
+  <div class="tooltip" id="e151">IPlayerServiceClient</div>
+  <div class="tooltip" id="e152">IBrandServiceClient</div>
+  <div class="tooltip" id="e153">sms.proto</div>
+  <div class="tooltip" id="e154">IMessageSender PublishAsync Subject<br>tgs.sms.chuan-xin</div>
+  <div class="tooltip" id="e155">IMessageSender PublishAsync Subject<br>tgs.sms.maiteng</div>
+  <div class="tooltip" id="e156">IBrandServiceClient</div>
+  <div class="tooltip" id="e157">sms.proto</div>
+  <div class="tooltip" id="e158">IMessageSender PublishAsync Subject<br>tgs.sms.movider</div>
+  <div class="tooltip" id="e159">sms.proto</div>
+  <div class="tooltip" id="e160">IMessageSender PublishAsync Subject<br>tgs.sms.globalcall</div>
+  <div class="tooltip" id="e161">IBrandServiceClient</div>
+  <div class="tooltip" id="e162">sms.proto</div>
+  <div class="tooltip" id="e163">IBrandServiceClient</div>
+  <div class="tooltip" id="e164">IMessageSender PublishAsync Subject<br>tgs.sms.plivo</div>
+  <div class="tooltip" id="e165">sms.proto</div>
+  <div class="tooltip" id="e166">IMessageSender PublishAsync Subject<br>tgs.sms.cyn</div>
+  <div class="tooltip" id="e167">IBrandServiceClient</div>
+  <div class="tooltip" id="e168">IMessageSender PublishAsync Subject<br>tgs.payment.alfapay.deposit.schedule.reject
+  </div>
+  <div class="tooltip" id="e169">IMessageSender SendAsync<br>tgs.payment.countdown.schedule</div>
+  <div class="tooltip" id="e170">payment.proto</div>
+  <div class="tooltip" id="e171">IMessageSender PublishAsync Subject<br>tgs.payment.dibaopay.deposit.schedule.reject
+  </div>
+  <div class="tooltip" id="e172">IGameInterfaceTFGamingClient</div>
+  <div class="tooltip" id="e173">IGameCommandClient</div>
+  <div class="tooltip" id="e174">IGameRecordHandleClient</div>
+  <div class="tooltip" id="e175">IPaymentServiceClient<br><br>payment.proto</div>
+  <div class="tooltip" id="e176">IPromotionServiceClient</div>
+  <div class="tooltip" id="e177">GameWagersStatHourlyCommon.proto</div>
+  <div class="tooltip" id="e178">IGameProvidersClient<br>IGameProvidersBalancesClient</div>
+  <div class="tooltip" id="e179">IGameFundTransferClient</div>
+  <div class="tooltip" id="e180">IGameCommandClient</div>
+  <div class="tooltip" id="e181">IMessageSender PublishAsync
+    Subject<br>tgs.payment.deposit.approve<br><br>IMessageSender SendAsync
+    Subject<br>tgs.payment.deposit.reject<br>tgs.payment.withdraw.reject<br>tgs.payment.withdraw.paid_ex</div>
+  <div class="tooltip" id="e182">BrandCertificateAuthenticationFilter</div>
+  <div class="tooltip" id="e183">IMessageSender PublishAsync
+    Subject<br>tgs.report.aggregate.brand.game.provider<br>tgs.report.aggregate.game.provider</div>
+  <div class="tooltip" id="e184">IMessageSender RequestAsync
+    Subject<br>tgs.promotion.firstdeposit.distribute<br>tgs.promotion.dailyfirstdeposit.distribute<br>tgs.promotion.depositreward.distribute<br>tgs.promotion.dailyseconddeposit.distribute
+  </div>
+  <div class="tooltip" id="e185">IMessageSender PublishAsync Subject<br>tgs.brandservice.maintenance.cache.clear</div>
+  <div class="tooltip" id="e186">IPaymentServiceClient<br>payment.proto</div>
+  <div class="tooltip" id="e187">IBrandServiceClient</div>
+  <div class="tooltip" id="e188">IPaymentClient<br>IPaymentServiceClient</div>
+  <div class="tooltip" id="e189">PhpGoPayDepositSettings<br>PhpGoPayDepositApplyInfo<br>PhpGoPayUtility</div>
+  <div class="tooltip" id="e190">PhpGoPayUtility<br>PhpGoPayWithdrawSettings<br>PhpGoPayBankInfo<br><br>IMessageSender
+    RequestAsync
+    Subject<br>tgs.payment.phpgopay.balance<br>tgs.payment.123pay.balance<br>tgs.payment.lpay.balance<br>tgs.payment.sunnypay.balance
+  </div>
+  <div class="tooltip" id="e191">IMessageSender PublishAsync Subject<br>tgs.payment.gcpay.deposit.schedule.reject</div>
+  <div class="tooltip" id="e192">IMessageSender PublishAsync
+    Subject<br>tgs.payment.phpgopay.deposit.schedule.reject<br>tgs.payment.123pay.deposit.schedule.reject<br>tgs.payment.lpay.deposit.schedule.reject<br>tgs.payment.sunnypay.deposit.schedule.reject
+  </div>
+  <div class="tooltip" id="e193">IPaymentClient<br>IPaymentServiceClient</div>
+  <div class="tooltip" id="e194">GCPayUtility<br>GCPayWithdrawSettings<br>GCPayBankInfo</div>
+  <div class="tooltip" id="e195">GCPayDepositSettings<br>GCPayDepositApplyInfo<br>GCPayUtility</div>
+  <div class="tooltip" id="e196">IBrandGameCreditComputingUtnsil</div>
+  <div class="tooltip" id="e197">IBrandGameCreditsClient</div>
+  <div class="tooltip" id="e198">
+    ManualDepositSerializer<br>ManualDepositApplyInfo<br>ManualDepositBankApplyInfo<br>ManualDepositFpsApplyInfo<br>ManualDepositThirdPartyApplyInfo<br>ManualDepositEWalletApplyInfo<br>ManualDepositPaymentReturn<br>ManualDepositPulsaApplyInfo<br>ManualDepositUsdtApplyInfo<br>ManualDepositCoinsphApplyInfo
+  </div>
+  <div class="tooltip" id="e199">IBrandCertificateClient</div>
+  <div class="tooltip" id="e200">IMessageSender PublishAsync
+    Subject<br>tgs.relief.ipc.daily-settle<br>tgs.relief.ipc.daily-bonus<br>tgs.relief.ipc.supplement-daily-settle<br><br>IMessageSender
+    RequestAsync Subject<br>tgs.relief.ipc.payout</div>
+  <div class="tooltip" id="e201">IMessageSender PublishAsync Subject<br>report.error</div>
+  <div class="tooltip" id="e202">IMessageSender PublishAsync Subject<br>report.error</div>
+  <div class="tooltip" id="e203">IMessageSender PublishAsync
+    Subject:<br>game.playerbalance.player.balance<br>game.playerbalance.brand.form.queued<br>game.playerbalance.brand.form.processing<br>game.playerbalance.player.form.queued<br>game.playerbalance.import.form.queued<br>game.playerbalance.import.form.processing<br>game.playerbalance.player.balance.add<br>IMessageSender
+    RequestAsync Subject:<br>game.playerbalance.player.balance</div>
+  <div class="tooltip" id="e204">IMessageSender PublishAsync
+    Subject<br>tgs.payment.created<br>tgs.payment.deposit.status_ex<br>tgs.payment.withdraw.status_ex<br>tgs.payment-channel.created<br>tgs.payment-method-channel.changed<br>tgs.payment-method.created<br>tgs.player.bankinfo.added<br>tgs.player.bankinfo.deleted<br><br>IMessageSender
+    SendAsync Subject<br>tgs.player.bankinfo.rebuild<br>tgs.payment.withdraw.external_id<br><br>IMessageSender
+    RequestAsync Subject<br>tgs.payment.dispatch_balance.{paymentCode.ToLower()}</div>
+  <div class="tooltip" id="e205">IMessageSender PublishAsync Subject<br>tgs.payment.deposit.status_ex</div>
+  <div class="tooltip" id="e206">IMessageSender PublishAsync Subject<br>tgs.payment.deposit.status_ex</div>
+  <div class="tooltip" id="e207">IMessageSender PublishAsync Subject<br>tgs.payment.deposit.status_ex</div>
+  <div class="tooltip" id="e208">IMessageSender PublishAsync Subject<br>tgs.payment.deposit.status_ex</div>
+  <div class="tooltip" id="e209">IMessageSender PublishAsync Subject<br>tgs.payment.deposit.status_ex</div>
+  <div class="tooltip" id="e210">IMessageSender PublishAsync Subject<br>tgs.payment.withdraw.status_ex</div>
+  <div class="tooltip" id="e211">IMessageSender PublishAsync Subject<br>tgs.viplevel.birthday.create</div>
+  <div class="tooltip" id="e212">IMessageSender PublishAsync Subject<br>viplevel.cycle.form.create</div>
+  <div class="tooltip" id="e213">IMessageSender PublishAsync
+    Subject<br>tgs.viplevel.level.upgrade<br>tgs.viplevel.level.check<br>tgs.viplevel.level.trigger</div>
+  <div class="tooltip" id="e214">IGameServerClient</div>
+  <div class="tooltip" id="e215">IMessageSender PublishAsync Subject<br>tgs.tst.notify</div>
+  <div class="tooltip" id="e216">IMessageSender PublishAsync
+    Subject<br>tgs.gametoken.auth.revoke<br>tgs.gametoken.token.revoke</div>
+  <div class="tooltip" id="e217">IMessageSender RequestAsync
+    Subject<br>tgs.payment.withdraw-limit.decrease<br>tgs.payment.withdraw-limit.increase</div>
+  <div class="tooltip" id="e218">IGameCommandClient</div>
+  <div class="tooltip" id="e219">IGameTokenClient</div>
+  <div class="tooltip" id="e220">IMessageSender SendAsync
+    Subject<br>tgs.register.background.player<br>tgs.gaming.background.player<br>tgs.marketing.background.agent<br>tgs.marketing.background.brand
+  </div>
+  <div class="tooltip" id="e221">IMessageSender SendAsync
+    Subject<br>tgs.payment.background.player<br>tgs.payment.background.5min<br>tgs.payment.background.hour<br>tgs.payment.background.agent<br>tgs.payment.background.brand<br>IMessageSender
+    PublishAsync Subject<br>tgs.payment.background.event.5min</div>
+
+  <map name="image1_1">
+    <area shape="poly"
+      coords="61,9113,61,9113,15,9113,10,9108,10,8937,15,8932,248,8932,253,8937,253,9016,243,9016,243,8937,248,8937,248,8942,15,8942,15,8937,20,8937,20,9108,15,9108,15,9103,61,9103,61,9103"
+      alt="" onmouseover="showTooltip('e221')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="492,9066,492,9066,482,9066,477,9061,477,8915,482,8910,708,8910,713,8915,713,8971,703,8971,703,8915,708,8915,708,8920,482,8920,482,8915,487,8915,487,9061,482,9061,482,9056,492,9056,492,9056"
+      alt="" onmouseover="showTooltip('e220')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="15878,8096,15878,8096,15878,8135,15873,8135,15873,8130,22818,8130,22823,8135,22823,8172,22813,8172,22813,8135,22818,8135,22818,8140,15873,8140,15868,8135,15868,8096,15868,8096"
+      alt="" onmouseover="showTooltip('e219')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="15863,8096,15863,8096,15863,8180,15858,8185,15678,8185,15678,8180,15683,8180,15683,8260,15673,8260,15673,8180,15678,8175,15858,8175,15858,8180,15853,8180,15853,8096,15853,8096"
+      alt="" onmouseover="showTooltip('e218')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="7811,1975,7811,1975,7668,1975,7668,1970,7673,1970,7673,2060,7668,2060,7668,2055,7908,2055,7908,2060,7903,2060,7903,2028,7913,2028,7913,2060,7908,2065,7668,2065,7663,2060,7663,1970,7668,1965,7811,1965,7811,1965"
+      alt="" onmouseover="showTooltip('e217')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="22838,8210,22838,8210,22838,8270,22833,8270,22833,8265,23103,8265,23103,8270,23098,8270,23098,8195,23103,8195,23103,8200,22901,8200,22901,8190,23103,8190,23108,8195,23108,8270,23103,8275,22833,8275,22828,8270,22828,8210,22828,8210"
+      alt="" onmouseover="showTooltip('e216')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1121,9021,1121,9021,970,9021,970,9016,975,9016,975,9096,970,9096,970,9091,1203,9091,1203,9096,1198,9096,1198,9062,1208,9062,1208,9096,1203,9101,970,9101,965,9096,965,9016,970,9011,1121,9011,1121,9011"
+      alt="" onmouseover="showTooltip('e215')" onmouseout="hideTooltip()" />
+    <area shape="poly" coords="1198,8978,1198,8978,1198,8938,1208,8938,1208,8978,1208,8978" alt=""
+      onmouseover="showTooltip('e214')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="14112,5545,14112,5545,13968,5545,13968,5540,13973,5540,13973,5660,13968,5660,13968,5655,14163,5655,14163,5660,14158,5660,14158,5567,14168,5567,14168,5660,14163,5665,13968,5665,13963,5660,13963,5540,13968,5535,14112,5535,14112,5535"
+      alt="" onmouseover="showTooltip('e213')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="13563,630,13563,630,13698,630,13698,635,13693,635,13693,545,13698,545,13698,550,13488,550,13488,545,13493,545,13493,609,13483,609,13483,545,13488,540,13698,540,13703,545,13703,635,13698,640,13563,640,13563,640"
+      alt="" onmouseover="showTooltip('e212')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="13488,480,13488,480,13623,480,13623,485,13618,485,13618,395,13623,395,13623,400,13413,400,13413,395,13418,395,13418,451,13408,451,13408,395,13413,390,13623,390,13628,395,13628,485,13623,490,13488,490,13488,490"
+      alt="" onmouseover="showTooltip('e211')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="3503,1776,3503,1776,3503,1805,3498,1805,3498,1800,7923,1800,7928,1805,7928,1912,7918,1912,7918,1805,7923,1805,7923,1810,3498,1810,3493,1805,3493,1776,3493,1776"
+      alt="" onmouseover="showTooltip('e210')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="3443,1776,3443,1776,3443,2030,3438,2030,3438,2025,7263,2025,7268,2030,7268,3545,7263,3545,7263,3540,10728,3540,10733,3545,10733,4010,10728,4010,10728,4005,11028,4005,11033,4010,11033,4046,11023,4046,11023,4010,11028,4010,11028,4015,10728,4015,10723,4010,10723,3545,10728,3545,10728,3550,7263,3550,7258,3545,7258,2030,7263,2030,7263,2035,3438,2035,3433,2030,3433,1776,3433,1776"
+      alt="" onmouseover="showTooltip('e209')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="3368,1776,3368,1776,3368,2225,3363,2225,3363,2220,6588,2220,6593,2225,6593,3650,6588,3650,6588,3645,10428,3645,10433,3650,10433,4775,10428,4775,10428,4770,12798,4770,12803,4775,12803,5480,12798,5480,12798,5475,14178,5475,14183,5480,14183,5514,14173,5514,14173,5480,14178,5480,14178,5485,12798,5485,12793,5480,12793,4775,12798,4775,12798,4780,10428,4780,10423,4775,10423,3650,10428,3650,10428,3655,6588,3655,6583,3650,6583,2225,6588,2225,6588,2230,3363,2230,3358,2225,3358,1776,3358,1776"
+      alt="" onmouseover="showTooltip('e208')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="3413,1776,3413,1776,3413,2120,3408,2120,3408,2115,6993,2115,6998,2120,6998,3575,6993,3575,6993,3570,10698,3570,10703,3575,10703,4235,10698,4235,10698,4230,10998,4230,11003,4235,11003,4507,10993,4507,10993,4235,10998,4235,10998,4240,10698,4240,10693,4235,10693,3575,10698,3575,10698,3580,6993,3580,6988,3575,6988,2120,6993,2120,6993,2125,3408,2125,3403,2120,3403,1776,3403,1776"
+      alt="" onmouseover="showTooltip('e207')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="3473,1776,3473,1776,3473,1940,3468,1940,3468,1935,7533,1935,7538,1940,7538,3515,7533,3515,7533,3510,10758,3510,10763,3515,10763,3980,10758,3980,10758,3975,11313,3975,11318,3980,11318,4106,11308,4106,11308,3980,11313,3980,11313,3985,10758,3985,10753,3980,10753,3515,10758,3515,10758,3520,7533,3520,7528,3515,7528,1940,7533,1940,7533,1945,3468,1945,3463,1940,3463,1776,3463,1776"
+      alt="" onmouseover="showTooltip('e206')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="3398,1776,3398,1776,3398,2135,3393,2135,3393,2130,6738,2130,6743,2135,6743,3590,6738,3590,6738,3585,10578,3585,10583,3590,10583,4164,10573,4164,10573,3590,10578,3590,10578,3595,6738,3595,6733,3590,6733,2135,6738,2135,6738,2140,3393,2140,3388,2135,3388,1776,3388,1776"
+      alt="" onmouseover="showTooltip('e205')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="3626,1575,3626,1575,3828,1575,3828,1580,3823,1580,3823,1310,3828,1310,3828,1315,3348,1315,3348,1310,3353,1310,3353,1376,3343,1376,3343,1310,3348,1305,3828,1305,3833,1310,3833,1580,3828,1585,3626,1585,3626,1585"
+      alt="" onmouseover="showTooltip('e204')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="15242,6795,15242,6795,15378,6795,15378,6800,15373,6800,15373,6590,15378,6590,15378,6595,15168,6595,15168,6590,15173,6590,15173,6767,15163,6767,15163,6590,15168,6585,15378,6585,15383,6590,15383,6800,15378,6805,15242,6805,15242,6805"
+      alt="" onmouseover="showTooltip('e203')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="14648,6419,14648,6419,14648,6455,14643,6455,14643,6450,23238,6450,23243,6455,23243,6489,23233,6489,23233,6455,23238,6455,23238,6460,14643,6460,14638,6455,14638,6419,14638,6419"
+      alt="" onmouseover="showTooltip('e202')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="14783,305,14783,305,14783,6005,14778,6005,14778,6000,23253,6000,23258,6005,23258,6489,23248,6489,23248,6005,23253,6005,23253,6010,14778,6010,14773,6005,14773,305,14773,305"
+      alt="" onmouseover="showTooltip('e201')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="11758,207,11758,207,11758,110,11763,110,11763,115,11493,115,11493,110,11498,110,11498,230,11493,230,11493,225,11670,225,11670,235,11493,235,11488,230,11488,110,11493,105,11763,105,11768,110,11768,207,11768,207"
+      alt="" onmouseover="showTooltip('e200')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="7628,3034,7628,3034,7628,3080,7623,3080,7623,3075,8283,3075,8288,3080,8288,3201,8278,3201,8278,3080,8283,3080,8283,3085,7623,3085,7618,3080,7618,3034,7618,3034"
+      alt="" onmouseover="showTooltip('e199')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="968,356,968,356,968,470,963,475,588,475,588,470,593,470,593,8495,588,8495,588,8490,5268,8490,5273,8495,5273,8514,5263,8514,5263,8495,5268,8495,5268,8500,588,8500,583,8495,583,470,588,465,963,465,963,470,958,470,958,356,958,356"
+      alt="" onmouseover="showTooltip('e198')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="5978,2801,5978,2801,5978,2825,5973,2830,4638,2830,4638,2825,4643,2825,4643,6868,4633,6868,4633,2825,4638,2820,5973,2820,5973,2825,5968,2825,5968,2801,5968,2801"
+      alt="" onmouseover="showTooltip('e197')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="4643,6904,4643,6904,4643,6935,4638,6935,4638,6930,4878,6930,4883,6935,4883,6975,4873,6975,4873,6935,4878,6935,4878,6940,4638,6940,4633,6935,4633,6904,4633,6904"
+      alt="" onmouseover="showTooltip('e196')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1028,356,1028,356,1028,2285,1023,2285,1023,2280,1308,2280,1313,2285,1313,2332,1303,2332,1303,2285,1308,2285,1308,2290,1023,2290,1018,2285,1018,356,1018,356"
+      alt="" onmouseover="showTooltip('e195')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="3188,1776,3188,1776,3188,1820,3183,1825,1488,1825,1488,1820,1493,1820,1493,2270,1488,2275,1338,2275,1338,2270,1343,2270,1343,2332,1333,2332,1333,2270,1338,2265,1488,2265,1488,2270,1483,2270,1483,1820,1488,1815,3183,1815,3183,1820,3178,1820,3178,1776,3178,1776"
+      alt="" onmouseover="showTooltip('e194')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1318,2340,1318,2340,1318,1805,1323,1800,3168,1800,3168,1805,3163,1805,3163,1784,3173,1784,3173,1805,3168,1810,1323,1810,1323,1805,1328,1805,1328,2340,1328,2340"
+      alt="" onmouseover="showTooltip('e193')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="2063,2120,2063,2120,2063,2165,2058,2165,2058,2160,2673,2160,2678,2165,2678,2569,2668,2569,2668,2165,2673,2165,2673,2170,2058,2170,2053,2165,2053,2120,2053,2120"
+      alt="" onmouseover="showTooltip('e192')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="2033,2120,2033,2120,2033,2285,2028,2290,1353,2290,1353,2285,1358,2285,1358,2332,1348,2332,1348,2285,1353,2280,2028,2280,2028,2285,2023,2285,2023,2120,2023,2120"
+      alt="" onmouseover="showTooltip('e191')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="3308,1776,3308,1776,3308,2480,3303,2485,2703,2485,2703,2480,2708,2480,2708,2569,2698,2569,2698,2480,2703,2475,3303,2475,3303,2480,3298,2480,3298,1776,3298,1776"
+      alt="" onmouseover="showTooltip('e190')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1013,356,1013,356,1013,2525,1008,2525,1008,2520,2658,2520,2663,2525,2663,2569,2653,2569,2653,2525,2658,2525,2658,2530,1008,2530,1003,2525,1003,356,1003,356"
+      alt="" onmouseover="showTooltip('e189')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="2683,2577,2683,2577,2683,2390,2688,2385,3288,2385,3288,2390,3283,2390,3283,1784,3293,1784,3293,2390,3288,2395,2688,2395,2688,2390,2693,2390,2693,2577,2693,2577"
+      alt="" onmouseover="showTooltip('e188')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="7928,2020,7928,2020,7928,2975,7923,2975,7923,2970,8313,2970,8318,2975,8318,3201,8308,3201,8308,2975,8313,2975,8313,2980,7923,2980,7918,2975,7918,2020,7918,2020"
+      alt="" onmouseover="showTooltip('e187')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="7903,1920,7903,1920,7903,1895,7908,1895,7908,1900,3483,1900,3478,1895,3478,1784,3488,1784,3488,1895,3483,1895,3483,1890,7908,1890,7913,1895,7913,1920,7913,1920"
+      alt="" onmouseover="showTooltip('e186')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6308,2801,6308,2801,6308,2825,6303,2825,6303,2820,7788,2820,7793,2825,7793,2917,7783,2917,7783,2825,7788,2825,7788,2830,6303,2830,6298,2825,6298,2801,6298,2801"
+      alt="" onmouseover="showTooltip('e185')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6263,2801,6263,2801,6263,3800,6258,3800,6258,3795,10278,3795,10283,3800,10283,3922,10273,3922,10273,3800,10278,3800,10278,3805,6258,3805,6253,3800,6253,2801,6253,2801"
+      alt="" onmouseover="showTooltip('e184')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6143,2801,6143,2801,6143,6305,6138,6305,6138,6300,14628,6300,14633,6305,14633,6364,14623,6364,14623,6305,14628,6305,14628,6310,6138,6310,6133,6305,6133,2801,6133,2801"
+      alt="" onmouseover="showTooltip('e183')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="7793,2966,7793,2966,7793,3005,7788,3005,7788,3000,8298,3000,8303,3005,8303,3201,8293,3201,8293,3005,8298,3005,8298,3010,7788,3010,7783,3005,7783,2966,7783,2966"
+      alt="" onmouseover="showTooltip('e182')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="3338,1776,3338,1776,3338,2315,3333,2315,3333,2310,6138,2310,6143,2315,6143,2482,6133,2482,6133,2315,6138,2315,6138,2320,3333,2320,3328,2315,3328,1776,3328,1776"
+      alt="" onmouseover="showTooltip('e181')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="15173,6826,15173,6826,15173,8225,15168,8225,15168,8220,15633,8220,15638,8225,15638,8260,15628,8260,15628,8225,15633,8225,15633,8230,15168,8230,15163,8225,15163,6826,15163,6826"
+      alt="" onmouseover="showTooltip('e180')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="15158,6826,15158,6826,15158,8345,15153,8350,15063,8350,15063,8345,15068,8345,15068,8503,15058,8503,15058,8345,15063,8340,15153,8340,15153,8345,15148,8345,15148,6826,15148,6826"
+      alt="" onmouseover="showTooltip('e179')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="15188,6826,15188,6826,15188,6845,15183,6845,15183,6840,19203,6840,19208,6845,19208,6886,19198,6886,19198,6845,19203,6845,19203,6850,15183,6850,15178,6845,15178,6826,15178,6826"
+      alt="" onmouseover="showTooltip('e178')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="4508,7102,4508,7102,4508,7145,4503,7145,4503,7140,4878,7140,4883,7145,4883,7178,4873,7178,4873,7145,4878,7145,4878,7150,4503,7150,4498,7145,4498,7102,4498,7102"
+      alt="" onmouseover="showTooltip('e177')" onmouseout="hideTooltip()" />
+    <area shape="poly" coords="11033,4116,11033,4116,11033,4507,11023,4507,11023,4116,11023,4116" alt=""
+      onmouseover="showTooltip('e176')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="11008,4054,11008,4054,11008,4025,11013,4025,11013,4030,10713,4030,10708,4025,10708,3560,10713,3560,10713,3565,7128,3565,7123,3560,7123,2075,7128,2075,7128,2080,3423,2080,3418,2075,3418,1784,3428,1784,3428,2075,3423,2075,3423,2070,7128,2070,7133,2075,7133,3560,7128,3560,7128,3555,10713,3555,10718,3560,10718,4025,10713,4025,10713,4020,11013,4020,11018,4025,11018,4054,11018,4054"
+      alt="" onmouseover="showTooltip('e175')" onmouseout="hideTooltip()" />
+    <area shape="poly" coords="15953,8195,15953,8195,15953,8379,15943,8379,15943,8195,15943,8195" alt=""
+      onmouseover="showTooltip('e174')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="15938,8195,15938,8195,15938,8225,15933,8230,15693,8230,15693,8225,15698,8225,15698,8260,15688,8260,15688,8225,15693,8220,15933,8220,15933,8225,15928,8225,15928,8195,15928,8195"
+      alt="" onmouseover="showTooltip('e173')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="15968,8195,15968,8195,15968,8285,15963,8285,15963,8280,22833,8280,22838,8285,22838,8585,22833,8585,22833,8580,23283,8580,23288,8585,23288,8622,23278,8622,23278,8585,23283,8585,23283,8590,22833,8590,22828,8585,22828,8285,22833,8285,22833,8290,15963,8290,15958,8285,15958,8195,15958,8195"
+      alt="" onmouseover="showTooltip('e172')" onmouseout="hideTooltip()" />
+    <area shape="poly" coords="2048,2120,2048,2120,2048,2449,2038,2449,2038,2120,2038,2120" alt=""
+      onmouseover="showTooltip('e171')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="2038,2091,2038,2091,2038,1910,2043,1905,3228,1905,3228,1910,3223,1910,3223,1784,3233,1784,3233,1910,3228,1915,2043,1915,2043,1910,2048,1910,2048,2091,2048,2091"
+      alt="" onmouseover="showTooltip('e170')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="3248,1776,3248,1776,3248,1925,3243,1930,2298,1930,2298,1925,2303,1925,2303,2045,2298,2050,2058,2050,2058,2045,2063,2045,2063,2083,2053,2083,2053,2045,2058,2040,2298,2040,2298,2045,2293,2045,2293,1925,2298,1920,3243,1920,3243,1925,3238,1925,3238,1776,3238,1776"
+      alt="" onmouseover="showTooltip('e169')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="2018,2120,2018,2120,2018,2165,2013,2170,1713,2170,1713,2165,1718,2165,1718,2203,1708,2203,1708,2165,1713,2160,2013,2160,2013,2165,2008,2165,2008,2120,2008,2120"
+      alt="" onmouseover="showTooltip('e168')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="9188,2633,9188,2633,9188,3005,9183,3010,8403,3010,8403,3005,8408,3005,8408,3201,8398,3201,8398,3005,8403,3000,9183,3000,9183,3005,9178,3005,9178,2633,9178,2633"
+      alt="" onmouseover="showTooltip('e167')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="8738,2422,8738,2422,8738,2480,8733,2480,8733,2475,9183,2475,9188,2480,9188,2590,9178,2590,9178,2480,9183,2480,9183,2485,8733,2485,8728,2480,8728,2422,8728,2422"
+      alt="" onmouseover="showTooltip('e166')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="9163,2598,9163,2598,9163,2540,9168,2540,9168,2545,8718,2545,8713,2540,8713,2430,8723,2430,8723,2540,8718,2540,8718,2535,9168,2535,9173,2540,9173,2598,9173,2598"
+      alt="" onmouseover="showTooltip('e165')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="8708,2422,8708,2422,8708,2600,8703,2600,8703,2595,9108,2595,9113,2600,9113,2689,9103,2689,9103,2600,9108,2600,9108,2605,8703,2605,8698,2600,8698,2422,8698,2422"
+      alt="" onmouseover="showTooltip('e164')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="9113,2744,9113,2744,9113,2960,9108,2965,8388,2965,8388,2960,8393,2960,8393,3201,8383,3201,8383,2960,8388,2955,9108,2955,9108,2960,9103,2960,9103,2744,9103,2744"
+      alt="" onmouseover="showTooltip('e163')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="9088,2697,9088,2697,9088,2660,9093,2660,9093,2665,8688,2665,8683,2660,8683,2430,8693,2430,8693,2660,8688,2660,8688,2655,9093,2655,9098,2660,9098,2697,9098,2697"
+      alt="" onmouseover="showTooltip('e162')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="8063,2606,8063,2606,8063,2945,8058,2945,8058,2940,8328,2940,8333,2945,8333,3201,8323,3201,8323,2945,8328,2945,8328,2950,8058,2950,8053,2945,8053,2606,8053,2606"
+      alt="" onmouseover="showTooltip('e161')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="8588,2422,8588,2422,8588,2510,8583,2515,8073,2515,8073,2510,8078,2510,8078,2557,8068,2557,8068,2510,8073,2505,8583,2505,8583,2510,8578,2510,8578,2422,8578,2422"
+      alt="" onmouseover="showTooltip('e160')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="8053,2565,8053,2565,8053,2465,8058,2460,8568,2460,8568,2465,8563,2465,8563,2430,8573,2430,8573,2465,8568,2470,8058,2470,8058,2465,8063,2465,8063,2565,8063,2565"
+      alt="" onmouseover="showTooltip('e159')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="8648,2422,8648,2422,8648,2720,8643,2725,8373,2725,8373,2720,8378,2720,8378,2767,8368,2767,8368,2720,8373,2715,8643,2715,8643,2720,8638,2720,8638,2422,8638,2422"
+      alt="" onmouseover="showTooltip('e158')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="8353,2775,8353,2775,8353,2660,8358,2655,8628,2655,8628,2660,8623,2660,8623,2430,8633,2430,8633,2660,8628,2665,8358,2665,8358,2660,8363,2660,8363,2775,8363,2775"
+      alt="" onmouseover="showTooltip('e157')" onmouseout="hideTooltip()" />
+    <area shape="poly" coords="8363,2816,8363,2816,8363,3201,8353,3201,8353,2816,8353,2816" alt=""
+      onmouseover="showTooltip('e156')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="8678,2422,8678,2422,8678,2690,8673,2690,8673,2685,8913,2685,8918,2690,8918,2810,8913,2815,8673,2815,8673,2810,8678,2810,8678,2830,8668,2830,8668,2810,8673,2805,8913,2805,8913,2810,8908,2810,8908,2690,8913,2690,8913,2695,8673,2695,8668,2690,8668,2422,8668,2422"
+      alt="" onmouseover="showTooltip('e155')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="8618,2422,8618,2422,8618,2600,8613,2605,8163,2605,8163,2600,8168,2600,8168,2637,8158,2637,8158,2600,8163,2595,8613,2595,8613,2600,8608,2600,8608,2422,8608,2422"
+      alt="" onmouseover="showTooltip('e154')" onmouseout="hideTooltip()" />
+    <area shape="poly" coords="8653,2838,8653,2838,8653,2430,8663,2430,8663,2838,8663,2838" alt=""
+      onmouseover="showTooltip('e153')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="8663,2873,8663,2873,8663,2915,8658,2920,8373,2920,8373,2915,8378,2915,8378,3201,8368,3201,8368,2915,8373,2910,8658,2910,8658,2915,8653,2915,8653,2873,8653,2873"
+      alt="" onmouseover="showTooltip('e152')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="13403,511,13403,511,13403,665,13398,670,13308,670,13308,665,13313,665,13313,5195,13308,5200,13158,5200,13158,5195,13163,5195,13163,5288,13153,5288,13153,5195,13158,5190,13308,5190,13308,5195,13303,5195,13303,665,13308,660,13398,660,13398,665,13393,665,13393,511,13393,511"
+      alt="" onmouseover="showTooltip('e151')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="13418,511,13418,511,13418,530,13413,530,13413,525,14538,525,14543,530,14543,5990,14538,5995,14388,5995,14388,5990,14393,5990,14393,6022,14383,6022,14383,5990,14388,5985,14538,5985,14538,5990,14533,5990,14533,530,14538,530,14538,535,13413,535,13408,530,13408,511,13408,511"
+      alt="" onmouseover="showTooltip('e150')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="13478,654,13478,654,13478,680,13473,685,13323,685,13323,680,13328,680,13328,5240,13323,5245,13173,5245,13173,5240,13178,5240,13178,5288,13168,5288,13168,5240,13173,5235,13323,5235,13323,5240,13318,5240,13318,680,13323,675,13473,675,13473,680,13468,680,13468,654,13468,654"
+      alt="" onmouseover="showTooltip('e149')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="13493,654,13493,654,13493,680,13488,680,13488,675,14373,675,14378,680,14378,6022,14368,6022,14368,680,14373,680,14373,685,13488,685,13483,680,13483,654,13483,654"
+      alt="" onmouseover="showTooltip('e148')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="14183,5559,14183,5559,14183,5930,14178,5930,14178,5925,14358,5925,14363,5930,14363,6022,14353,6022,14353,5930,14358,5930,14358,5935,14178,5935,14173,5930,14173,5559,14173,5559"
+      alt="" onmouseover="showTooltip('e147')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="14158,5522,14158,5522,14158,5495,14163,5495,14163,5500,12783,5500,12778,5495,12778,4790,12783,4790,12783,4795,10413,4795,10408,4790,10408,3725,10413,3725,10413,3730,6573,3730,6568,3725,6568,2240,6573,2240,6573,2245,3348,2245,3343,2240,3343,1784,3353,1784,3353,2240,3348,2240,3348,2235,6573,2235,6578,2240,6578,3725,6573,3725,6573,3720,10413,3720,10418,3725,10418,4790,10413,4790,10413,4785,12783,4785,12788,4790,12788,5495,12783,5495,12783,5490,14163,5490,14168,5495,14168,5522,14168,5522"
+      alt="" onmouseover="showTooltip('e146')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="13358,5606,13358,5606,13358,5720,13353,5720,13353,5715,14103,5715,14108,5720,14108,6230,14103,6230,14103,6225,15048,6225,15053,6230,15053,8360,15048,8360,15048,8355,15933,8355,15938,8360,15938,8379,15928,8379,15928,8360,15933,8360,15933,8365,15048,8365,15043,8360,15043,6230,15048,6230,15048,6235,14103,6235,14098,6230,14098,5720,14103,5720,14103,5725,13353,5725,13348,5720,13348,5606,13348,5606"
+      alt="" onmouseover="showTooltip('e145')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="13403,5606,13403,5606,13403,5675,13398,5675,13398,5670,14148,5670,14153,5675,14153,6095,14148,6095,14148,6090,22923,6090,22928,6095,22928,7261,22918,7261,22918,6095,22923,6095,22923,6100,14148,6100,14143,6095,14143,5675,14148,5675,14148,5680,13398,5680,13393,5675,13393,5606,13393,5606"
+      alt="" onmouseover="showTooltip('e144')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="13388,5606,13388,5606,13388,5690,13383,5690,13383,5685,14133,5685,14138,5690,14138,6140,14133,6140,14133,6135,19218,6135,19223,6140,19223,6886,19213,6886,19213,6140,19218,6140,19218,6145,14133,6145,14128,6140,14128,5690,14133,5690,14133,5695,13383,5695,13378,5690,13378,5606,13378,5606"
+      alt="" onmouseover="showTooltip('e143')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="13328,5606,13328,5606,13328,5645,13323,5650,13053,5650,13053,5645,13058,5645,13058,5675,13053,5680,12980,5680,12980,5675,12985,5675,12985,5709,12975,5709,12975,5675,12980,5670,13053,5670,13053,5675,13048,5675,13048,5645,13053,5640,13323,5640,13323,5645,13318,5645,13318,5606,13318,5606"
+      alt="" onmouseover="showTooltip('e142')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="13343,5606,13343,5606,13343,5735,13338,5735,13338,5730,14088,5730,14093,5735,14093,6260,14088,6260,14088,6255,14763,6255,14768,6260,14768,6620,14763,6620,14763,6615,14958,6615,14963,6620,14963,8495,14958,8495,14958,8490,15048,8490,15053,8495,15053,8503,15043,8503,15043,8495,15048,8495,15048,8500,14958,8500,14953,8495,14953,6620,14958,6620,14958,6625,14763,6625,14758,6620,14758,6260,14763,6260,14763,6265,14088,6265,14083,6260,14083,5735,14088,5735,14088,5740,13338,5740,13333,5735,13333,5606,13333,5606"
+      alt="" onmouseover="showTooltip('e141')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="13328,5606,13328,5606,13328,5645,13323,5650,13053,5650,13053,5645,13058,5645,13058,5675,13053,5675,13053,5670,13127,5670,13132,5675,13132,5709,13122,5709,13122,5675,13127,5675,13127,5680,13053,5680,13048,5675,13048,5645,13053,5640,13323,5640,13323,5645,13318,5645,13318,5606,13318,5606"
+      alt="" onmouseover="showTooltip('e140')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="13373,5606,13373,5606,13373,5705,13368,5705,13368,5700,14118,5700,14123,5705,14123,6185,14118,6185,14118,6180,15513,6180,15518,6185,15518,8210,15513,8210,15513,8205,15648,8205,15653,8210,15653,8260,15643,8260,15643,8210,15648,8210,15648,8215,15513,8215,15508,8210,15508,6185,15513,6185,15513,6190,14118,6190,14113,6185,14113,5705,14118,5705,14118,5710,13368,5710,13363,5705,13363,5606,13363,5606"
+      alt="" onmouseover="showTooltip('e139')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="13313,5606,13313,5606,13313,5630,13308,5635,12626,5635,12626,5630,12631,5630,12631,5890,12621,5890,12621,5630,12626,5625,13308,5625,13308,5630,13303,5630,13303,5606,13303,5606"
+      alt="" onmouseover="showTooltip('e138')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1006,356,1006,356,1006,6845,1001,6845,1001,6840,4623,6840,4628,6845,4628,6868,4618,6868,4618,6845,4623,6845,4623,6850,1001,6850,996,6845,996,356,996,356"
+      alt="" onmouseover="showTooltip('e137')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1021,356,1021,356,1021,2405,1016,2405,1016,2400,2028,2400,2033,2405,2033,2449,2023,2449,2023,2405,2028,2405,2028,2410,1016,2410,1011,2405,1011,356,1011,356"
+      alt="" onmouseover="showTooltip('e136')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="3278,1776,3278,1776,3278,1970,3273,1975,2523,1975,2523,1970,2528,1970,2528,2435,2523,2440,2073,2440,2073,2435,2078,2435,2078,2449,2068,2449,2068,2435,2073,2430,2523,2430,2523,2435,2518,2435,2518,1970,2523,1965,3273,1965,3273,1970,3268,1970,3268,1776,3268,1776"
+      alt="" onmouseover="showTooltip('e135')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="2053,2457,2053,2457,2053,2420,2058,2415,2313,2415,2313,2420,2308,2420,2308,1940,2313,1935,3258,1935,3258,1940,3253,1940,3253,1784,3263,1784,3263,1940,3258,1945,2313,1945,2313,1940,2318,1940,2318,2420,2313,2425,2058,2425,2058,2420,2063,2420,2063,2457,2063,2457"
+      alt="" onmouseover="showTooltip('e134')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1036,356,1036,356,1036,2165,1031,2165,1031,2160,1668,2160,1673,2165,1673,2203,1663,2203,1663,2165,1668,2165,1668,2170,1031,2170,1026,2165,1026,356,1026,356"
+      alt="" onmouseover="showTooltip('e133')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="3218,1776,3218,1776,3218,1880,3213,1885,2028,1885,2028,1880,2033,1880,2033,2060,2028,2065,1698,2065,1698,2060,1703,2060,1703,2203,1693,2203,1693,2060,1698,2055,2028,2055,2028,2060,2023,2060,2023,1880,2028,1875,3213,1875,3213,1880,3208,1880,3208,1776,3208,1776"
+      alt="" onmouseover="showTooltip('e132')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19448,7187,19448,7187,19448,7280,19443,7280,19443,7275,22833,7275,22838,7280,22838,8172,22828,8172,22828,7280,22833,7280,22833,7285,19443,7285,19438,7280,19438,7187,19438,7187"
+      alt="" onmouseover="showTooltip('e131')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19463,7187,19463,7187,19463,7235,19458,7235,19458,7230,22908,7230,22913,7235,22913,7261,22903,7261,22903,7235,22908,7235,22908,7240,19458,7240,19453,7235,19453,7187,19453,7187"
+      alt="" onmouseover="showTooltip('e130')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19433,7187,19433,7187,19433,7325,19428,7325,19428,7320,22698,7320,22703,7325,22703,7981,22693,7981,22693,7325,22698,7325,22698,7330,19428,7330,19423,7325,19423,7187,19423,7187"
+      alt="" onmouseover="showTooltip('e129')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19418,7187,19418,7187,19418,7370,19413,7370,19413,7365,22473,7365,22478,7370,22478,7987,22468,7987,22468,7370,22473,7370,22473,7375,19413,7375,19408,7370,19408,7187,19408,7187"
+      alt="" onmouseover="showTooltip('e128')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19403,7187,19403,7187,19403,7415,19398,7415,19398,7410,22248,7410,22253,7415,22253,7981,22243,7981,22243,7415,22248,7415,22248,7420,19398,7420,19393,7415,19393,7187,19393,7187"
+      alt="" onmouseover="showTooltip('e127')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19388,7187,19388,7187,19388,7460,19383,7460,19383,7455,21978,7455,21983,7460,21983,7987,21973,7987,21973,7460,21978,7460,21978,7465,19383,7465,19378,7460,19378,7187,19378,7187"
+      alt="" onmouseover="showTooltip('e126')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19373,7187,19373,7187,19373,7505,19368,7505,19368,7500,21708,7500,21713,7505,21713,7992,21703,7992,21703,7505,21708,7505,21708,7510,19368,7510,19363,7505,19363,7187,19363,7187"
+      alt="" onmouseover="showTooltip('e125')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19358,7187,19358,7187,19358,7550,19353,7550,19353,7545,21453,7545,21458,7550,21458,7987,21448,7987,21448,7550,21453,7550,21453,7555,19353,7555,19348,7550,19348,7187,19348,7187"
+      alt="" onmouseover="showTooltip('e124')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19343,7187,19343,7187,19343,7595,19338,7595,19338,7590,21228,7590,21233,7595,21233,7997,21223,7997,21223,7595,21228,7595,21228,7600,19338,7600,19333,7595,19333,7187,19333,7187"
+      alt="" onmouseover="showTooltip('e123')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19328,7187,19328,7187,19328,7640,19323,7640,19323,7635,21033,7635,21038,7640,21038,7987,21028,7987,21028,7640,21033,7640,21033,7645,19323,7645,19318,7640,19318,7187,19318,7187"
+      alt="" onmouseover="showTooltip('e122')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19478,7187,19478,7187,19478,7205,19473,7205,19473,7200,23298,7200,23303,7205,23303,8622,23293,8622,23293,7205,23298,7205,23298,7210,19473,7210,19468,7205,19468,7187,19468,7187"
+      alt="" onmouseover="showTooltip('e121')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19313,7187,19313,7187,19313,7685,19308,7685,19308,7680,20808,7680,20813,7685,20813,7987,20803,7987,20803,7685,20808,7685,20808,7690,19308,7690,19303,7685,19303,7187,19303,7187"
+      alt="" onmouseover="showTooltip('e120')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19298,7187,19298,7187,19298,7730,19293,7730,19293,7725,20538,7725,20543,7730,20543,7980,20533,7980,20533,7730,20538,7730,20538,7735,19293,7735,19288,7730,19288,7187,19288,7187"
+      alt="" onmouseover="showTooltip('e119')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19283,7187,19283,7187,19283,7775,19278,7775,19278,7770,20253,7770,20258,7775,20258,7981,20248,7981,20248,7775,20253,7775,20253,7780,19278,7780,19273,7775,19273,7187,19273,7187"
+      alt="" onmouseover="showTooltip('e118')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19268,7187,19268,7187,19268,7820,19263,7820,19263,7815,19983,7815,19988,7820,19988,7987,19978,7987,19978,7820,19983,7820,19983,7825,19263,7825,19258,7820,19258,7187,19258,7187"
+      alt="" onmouseover="showTooltip('e117')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19253,7187,19253,7187,19253,7865,19248,7865,19248,7860,19728,7860,19733,7865,19733,7992,19723,7992,19723,7865,19728,7865,19728,7870,19248,7870,19243,7865,19243,7187,19243,7187"
+      alt="" onmouseover="showTooltip('e116')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19238,7187,19238,7187,19238,7910,19233,7910,19233,7905,19503,7905,19508,7910,19508,7981,19498,7981,19498,7910,19503,7910,19503,7915,19233,7915,19228,7910,19228,7187,19228,7187"
+      alt="" onmouseover="showTooltip('e115')" onmouseout="hideTooltip()" />
+    <area shape="poly" coords="19223,7187,19223,7187,19223,7987,19213,7987,19213,7187,19213,7187" alt=""
+      onmouseover="showTooltip('e114')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19208,7187,19208,7187,19208,7700,19203,7705,18993,7705,18993,7700,18998,7700,18998,7992,18988,7992,18988,7700,18993,7695,19203,7695,19203,7700,19198,7700,19198,7187,19198,7187"
+      alt="" onmouseover="showTooltip('e113')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19193,7187,19193,7187,19193,7670,19188,7675,18798,7675,18798,7670,18803,7670,18803,7992,18793,7992,18793,7670,18798,7665,19188,7665,19188,7670,19183,7670,19183,7187,19183,7187"
+      alt="" onmouseover="showTooltip('e112')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19178,7187,19178,7187,19178,7640,19173,7645,18618,7645,18618,7640,18623,7640,18623,7992,18613,7992,18613,7640,18618,7635,19173,7635,19173,7640,19168,7640,19168,7187,19168,7187"
+      alt="" onmouseover="showTooltip('e111')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19163,7187,19163,7187,19163,7610,19158,7615,18438,7615,18438,7610,18443,7610,18443,7993,18433,7993,18433,7610,18438,7605,19158,7605,19158,7610,19153,7610,19153,7187,19153,7187"
+      alt="" onmouseover="showTooltip('e110')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19148,7187,19148,7187,19148,7580,19143,7585,18243,7585,18243,7580,18248,7580,18248,7981,18238,7981,18238,7580,18243,7575,19143,7575,19143,7580,19138,7580,19138,7187,19138,7187"
+      alt="" onmouseover="showTooltip('e109')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19133,7187,19133,7187,19133,7550,19128,7555,18033,7555,18033,7550,18038,7550,18038,7987,18028,7987,18028,7550,18033,7545,19128,7545,19128,7550,19123,7550,19123,7187,19123,7187"
+      alt="" onmouseover="showTooltip('e108')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19118,7187,19118,7187,19118,7520,19113,7525,17793,7525,17793,7520,17798,7520,17798,7993,17788,7993,17788,7520,17793,7515,19113,7515,19113,7520,19108,7520,19108,7187,19108,7187"
+      alt="" onmouseover="showTooltip('e107')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19103,7187,19103,7187,19103,7490,19098,7495,17553,7495,17553,7490,17558,7490,17558,7993,17548,7993,17548,7490,17553,7485,19098,7485,19098,7490,19093,7490,19093,7187,19093,7187"
+      alt="" onmouseover="showTooltip('e106')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19088,7187,19088,7187,19088,7460,19083,7465,17343,7465,17343,7460,17348,7460,17348,7987,17338,7987,17338,7460,17343,7455,19083,7455,19083,7460,19078,7460,19078,7187,19078,7187"
+      alt="" onmouseover="showTooltip('e105')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19073,7187,19073,7187,19073,7430,19068,7435,17103,7435,17103,7430,17108,7430,17108,7981,17098,7981,17098,7430,17103,7425,19068,7425,19068,7430,19063,7430,19063,7187,19063,7187"
+      alt="" onmouseover="showTooltip('e104')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19058,7187,19058,7187,19058,7400,19053,7405,16818,7405,16818,7400,16823,7400,16823,7987,16813,7987,16813,7400,16818,7395,19053,7395,19053,7400,19048,7400,19048,7187,19048,7187"
+      alt="" onmouseover="showTooltip('e103')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19043,7187,19043,7187,19043,7370,19038,7375,16548,7375,16548,7370,16553,7370,16553,7981,16543,7981,16543,7370,16548,7365,19038,7365,19038,7370,19033,7370,19033,7187,19033,7187"
+      alt="" onmouseover="showTooltip('e102')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19028,7187,19028,7187,19028,7340,19023,7345,16323,7345,16323,7340,16328,7340,16328,7987,16318,7987,16318,7340,16323,7335,19023,7335,19023,7340,19018,7340,19018,7187,19018,7187"
+      alt="" onmouseover="showTooltip('e101')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="19013,7187,19013,7187,19013,7310,19008,7315,16128,7315,16128,7310,16133,7310,16133,7993,16123,7993,16123,7310,16128,7305,19008,7305,19008,7310,19003,7310,19003,7187,19003,7187"
+      alt="" onmouseover="showTooltip('e100')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="18998,7187,18998,7187,18998,7280,18993,7285,15933,7285,15933,7280,15938,7280,15938,7993,15928,7993,15928,7280,15933,7275,18993,7275,18993,7280,18988,7280,18988,7187,18988,7187"
+      alt="" onmouseover="showTooltip('e99')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="18983,7187,18983,7187,18983,7250,18978,7255,15753,7255,15753,7250,15758,7250,15758,7993,15748,7993,15748,7250,15753,7245,18978,7245,18978,7250,18973,7250,18973,7187,18973,7187"
+      alt="" onmouseover="showTooltip('e98')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="18968,7187,18968,7187,18968,7220,18963,7225,15663,7225,15663,7220,15668,7220,15668,8260,15658,8260,15658,7220,15663,7215,18963,7215,18963,7220,18958,7220,18958,7187,18958,7187"
+      alt="" onmouseover="showTooltip('e97')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1678,2211,1678,2211,1678,1865,1683,1860,3198,1860,3198,1865,3193,1865,3193,1784,3203,1784,3203,1865,3198,1870,1683,1870,1683,1865,1688,1865,1688,2211,1688,2211"
+      alt="" onmouseover="showTooltip('e96')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="8153,2675,8153,2675,8153,2900,8148,2900,8148,2895,8343,2895,8348,2900,8348,3201,8338,3201,8338,2900,8343,2900,8343,2905,8148,2905,8143,2900,8143,2675,8143,2675"
+      alt="" onmouseover="showTooltip('e95')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="8143,2645,8143,2645,8143,2555,8148,2550,8598,2550,8598,2555,8593,2555,8593,2430,8603,2430,8603,2555,8598,2560,8148,2560,8148,2555,8153,2555,8153,2645,8153,2645"
+      alt="" onmouseover="showTooltip('e94')" onmouseout="hideTooltip()" />
+    <area shape="poly" coords="11318,4176,11318,4176,11318,4279,11308,4279,11308,4176,11308,4176" alt=""
+      onmouseover="showTooltip('e93')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="11303,4176,11303,4176,11303,4220,11298,4225,11043,4225,11043,4220,11048,4220,11048,4507,11038,4507,11038,4220,11043,4215,11298,4215,11298,4220,11293,4220,11293,4176,11293,4176"
+      alt="" onmouseover="showTooltip('e92')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="11293,4114,11293,4114,11293,3995,11298,3995,11298,4000,10743,4000,10738,3995,10738,3530,10743,3530,10743,3535,7398,3535,7393,3530,7393,1985,7398,1985,7398,1990,3453,1990,3448,1985,3448,1784,3458,1784,3458,1985,3453,1985,3453,1980,7398,1980,7403,1985,7403,3530,7398,3530,7398,3525,10743,3525,10748,3530,10748,3995,10743,3995,10743,3990,11298,3990,11303,3995,11303,4114,11303,4114"
+      alt="" onmouseover="showTooltip('e91')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="10553,4208,10553,4208,10553,4295,10548,4300,10443,4300,10443,4295,10448,4295,10448,4760,10443,4760,10443,4755,12888,4755,12893,4760,12893,5465,12888,5465,12888,5460,14366,5460,14371,5465,14371,6022,14361,6022,14361,5465,14366,5465,14366,5470,12888,5470,12883,5465,12883,4760,12888,4760,12888,4765,10443,4765,10438,4760,10438,4295,10443,4290,10548,4290,10548,4295,10543,4295,10543,4208,10543,4208"
+      alt="" onmouseover="showTooltip('e90')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="10583,4208,10583,4208,10583,4265,10578,4265,10578,4260,10983,4260,10988,4265,10988,4507,10978,4507,10978,4265,10983,4265,10983,4270,10578,4270,10573,4265,10573,4208,10573,4208"
+      alt="" onmouseover="showTooltip('e89')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="10568,4208,10568,4208,10568,4730,10563,4730,10563,4725,13068,4725,13073,4730,13073,5288,13063,5288,13063,4730,13068,4730,13068,4735,10563,4735,10558,4730,10558,4208,10558,4208"
+      alt="" onmouseover="showTooltip('e88')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="10558,4172,10558,4172,10558,3605,10563,3605,10563,3610,6603,3610,6598,3605,6598,2180,6603,2180,6603,2185,3378,2185,3373,2180,3373,1784,3383,1784,3383,2180,3378,2180,3378,2175,6603,2175,6608,2180,6608,3605,6603,3605,6603,3600,10563,3600,10568,3605,10568,4172,10568,4172"
+      alt="" onmouseover="showTooltip('e87')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="12556,98,12556,98,12556,215,12551,215,12551,210,14943,210,14948,215,14948,6935,14943,6940,5838,6940,5838,6935,5843,6935,5843,6952,5833,6952,5833,6935,5838,6930,14943,6930,14943,6935,14938,6935,14938,215,14943,215,14943,220,12551,220,12546,215,12546,98,12546,98"
+      alt="" onmouseover="showTooltip('e86')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="12541,98,12541,98,12541,350,12536,350,12536,345,14643,345,14648,350,14648,6364,14638,6364,14638,350,14643,350,14643,355,12536,355,12531,350,12531,98,12531,98"
+      alt="" onmouseover="showTooltip('e85')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="12526,98,12526,98,12526,245,12521,250,12348,250,12348,245,12353,245,12353,295,12343,295,12343,245,12348,240,12521,240,12521,245,12516,245,12516,98,12516,98"
+      alt="" onmouseover="showTooltip('e84')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="12503,98,12503,98,12503,155,12498,160,11778,160,11778,155,11783,155,11783,199,11773,199,11773,155,11778,150,12498,150,12498,155,12493,155,12493,98,12493,98"
+      alt="" onmouseover="showTooltip('e83')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="12548,98,12548,98,12548,245,12543,245,12543,240,14748,240,14753,245,14753,268,14743,268,14743,245,14748,245,14748,250,12543,250,12538,245,12538,98,12538,98"
+      alt="" onmouseover="showTooltip('e82')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="12563,98,12563,98,12563,185,12558,185,12558,180,23388,180,23393,185,23393,6611,23383,6611,23383,185,23388,185,23388,190,12558,190,12553,185,12553,98,12553,98"
+      alt="" onmouseover="showTooltip('e81')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="12518,98,12518,98,12518,215,12513,220,12138,220,12138,215,12143,215,12143,295,12133,295,12133,215,12138,210,12513,210,12513,215,12508,215,12508,98,12508,98"
+      alt="" onmouseover="showTooltip('e80')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="12511,98,12511,98,12511,185,12506,190,11898,190,11898,185,11903,185,11903,292,11893,292,11893,185,11898,180,12506,180,12506,185,12501,185,12501,98,12501,98"
+      alt="" onmouseover="showTooltip('e79')" onmouseout="hideTooltip()" />
+    <area shape="poly" coords="12533,98,12533,98,12533,4935,12523,4935,12523,98,12523,98" alt=""
+      onmouseover="showTooltip('e78')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="14633,6419,14633,6419,14633,6560,14628,6565,13863,6565,13863,6560,13868,6560,13868,6637,13858,6637,13858,6560,13863,6555,14628,6555,14628,6560,14623,6560,14623,6419,14623,6419"
+      alt="" onmouseover="showTooltip('e77')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="11783,254,11783,254,11783,4475,11778,4480,11088,4480,11088,4475,11093,4475,11093,4507,11083,4507,11083,4475,11088,4470,11778,4470,11778,4475,11773,4475,11773,254,11773,254"
+      alt="" onmouseover="showTooltip('e76')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="11768,254,11768,254,11768,365,11763,370,9858,370,9858,365,9863,365,9863,3170,9858,3175,8463,3175,8463,3170,8468,3170,8468,3201,8458,3201,8458,3170,8463,3165,9858,3165,9858,3170,9853,3170,9853,365,9858,360,11763,360,11763,365,11758,365,11758,254,11758,254"
+      alt="" onmouseover="showTooltip('e75')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="11513,4334,11513,4334,11513,4400,11508,4400,11508,4395,13083,4395,13088,4400,13088,5288,13078,5288,13078,4400,13083,4400,13083,4405,11508,4405,11503,4400,11503,4334,11503,4334"
+      alt="" onmouseover="showTooltip('e74')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="11498,4334,11498,4334,11498,4385,11493,4390,11058,4390,11058,4385,11063,4385,11063,4507,11053,4507,11053,4385,11058,4380,11493,4380,11493,4385,11488,4385,11488,4334,11488,4334"
+      alt="" onmouseover="showTooltip('e73')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="10298,3970,10298,3970,10298,4310,10293,4310,10293,4305,10968,4305,10973,4310,10973,4507,10963,4507,10963,4310,10968,4310,10968,4315,10293,4315,10288,4310,10288,3970,10288,3970"
+      alt="" onmouseover="showTooltip('e72')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="10283,3970,10283,3970,10283,4805,10278,4805,10278,4800,12768,4800,12773,4805,12773,5810,12768,5810,12768,5805,13848,5805,13853,5810,13853,6637,13843,6637,13843,5810,13848,5810,13848,5815,12768,5815,12763,5810,12763,4805,12768,4805,12768,4810,10278,4810,10273,4805,10273,3970,10273,3970"
+      alt="" onmouseover="showTooltip('e71')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="10362,3945,10362,3945,10773,3945,10773,3950,10768,3950,10768,1115,10773,1115,10773,1120,9573,1120,9568,1115,9568,995,9573,990,9678,990,9678,995,9673,995,9673,890,9678,890,9678,895,3318,895,3318,890,3323,890,3323,1376,3313,1376,3313,890,3318,885,9678,885,9683,890,9683,995,9678,1000,9573,1000,9573,995,9578,995,9578,1115,9573,1115,9573,1110,10773,1110,10778,1115,10778,3950,10773,3955,10362,3955,10362,3955"
+      alt="" onmouseover="showTooltip('e70')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="10268,3970,10268,3970,10268,4445,10263,4450,10158,4450,10158,4445,10163,4445,10163,4820,10158,4820,10158,4815,12618,4815,12623,4820,12623,5890,12613,5890,12613,4820,12618,4820,12618,4825,10158,4825,10153,4820,10153,4445,10158,4440,10263,4440,10263,4445,10258,4445,10258,3970,10258,3970"
+      alt="" onmouseover="showTooltip('e69')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="14738,305,14738,305,14738,335,14733,340,13833,340,13833,335,13838,335,13838,5855,13833,5860,12641,5860,12641,5855,12646,5855,12646,5890,12636,5890,12636,5855,12641,5850,13833,5850,13833,5855,13828,5855,13828,335,13833,330,14733,330,14733,335,14728,335,14728,305,14728,305"
+      alt="" onmouseover="showTooltip('e68')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="14768,305,14768,305,14768,6080,14763,6080,14763,6075,23118,6075,23123,6080,23123,8515,23113,8515,23113,6080,23118,6080,23118,6085,14763,6085,14758,6080,14758,305,14758,305"
+      alt="" onmouseover="showTooltip('e67')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="14753,305,14753,305,14753,6605,14748,6610,13878,6610,13878,6605,13883,6605,13883,6637,13873,6637,13873,6605,13878,6600,14748,6600,14748,6605,14743,6605,14743,305,14743,305"
+      alt="" onmouseover="showTooltip('e66')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="14723,305,14723,305,14723,320,14718,325,13293,325,13293,320,13298,320,13298,5150,13293,5155,13143,5155,13143,5150,13148,5150,13148,5288,13138,5288,13138,5150,13143,5145,13293,5145,13293,5150,13288,5150,13288,320,13293,315,14718,315,14718,320,14713,320,14713,305,14713,305"
+      alt="" onmouseover="showTooltip('e65')" onmouseout="hideTooltip()" />
+    <area shape="poly" coords="13843,6860,13843,6860,13843,6825,13853,6825,13853,6860,13853,6860" alt=""
+      onmouseover="showTooltip('e64')" onmouseout="hideTooltip()" />
+    <area shape="poly" coords="13843,6760,13843,6760,13843,6694,13853,6694,13853,6760,13853,6760" alt=""
+      onmouseover="showTooltip('e63')" onmouseout="hideTooltip()" />
+    <area shape="poly" coords="4898,7070,4898,7070,4898,7178,4888,7178,4888,7070,4888,7070" alt=""
+      onmouseover="showTooltip('e61')" onmouseout="hideTooltip()" />
+    <area shape="poly" coords="4898,6803,4898,6803,4898,6975,4888,6975,4888,6803,4888,6803" alt=""
+      onmouseover="showTooltip('e60')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="4883,6803,4883,6803,4883,6845,4878,6850,4653,6850,4653,6845,4658,6845,4658,6868,4648,6868,4648,6845,4653,6840,4878,6840,4878,6845,4873,6845,4873,6803,4873,6803"
+      alt="" onmouseover="showTooltip('e59')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6083,2801,6083,2801,6083,2990,6078,2995,5643,2995,5643,2990,5648,2990,5648,8782,5638,8782,5638,2990,5643,2985,6078,2985,6078,2990,6073,2990,6073,2801,6073,2801"
+      alt="" onmouseover="showTooltip('e58')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6158,2801,6158,2801,6158,5615,6153,5615,6153,5610,12498,5610,12503,5615,12503,5975,12498,5975,12498,5970,14351,5970,14356,5975,14356,6022,14346,6022,14346,5975,14351,5975,14351,5980,12498,5980,12493,5975,12493,5615,12498,5615,12498,5620,6153,5620,6148,5615,6148,2801,6148,2801"
+      alt="" onmouseover="showTooltip('e57')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6068,2801,6068,2801,6068,2975,6063,2980,5403,2980,5403,2975,5408,2975,5408,8602,5398,8602,5398,2975,5403,2970,6063,2970,6063,2975,6058,2975,6058,2801,6058,2801"
+      alt="" onmouseover="showTooltip('e56')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6248,2801,6248,2801,6248,4460,6243,4460,6243,4455,10953,4455,10958,4460,10958,4507,10948,4507,10948,4460,10953,4460,10953,4465,6243,4465,6238,4460,6238,2801,6238,2801"
+      alt="" onmouseover="showTooltip('e55')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6098,2801,6098,2801,6098,3005,6093,3010,5823,3010,5823,3005,5828,3005,5828,6952,5818,6952,5818,3005,5823,3000,6093,3000,6093,3005,6088,3005,6088,2801,6088,2801"
+      alt="" onmouseover="showTooltip('e54')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6203,2801,6203,2801,6203,5240,6198,5240,6198,5235,13038,5235,13043,5240,13043,5288,13033,5288,13033,5240,13038,5240,13038,5245,6198,5245,6193,5240,6193,2801,6193,2801"
+      alt="" onmouseover="showTooltip('e53')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6113,2801,6113,2801,6113,3020,6108,3025,5838,3025,5838,3020,5843,3020,5843,6395,5838,6395,5838,6390,13833,6390,13838,6395,13838,6637,13828,6637,13828,6395,13833,6395,13833,6400,5838,6400,5833,6395,5833,3020,5838,3015,6108,3015,6108,3020,6103,3020,6103,2801,6103,2801"
+      alt="" onmouseover="showTooltip('e52')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6128,2801,6128,2801,6128,3035,6123,3040,5853,3040,5853,3035,5858,3035,5858,6350,5853,6350,5853,6345,14523,6345,14528,6350,14528,6575,14523,6575,14523,6570,23373,6570,23378,6575,23378,6611,23368,6611,23368,6575,23373,6575,23373,6580,14523,6580,14518,6575,14518,6350,14523,6350,14523,6355,5853,6355,5848,6350,5848,3035,5853,3030,6123,3030,6123,3035,6118,3035,6118,2801,6118,2801"
+      alt="" onmouseover="showTooltip('e51')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6118,2490,6118,2490,6118,2465,6123,2465,6123,2470,3318,2470,3313,2465,3313,1784,3323,1784,3323,2465,3318,2465,3318,2460,6123,2460,6128,2465,6128,2490,6128,2490"
+      alt="" onmouseover="showTooltip('e49')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6023,2801,6023,2801,6023,2915,6018,2920,5088,2920,5088,2915,5093,2915,5093,2938,5083,2938,5083,2915,5088,2910,6018,2910,6018,2915,6013,2915,6013,2801,6013,2801"
+      alt="" onmouseover="showTooltip('e48')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6008,2801,6008,2801,6008,2885,6003,2890,4908,2890,4908,2885,4913,2885,4913,2930,4903,2930,4903,2885,4908,2880,6003,2880,6003,2885,5998,2885,5998,2801,5998,2801"
+      alt="" onmouseover="showTooltip('e47')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="5993,2801,5993,2801,5993,2855,5988,2860,4728,2860,4728,2855,4733,2855,4733,2937,4723,2937,4723,2855,4728,2850,5988,2850,5988,2855,5983,2855,5983,2801,5983,2801"
+      alt="" onmouseover="showTooltip('e46')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6293,2801,6293,2801,6293,2915,6288,2915,6288,2910,7623,2910,7628,2915,7628,2999,7618,2999,7618,2915,7623,2915,7623,2920,6288,2920,6283,2915,6283,2801,6283,2801"
+      alt="" onmouseover="showTooltip('e45')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6188,2801,6188,2801,6188,5525,6183,5525,6183,5520,13323,5520,13328,5525,13328,5557,13318,5557,13318,5525,13323,5525,13323,5530,6183,5530,6178,5525,6178,2801,6178,2801"
+      alt="" onmouseover="showTooltip('e44')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6173,2801,6173,2801,6173,5570,6168,5570,6168,5565,12596,5565,12601,5570,12601,5890,12591,5890,12591,5570,12596,5570,12596,5575,6168,5575,6163,5570,6163,2801,6163,2801"
+      alt="" onmouseover="showTooltip('e43')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6278,2801,6278,2801,6278,3140,6273,3140,6273,3135,8268,3135,8273,3140,8273,3201,8263,3201,8263,3140,8268,3140,8268,3145,6273,3145,6268,3140,6268,2801,6268,2801"
+      alt="" onmouseover="showTooltip('e42')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6038,2801,6038,2801,6038,2945,6033,2950,5178,2950,5178,2945,5183,2945,5183,7384,5173,7384,5173,2945,5178,2940,6033,2940,6033,2945,6028,2945,6028,2801,6028,2801"
+      alt="" onmouseover="showTooltip('e41')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6233,2801,6233,2801,6233,4895,6228,4895,6228,4890,12513,4890,12518,4895,12518,4935,12508,4935,12508,4895,12513,4895,12513,4900,6228,4900,6223,4895,6223,2801,6223,2801"
+      alt="" onmouseover="showTooltip('e40')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="6218,2801,6218,2801,6218,5045,6213,5045,6213,5040,10113,5040,10118,5045,10118,5077,10108,5077,10108,5045,10113,5045,10113,5050,6213,5050,6208,5045,6208,2801,6208,2801"
+      alt="" onmouseover="showTooltip('e39')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="10148,5126,10148,5126,10148,5150,10143,5150,10143,5145,13053,5145,13058,5150,13058,5288,13048,5288,13048,5150,13053,5150,13053,5155,10143,5155,10138,5150,10138,5126,10138,5126"
+      alt="" onmouseover="showTooltip('e38')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="10133,5126,10133,5126,10133,5225,10128,5230,10053,5230,10053,5225,10058,5225,10058,5555,10053,5555,10053,5550,12603,5550,12608,5555,12608,5890,12598,5890,12598,5555,12603,5555,12603,5560,10053,5560,10048,5555,10048,5225,10053,5220,10128,5220,10128,5225,10123,5225,10123,5126,10123,5126"
+      alt="" onmouseover="showTooltip('e37')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="12533,4998,12533,4998,12533,5540,12528,5540,12528,5535,12611,5535,12616,5540,12616,5890,12606,5890,12606,5540,12611,5540,12611,5545,12528,5545,12523,5540,12523,4998,12523,4998"
+      alt="" onmouseover="showTooltip('e36')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="12518,4998,12518,4998,12518,5045,12513,5050,10158,5050,10158,5045,10163,5045,10163,5077,10153,5077,10153,5045,10158,5040,12513,5040,12513,5045,12508,5045,12508,4998,12508,4998"
+      alt="" onmouseover="showTooltip('e35')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="4553,953,4553,953,4553,6005,4548,6005,4548,6000,14343,6000,14348,6005,14348,6022,14338,6022,14338,6005,14343,6005,14343,6010,4548,6010,4543,6005,4543,953,4543,953"
+      alt="" onmouseover="showTooltip('e34')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="4533,953,4533,953,4533,1175,4528,1180,4128,1180,4128,1175,4133,1175,4133,6710,4128,6710,4128,6705,5028,6705,5033,6710,5033,7282,5023,7282,5023,6710,5028,6710,5028,6715,4128,6715,4123,6710,4123,1175,4128,1170,4528,1170,4528,1175,4523,1175,4523,953,4523,953"
+      alt="" onmouseover="showTooltip('e33')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="4563,953,4563,953,4563,1190,4558,1190,4558,1185,8658,1185,8663,1190,8663,2260,8653,2260,8653,1190,8658,1190,8658,1195,4558,1195,4553,1190,4553,953,4553,953"
+      alt="" onmouseover="showTooltip('e32')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="4543,953,4543,953,4543,1205,4538,1210,4293,1210,4293,1205,4298,1205,4298,6545,4293,6545,4293,6540,5808,6540,5813,6545,5813,6952,5803,6952,5803,6545,5808,6545,5808,6550,4293,6550,4288,6545,4288,1205,4293,1200,4538,1200,4538,1205,4533,1205,4533,953,4533,953"
+      alt="" onmouseover="showTooltip('e31')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="4583,953,4583,953,4583,980,4578,980,4578,975,9663,975,9668,980,9668,1010,9663,1010,9663,1005,13113,1005,13118,1010,13118,5288,13108,5288,13108,1010,13113,1010,13113,1015,9663,1015,9658,1010,9658,980,9663,980,9663,985,4578,985,4573,980,4573,953,4573,953"
+      alt="" onmouseover="showTooltip('e30')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="4548,953,4548,953,4548,1220,4543,1225,4473,1225,4473,1220,4478,1220,4478,6440,4473,6440,4473,6435,13818,6435,13823,6440,13823,6637,13813,6637,13813,6440,13818,6440,13818,6445,4473,6445,4468,6440,4468,1220,4473,1215,4543,1215,4543,1220,4538,1220,4538,953,4538,953"
+      alt="" onmouseover="showTooltip('e29')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="4523,953,4523,953,4523,1160,4518,1165,3993,1165,3993,1160,3998,1160,3998,1280,3993,1285,3333,1285,3333,1280,3338,1280,3338,1376,3328,1376,3328,1280,3333,1275,3993,1275,3993,1280,3988,1280,3988,1160,3993,1155,4518,1155,4518,1160,4513,1160,4513,953,4513,953"
+      alt="" onmouseover="showTooltip('e28')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="4538,953,4538,953,4538,1190,4533,1195,4233,1195,4233,1190,4238,1190,4238,6695,4233,6695,4233,6690,5523,6690,5528,6695,5528,8689,5518,8689,5518,6695,5523,6695,5523,6700,4233,6700,4228,6695,4228,1190,4233,1185,4533,1185,4533,1190,4528,1190,4528,953,4528,953"
+      alt="" onmouseover="showTooltip('e27')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="4558,953,4558,953,4558,1220,4553,1220,4553,1215,4623,1215,4628,1220,4628,5630,4623,5630,4623,5625,12588,5625,12593,5630,12593,5890,12583,5890,12583,5630,12588,5630,12588,5635,4623,5635,4618,5630,4618,1220,4623,1220,4623,1225,4553,1225,4548,1220,4548,953,4548,953"
+      alt="" onmouseover="showTooltip('e26')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="4568,953,4568,953,4568,1160,4563,1160,4563,1155,9258,1155,9263,1160,9263,3035,9258,3040,8418,3040,8418,3035,8423,3035,8423,3201,8413,3201,8413,3035,8418,3030,9258,3030,9258,3035,9253,3035,9253,1160,9258,1160,9258,1165,4563,1165,4558,1160,4558,953,4558,953"
+      alt="" onmouseover="showTooltip('e25')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="4573,953,4573,953,4573,1145,4568,1145,4568,1140,9873,1140,9878,1145,9878,5030,9873,5030,9873,5025,10128,5025,10133,5030,10133,5077,10123,5077,10123,5030,10128,5030,10128,5035,9873,5035,9868,5030,9868,1145,9873,1145,9873,1150,4568,1150,4563,1145,4563,953,4563,953"
+      alt="" onmouseover="showTooltip('e24')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="8363,3401,8363,3401,8363,3470,8358,3470,8358,3465,8628,3465,8628,3470,8623,3470,8623,3305,8628,3305,8628,3310,8530,3310,8530,3300,8628,3300,8633,3305,8633,3470,8628,3475,8358,3475,8353,3470,8353,3401,8353,3401"
+      alt="" onmouseover="showTooltip('e23')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="8428,3209,8428,3209,8428,3050,8433,3045,9333,3045,9333,3050,9328,3050,9328,845,9333,845,9333,850,1083,850,1078,845,1078,364,1088,364,1088,845,1083,845,1083,840,9333,840,9338,845,9338,3050,9333,3055,8433,3055,8433,3050,8438,3050,8438,3209,8438,3209"
+      alt="" onmouseover="showTooltip('e22')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="10868,3941,10868,3941,10868,3965,10863,3970,10773,3970,10773,3965,10778,3965,10778,4205,10773,4205,10773,4200,11013,4200,11018,4205,11018,4507,11008,4507,11008,4205,11013,4205,11013,4210,10773,4210,10768,4205,10768,3965,10773,3960,10863,3960,10863,3965,10858,3965,10858,3941,10858,3941"
+      alt="" onmouseover="showTooltip('e21')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="10883,3941,10883,3941,10883,3965,10878,3965,10878,3960,13098,3960,13103,3965,13103,5288,13093,5288,13093,3965,13098,3965,13098,3970,10878,3970,10873,3965,10873,3941,10873,3941"
+      alt="" onmouseover="showTooltip('e20')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="3283,1384,3283,1384,3283,1325,3288,1325,3288,1330,1046,1330,1041,1325,1041,364,1051,364,1051,1325,1046,1325,1046,1320,3288,1320,3293,1325,3293,1384,3293,1384"
+      alt="" onmouseover="showTooltip('e19')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1133,356,1133,356,1133,800,1128,800,1128,795,9693,795,9698,800,9698,1100,9693,1100,9693,1095,10878,1095,10883,1100,10883,3892,10873,3892,10873,1100,10878,1100,10878,1105,9693,1105,9688,1100,9688,800,9693,800,9693,805,1128,805,1123,800,1123,356,1123,356"
+      alt="" onmouseover="showTooltip('e18')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1208,356,1208,356,1208,380,1203,380,1203,375,14628,375,14633,380,14633,6005,14628,6010,14403,6010,14403,6005,14408,6005,14408,6022,14398,6022,14398,6005,14403,6000,14628,6000,14628,6005,14623,6005,14623,380,14628,380,14628,385,1203,385,1198,380,1198,356,1198,356"
+      alt="" onmouseover="showTooltip('e17')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="998,356,998,356,998,7250,993,7250,993,7245,5013,7245,5018,7250,5018,7282,5008,7282,5008,7250,5013,7250,5013,7255,993,7255,988,7250,988,356,988,356"
+      alt="" onmouseover="showTooltip('e16')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1073,356,1073,356,1073,860,1068,860,1068,855,3978,855,3983,860,3983,1235,3978,1235,3978,1230,8643,1230,8648,1235,8648,2260,8638,2260,8638,1235,8643,1235,8643,1240,3978,1240,3973,1235,3973,860,3978,860,3978,865,1068,865,1063,860,1063,356,1063,356"
+      alt="" onmouseover="showTooltip('e15')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="953,356,953,356,953,455,948,460,468,460,468,455,473,455,473,8585,468,8585,468,8580,5388,8580,5393,8585,5393,8602,5383,8602,5383,8585,5388,8585,5388,8590,468,8590,463,8585,463,455,468,450,948,450,948,455,943,455,943,356,943,356"
+      alt="" onmouseover="showTooltip('e14')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1066,356,1066,356,1066,875,1061,875,1061,870,3963,870,3968,875,3968,1250,3963,1250,3963,1245,4008,1245,4013,1250,4013,2495,4008,2495,4008,2490,4278,2490,4283,2495,4283,6620,4278,6620,4278,6615,5793,6615,5798,6620,5798,6952,5788,6952,5788,6620,5793,6620,5793,6625,4278,6625,4273,6620,4273,2495,4278,2495,4278,2500,4008,2500,4003,2495,4003,1250,4008,1250,4008,1255,3963,1255,3958,1250,3958,875,3963,875,3963,880,1061,880,1056,875,1056,356,1056,356"
+      alt="" onmouseover="showTooltip('e13')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1148,356,1148,356,1148,785,1143,785,1143,780,9843,780,9848,785,9848,1025,9843,1025,9843,1020,11628,1020,11633,1025,11633,4430,11628,4435,11073,4435,11073,4430,11078,4430,11078,4507,11068,4507,11068,4430,11073,4425,11628,4425,11628,4430,11623,4430,11623,1025,11628,1025,11628,1030,9843,1030,9838,1025,9838,785,9843,785,9843,790,1143,790,1138,785,1138,356,1138,356"
+      alt="" onmouseover="showTooltip('e12')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1163,356,1163,356,1163,770,1158,770,1158,765,13128,765,13133,770,13133,5288,13123,5288,13123,770,13128,770,13128,775,1158,775,1153,770,1153,356,1153,356"
+      alt="" onmouseover="showTooltip('e11')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1043,356,1043,356,1043,1985,1038,1985,1038,1980,2973,1980,2978,1985,2978,6455,2973,6455,2973,6450,13803,6450,13808,6455,13808,6637,13798,6637,13798,6455,13803,6455,13803,6460,2973,6460,2968,6455,2968,1985,2973,1985,2973,1990,1038,1990,1033,1985,1033,356,1033,356"
+      alt="" onmouseover="showTooltip('e10')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1058,356,1058,356,1058,1220,1053,1220,1053,1215,3303,1215,3308,1220,3308,1376,3298,1376,3298,1220,3303,1220,3303,1225,1053,1225,1048,1220,1048,356,1048,356"
+      alt="" onmouseover="showTooltip('e9')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="983,356,983,356,983,8480,978,8480,978,8475,23103,8475,23108,8480,23108,8515,23098,8515,23098,8480,23103,8480,23103,8485,978,8485,973,8480,973,356,973,356"
+      alt="" onmouseover="showTooltip('e8')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1178,356,1178,356,1178,740,1173,740,1173,735,13338,735,13343,740,13343,5557,13333,5557,13333,740,13338,740,13338,745,1173,745,1168,740,1168,356,1168,356"
+      alt="" onmouseover="showTooltip('e7')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="908,356,908,356,908,380,903,385,63,385,63,380,68,380,68,8765,63,8765,63,8760,5628,8760,5633,8765,5633,8782,5623,8782,5623,8765,5628,8765,5628,8770,63,8770,58,8765,58,380,63,375,903,375,903,380,898,380,898,356,898,356"
+      alt="" onmouseover="showTooltip('e6')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="938,356,938,356,938,440,933,445,393,445,393,440,398,440,398,8675,393,8675,393,8670,5508,8670,5513,8675,5513,8689,5503,8689,5503,8675,5508,8675,5508,8680,393,8680,388,8675,388,440,393,435,933,435,933,440,928,440,928,356,928,356"
+      alt="" onmouseover="showTooltip('e5')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="923,356,923,356,923,410,918,415,228,415,228,410,233,410,233,442,223,442,223,410,228,405,918,405,918,410,913,410,913,356,913,356"
+      alt="" onmouseover="showTooltip('e4')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1193,356,1193,356,1193,695,1188,695,1188,690,13518,690,13523,695,13523,5840,13518,5845,12633,5845,12633,5840,12638,5840,12638,5890,12628,5890,12628,5840,12633,5835,13518,5835,13518,5840,13513,5840,13513,695,13518,695,13518,700,1188,700,1183,695,1183,356,1183,356"
+      alt="" onmouseover="showTooltip('e3')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1103,356,1103,356,1103,830,1098,830,1098,825,9468,825,9473,830,9473,3110,9468,3115,8448,3115,8448,3110,8453,3110,8453,3201,8443,3201,8443,3110,8448,3105,9468,3105,9468,3110,9463,3110,9463,830,9468,830,9468,835,1098,835,1093,830,1093,356,1093,356"
+      alt="" onmouseover="showTooltip('e2')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="991,356,991,356,991,7355,986,7355,986,7350,5163,7350,5168,7355,5168,7384,5158,7384,5158,7355,5163,7355,5163,7360,986,7360,981,7355,981,356,981,356"
+      alt="" onmouseover="showTooltip('e1')" onmouseout="hideTooltip()" />
+    <area shape="poly"
+      coords="1118,356,1118,356,1118,815,1113,815,1113,810,9483,810,9488,815,9488,1130,9483,1130,9483,1125,10143,1125,10148,1130,10148,5077,10138,5077,10138,1130,10143,1130,10143,1135,9483,1135,9478,1130,9478,815,9483,815,9483,820,1113,820,1108,815,1108,356,1108,356"
+      alt="" onmouseover="showTooltip('e0')" onmouseout="hideTooltip()" />
+    <area shape="rect" coords="1121,8978,1286,9054" alt="" onmouseover="showTooltip('n114')"
+      onmouseout="hideTooltip()" />
+    <area shape="rect" coords="1141,8877,1266,8930" alt="" onmouseover="showTooltip('n113')"
+      onmouseout="hideTooltip()" />
+    <area shape="rect" coords="23161,6497,23345,6534" alt="" onmouseover="showTooltip('n112')"
+      onmouseout="hideTooltip()" />
+    <area shape="rect" coords="1261,2340,1385,2380" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-payment-gcpay"
+      alt="" onmouseover="showTooltip('n111')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="2602,2577,2744,2624" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-payment-phpgopay"
+      alt="" onmouseover="showTooltip('n110')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="7811,1920,8035,2020"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs.payment.withdrawlimit" alt="" onmouseover="showTooltip('n109')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="7737,2925,7839,2966" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-brand-service"
+      alt="" onmouseover="showTooltip('n108')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="15095,6775,15242,6826" alt="" onmouseover="showTooltip('n107')"
+      onmouseout="hideTooltip()" />
+    <area shape="rect" coords="1332,8877,1504,8929" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gamewagers-domains"
+      alt="" onmouseover="showTooltip('n106')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="4404,7068,4602,7102"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gamewagers-stat-check" alt="" onmouseover="showTooltip('n105')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="10910,4054,11146,4116"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-offlineeventdepositpromotion" alt=""
+      onmouseover="showTooltip('n104')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="15873,8166,16023,8195"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gamerecord-tfgaming" alt="" onmouseover="showTooltip('n103')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="1972,2091,2114,2120" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-payment-scheduler"
+      alt="" onmouseover="showTooltip('n102')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="9137,2598,9230,2633" href="https://git3.nexdev.net/tgs/rayprosoft/tgs.sms.cyn" alt=""
+      onmouseover="showTooltip('n101')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="9062,2697,9155,2744" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-sms-plivo" alt=""
+      onmouseover="showTooltip('n100')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="7990,2565,8126,2606" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-sms-globalcall"
+      alt="" onmouseover="showTooltip('n99')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="8300,2775,8416,2816" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-sms-movider" alt=""
+      onmouseover="showTooltip('n98')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="8595,2838,8721,2873" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-sms-maiteng" alt=""
+      onmouseover="showTooltip('n97')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="14112,5522,14244,5559" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-viplevels-level"
+      alt="" onmouseover="showTooltip('n96')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="13413,617,13563,654" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-viplevels-cycle"
+      alt="" onmouseover="showTooltip('n95')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="13338,459,13488,511" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-viplevels-birthday"
+      alt="" onmouseover="showTooltip('n94')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="15869,8387,16027,8454"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gamerecord-handle" alt="" onmouseover="showTooltip('n93')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="12917,5717,13043,5758" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameplayerlogout"
+      alt="" onmouseover="showTooltip('n92')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="14995,8511,15131,8540" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gamefundtransfer"
+      alt="" onmouseover="showTooltip('n91')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="62,9024,435,9191" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-payment-background"
+      alt="" onmouseover="showTooltip('n90')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="1966,2457,2121,2504" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-payment-dibaopay"
+      alt="" onmouseover="showTooltip('n89')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="22773,8180,22893,8210" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gametoken" alt=""
+      onmouseover="showTooltip('n88')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="22858,7269,22989,7321" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gamerounds"
+      alt="" onmouseover="showTooltip('n87')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="22595,7989,22802,8041"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gamerecord-endorphina-session" alt=""
+      onmouseover="showTooltip('n86')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="22391,7995,22555,8035"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-yeebet" alt="" onmouseover="showTooltip('n85')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="22134,7989,22363,8041"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-wmcasinoservice" alt=""
+      onmouseover="showTooltip('n84')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="21871,7995,22085,8035"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-wicketcricket" alt=""
+      onmouseover="showTooltip('n83')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="21617,8000,21799,8030"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-wgviagaming" alt=""
+      onmouseover="showTooltip('n82')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="21339,7995,21568,8036"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-wgfmgamingservice" alt=""
+      onmouseover="showTooltip('n81')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="21145,8005,21312,8025"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-vrgaming" alt="" onmouseover="showTooltip('n80')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="20951,7995,21115,8035"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-v8poker" alt="" onmouseover="showTooltip('n79')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="23195,8630,23402,8721"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-tfgamingservice" alt=""
+      onmouseover="showTooltip('n78')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="20708,7995,20908,8035"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-sm01service" alt=""
+      onmouseover="showTooltip('n77')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="20431,7988,20645,8043"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-skywindservice" alt=""
+      onmouseover="showTooltip('n76')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="20140,7989,20366,8041"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-sboservice" alt="" onmouseover="showTooltip('n75')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="19892,7995,20074,8035"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-sabaservice" alt=""
+      onmouseover="showTooltip('n74')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="19634,8000,19823,8030"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-pragmaticplay" alt=""
+      onmouseover="showTooltip('n73')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="19420,7989,19587,8041"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-pinnacle" alt="" onmouseover="showTooltip('n72')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="19142,7995,19294,8035"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-obet" alt="" onmouseover="showTooltip('n71')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="18910,8000,19077,8030"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-legaming" alt="" onmouseover="showTooltip('n70')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="18715,8000,18882,8030"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-kaiyuan" alt="" onmouseover="showTooltip('n69')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="18553,8000,18684,8030"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-joker" alt="" onmouseover="showTooltip('n68')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="18369,8001,18507,8030"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-jili" alt="" onmouseover="showTooltip('n67')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="18160,7989,18327,8041"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-jdbservice" alt="" onmouseover="showTooltip('n66')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="17943,7995,18124,8036"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-inplaymatrix" alt=""
+      onmouseover="showTooltip('n65')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="17693,8001,17893,8030"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-habaneroservice" alt=""
+      onmouseover="showTooltip('n64')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="17463,8001,17644,8030"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-gkxgaming" alt="" onmouseover="showTooltip('n63')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="17268,7995,17418,8036"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-fachai" alt="" onmouseover="showTooltip('n62')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="16996,7989,17210,8041"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-evolutionservice" alt=""
+      onmouseover="showTooltip('n61')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="16711,7995,16925,8036"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-endorphinaservice" alt=""
+      onmouseover="showTooltip('n60')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="16430,7989,16666,8041"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-dreamgamingservice" alt=""
+      onmouseover="showTooltip('n59')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="16254,7995,16392,8036"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-crpati" alt="" onmouseover="showTooltip('n58')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="16042,8001,16215,8030"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-cards365" alt="" onmouseover="showTooltip('n57')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="15847,8001,16020,8030"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-btiservice" alt="" onmouseover="showTooltip('n56')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="15678,8001,15828,8030"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameinterface-awc" alt="" onmouseover="showTooltip('n55')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="18928,6894,19508,7187" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameproviders"
+      alt="" onmouseover="showTooltip('n54')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="15755,8055,15991,8096"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameexternalinterface-skywindservice" alt=""
+      onmouseover="showTooltip('n53')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="13067,5717,13187,5758" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gamecurrency"
+      alt="" onmouseover="showTooltip('n52')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="15552,8268,15774,8332" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gamecommand"
+      alt="" onmouseover="showTooltip('n51')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="1621,2211,1745,2240" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-payment-alfapay"
+      alt="" onmouseover="showTooltip('n50')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="8090,2646,8206,2675" href="https://git3.nexdev.net/tgs/rayprosoft/tgs.sms.chuanxin"
+      alt="" onmouseover="showTooltip('n49')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="11241,4287,11385,4363"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-calculate-service" alt="" onmouseover="showTooltip('n48')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="11210,4114,11417,4176"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-promotion-accountfirstdeposit" alt=""
+      onmouseover="showTooltip('n47')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="10481,4172,10645,4208"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-promotedepositchannel" alt="" onmouseover="showTooltip('n46')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="12281,303,12415,338" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-promotion-rebate"
+      alt="" onmouseover="showTooltip('n45')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="12028,303,12248,338"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-game-type-round-aggregate-service" alt=""
+      onmouseover="showTooltip('n44')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="11804,300,11993,340"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-brand-game-provider-service" alt=""
+      onmouseover="showTooltip('n43')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="12466,63,12590,98" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-schedule-service"
+      alt="" onmouseover="showTooltip('n42')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="14563,6372,14724,6419"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-report-aggregate-service" alt="" onmouseover="showTooltip('n41')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="11678,207,11878,254"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-promotion-relief-money-service" alt=""
+      onmouseover="showTooltip('n40')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="11420,4287,11596,4334"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-promotion-register-service" alt=""
+      onmouseover="showTooltip('n39')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="10195,3930,10362,3970"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-promotion-deposit-service" alt=""
+      onmouseover="showTooltip('n38')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="14682,276,14814,305"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-profit-rebate-service" alt="" onmouseover="showTooltip('n37')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="13771,6860,13925,6886"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-player-bucket-scheduler" alt="" onmouseover="showTooltip('n36')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="492,8980,924,9143"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-marketing-report-daily-aggregate-service" alt=""
+      onmouseover="showTooltip('n35')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="13764,6760,13932,6817"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-fill-in-player-bucket-service" alt=""
+      onmouseover="showTooltip('n34')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="4815,7040,4971,7070"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gamewagers-stat-daily" alt="" onmouseover="showTooltip('n33')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="4815,7186,4971,7224"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gamewagers-stat-hourly" alt="" onmouseover="showTooltip('n32')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="4807,6983,4979,7007"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-brandgamecredits-handler" alt="" onmouseover="showTooltip('n31')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="4572,6876,4704,6904" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-brandgamecredits"
+      alt="" onmouseover="showTooltip('n30')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="4797,6737,4989,6803"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-brandgamecredits-notification" alt=""
+      onmouseover="showTooltip('n29')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="23311,6619,23466,6651"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-player-all-agent-service" alt="" onmouseover="showTooltip('n28')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="5204,8523,5362,8558"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-payment-manual-deposit" alt="" onmouseover="showTooltip('n27')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="5019,2946,5158,2975"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-notification-contacts" alt="" onmouseover="showTooltip('n26')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="4831,2938,4985,2982"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-marketing-report-service" alt="" onmouseover="showTooltip('n25')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="4681,2945,4775,2976" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gamewagers" alt=""
+      onmouseover="showTooltip('n24')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="7551,3007,7695,3034"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-domainsetting-service" alt="" onmouseover="showTooltip('n23')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="5883,2490,6393,2801" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-bo-api" alt=""
+      onmouseover="showTooltip('n22')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="12453,4943,12603,4998"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-agent-dividend-service" alt="" onmouseover="showTooltip('n21')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="4506,918,4590,953" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-agent-api" alt=""
+      onmouseover="showTooltip('n20')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="10809,3900,10948,3941"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-offlineloginreward" alt="" onmouseover="showTooltip('n19')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="14310,6030,14436,6071" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-viplevel-service"
+      alt="" onmouseover="showTooltip('n18')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="4978,7290,5078,7331" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-validatecode"
+      alt="" onmouseover="showTooltip('n17')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="8541,2268,8775,2422" href="https://git3.nexdev.net/tgs/rayprosoft/sms-service" alt=""
+      onmouseover="showTooltip('n16')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="5353,8610,5453,8651" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-stationletter"
+      alt="" onmouseover="showTooltip('n15')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="5760,6960,5886,7001" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-report-service"
+      alt="" onmouseover="showTooltip('n14')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="10928,4515,11129,4705"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-promotion-service" alt="" onmouseover="showTooltip('n13')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="13013,5296,13244,5424" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-player-service"
+      alt="" onmouseover="showTooltip('n12')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="13776,6645,13921,6686" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-playerbucket"
+      alt="" onmouseover="showTooltip('n11')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="3011,1384,3626,1776" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-payment" alt=""
+      onmouseover="showTooltip('n10')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="23055,8523,23181,8558"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs.notification-center" alt="" onmouseover="showTooltip('n9')"
+      onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="13239,5565,13437,5606"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-gameproviders-pluggableservice" alt=""
+      onmouseover="showTooltip('n8')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="5597,8790,5690,8831" href="https://git3.nexdev.net/tgs/rayprosoft/file-service" alt=""
+      onmouseover="showTooltip('n7')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="5465,8697,5582,8744" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-email-sender-api"
+      alt="" onmouseover="showTooltip('n6')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="86,450,370,491"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs-promotion-deposit-accumulate-roulette-service" alt=""
+      onmouseover="showTooltip('n5')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="12572,5898,12665,5933" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-cashservice"
+      alt="" onmouseover="showTooltip('n4')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="8194,3209,8522,3401" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-brand-certificate"
+      alt="" onmouseover="showTooltip('n3')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="5091,7392,5265,7439"
+      href="https://git3.nexdev.net/tgs/rayprosoft/tgs.article-management-service" alt=""
+      onmouseover="showTooltip('n2')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="10093,5085,10193,5126" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-agent-service"
+      alt="" onmouseover="showTooltip('n1')" onmouseout="hideTooltip()" target="_blank" />
+    <area shape="rect" coords="719,15,1238,356" href="https://git3.nexdev.net/tgs/rayprosoft/tgs-op-api" alt=""
+      onmouseover="showTooltip('n0')" onmouseout="hideTooltip()" target="_blank" />
+  </map>
+
+
+  <table class="yimagetable" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+      <td><img class="yimage" src="系統架構1_1.png" usemap="#image1_1" border="0" alt="" /></td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

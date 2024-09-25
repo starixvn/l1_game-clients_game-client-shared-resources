@@ -1,0 +1,11 @@
+{
+  "languages": {
+    "en": true,
+    "vi": false,
+    "th": false,
+    "id": false,
+    "zh_cn": false,
+    "zh_tw": false
+  },
+  "premultipliedAlpha": false
+}

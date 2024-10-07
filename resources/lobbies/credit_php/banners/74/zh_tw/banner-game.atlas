@@ -1,0 +1,55 @@
+
+banner-game.webp
+size: 954,199
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+banner
+  rotate: true
+  xy: 2, 6
+  size: 191, 370
+  orig: 193, 373
+  offset: 1, 1
+  index: -1
+effect-bot
+  rotate: false
+  xy: 719, 2
+  size: 169, 83
+  orig: 169, 83
+  offset: 0, 0
+  index: -1
+flare
+  rotate: false
+  xy: 536, 78
+  size: 181, 119
+  orig: 181, 119
+  offset: 0, 0
+  index: -1
+gamename-CO
+  rotate: true
+  xy: 901, 42
+  size: 155, 51
+  orig: 155, 51
+  offset: 0, 0
+  index: -1
+item
+  rotate: false
+  xy: 374, 43
+  size: 160, 154
+  orig: 160, 154
+  offset: 0, 0
+  index: -1
+text-bot-CN
+  rotate: false
+  xy: 719, 87
+  size: 180, 110
+  orig: 187, 116
+  offset: 4, 3
+  index: -1
+text-top-CN
+  rotate: false
+  xy: 536, 2
+  size: 119, 74
+  orig: 119, 74
+  offset: 0, 0
+  index: -1

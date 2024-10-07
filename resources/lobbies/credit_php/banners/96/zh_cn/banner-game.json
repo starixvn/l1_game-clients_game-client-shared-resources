@@ -1,0 +1,131 @@
+{
+"skeleton": { "hash": "inrNcP14wVvgPNNi1e3AvNh4KsI", "spine": "3.8.99", "x": -156.54, "y": -186.5, "width": 296, "height": 373 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "banner", "parent": "root" },
+	{ "name": "game-name", "parent": "root", "y": 115.12 },
+	{ "name": "gamename", "parent": "game-name" },
+	{ "name": "bottom", "parent": "root", "y": -130.1 },
+	{ "name": "effect-bot", "parent": "root", "x": -8.54, "y": -97.79 },
+	{ "name": "text-bot", "parent": "bottom", "x": -2, "y": 10.63 },
+	{ "name": "item", "parent": "root", "x": -35.52, "y": -11.56 },
+	{ "name": "flare", "parent": "root", "x": 1.57, "y": 6.52 },
+	{ "name": "mask-text", "parent": "root", "x": -69.67 },
+	{ "name": "text-top", "parent": "root", "x": 2.23, "y": -64.03 }
+],
+"slots": [
+	{ "name": "banner", "bone": "banner", "attachment": "banner" },
+	{ "name": "banner2", "bone": "banner", "attachment": "banner", "blend": "additive" },
+	{ "name": "effect-bot", "bone": "effect-bot", "attachment": "effect-bot", "blend": "additive" },
+	{ "name": "item", "bone": "item", "attachment": "item" },
+	{ "name": "gamename", "bone": "gamename", "attachment": "gamename" },
+	{ "name": "text-top", "bone": "text-top", "attachment": "text-top-CN" },
+	{ "name": "text-bot", "bone": "text-bot", "attachment": "text-bot-CN" },
+	{ "name": "mask-text", "bone": "mask-text", "attachment": "mask-text" },
+	{ "name": "text-bot2", "bone": "text-bot", "color": "ffffffb6", "attachment": "text-bot-CN", "blend": "additive" },
+	{ "name": "text-top2", "bone": "text-top", "color": "ffffff00", "attachment": "text-top-CN", "blend": "additive" },
+	{ "name": "flare", "bone": "flare", "attachment": "flare" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"banner": {
+				"banner": { "x": 0.5, "width": 193, "height": 373 }
+			},
+			"banner2": {
+				"banner": { "x": 0.5, "width": 193, "height": 373 }
+			},
+			"effect-bot": {
+				"effect-bot": { "width": 296, "height": 147 }
+			},
+			"flare": {
+				"flare": { "x": 0.5, "y": 23.06, "width": 145, "height": 89 }
+			},
+			"gamename": {
+				"gamename": { "x": 0.5, "width": 190, "height": 111 }
+			},
+			"item": {
+				"item": { "x": 22.93, "y": 28.4, "width": 257, "height": 241 }
+			},
+			"mask-text": {
+				"mask-text": {
+					"type": "clipping",
+					"end": "text-bot2",
+					"vertexCount": 4,
+					"vertices": [ -61.7, 1.22, -142.3, -204.36, -74.68, -213.24, -22.77, -69.13 ]
+				}
+			},
+			"text-bot": {
+				"text-bot-CN": { "width": 162, "height": 82 }
+			},
+			"text-bot2": {
+				"text-bot-CN": { "width": 162, "height": 82 }
+			},
+			"text-top": {
+				"text-top-CN": { "width": 150, "height": 37 }
+			},
+			"text-top2": {
+				"text-top-CN": { "width": 150, "height": 37 }
+			}
+		}
+	}
+],
+"animations": {
+	"show": {
+		"slots": {
+			"banner2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff32", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"effect-bot": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.0667, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffff95" },
+					{ "time": 1.5333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"item": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6, "y": 2.81, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6, "x": 0.96, "y": 0.96, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"bottom": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 0.9, "y": 0.9, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"flare": {
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 1.08, "y": 1.08 },
+					{ "time": 2 }
+				]
+			},
+			"text-top": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "x": 0.9, "y": 0.9, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0667 }
+				]
+			}
+		}
+	}
+}
+}

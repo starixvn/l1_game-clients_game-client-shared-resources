@@ -1,0 +1,142 @@
+{
+"skeleton": { "hash": "PMxkntMQEF21aSi815m5GhAKahM", "spine": "3.8.99", "x": -102, "y": -186.5, "width": 204, "height": 373 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "banner", "parent": "root" },
+	{ "name": "game-name", "parent": "root", "x": 1.87, "y": 135.98 },
+	{ "name": "gamename", "parent": "game-name" },
+	{ "name": "bottom", "parent": "root", "y": -121.13 },
+	{ "name": "top", "parent": "root" },
+	{ "name": "effect-bot", "parent": "top", "x": 1.87, "y": 72.3 },
+	{ "name": "text-bot", "parent": "bottom", "y": 4.68 },
+	{ "name": "item", "parent": "root", "x": -20.59, "y": 3.47 },
+	{ "name": "flare", "parent": "root", "y": -105.27 },
+	{ "name": "text-top", "parent": "top", "y": 70.35 }
+],
+"slots": [
+	{ "name": "banner", "bone": "banner", "attachment": "banner" },
+	{ "name": "banner2", "bone": "banner", "attachment": "banner", "blend": "additive" },
+	{ "name": "gamename", "bone": "gamename", "attachment": "gamename-CS" },
+	{ "name": "item", "bone": "item", "attachment": "item" },
+	{ "name": "effect-bot", "bone": "effect-bot", "attachment": "effect-bot" },
+	{ "name": "flare", "bone": "flare", "attachment": "flare" },
+	{ "name": "flare2", "bone": "flare", "attachment": "flare", "blend": "additive" },
+	{ "name": "text-bot", "bone": "text-bot", "attachment": "text-bot-CN" },
+	{ "name": "text-top", "bone": "text-top", "attachment": "text-top-CN" },
+	{ "name": "text-bot2", "bone": "text-bot", "color": "ffffffb6", "attachment": "text-bot-CN", "blend": "additive" },
+	{ "name": "text-top2", "bone": "text-top", "color": "ffffffb6", "attachment": "text-top-CN", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"banner": {
+				"banner": { "x": 0.5, "width": 193, "height": 373 }
+			},
+			"banner2": {
+				"banner": { "x": 0.5, "width": 193, "height": 373 }
+			},
+			"effect-bot": {
+				"effect-bot": { "width": 169, "height": 83 }
+			},
+			"flare": {
+				"flare": { "x": 0.5, "width": 181, "height": 119 }
+			},
+			"flare2": {
+				"flare": { "x": 0.5, "width": 181, "height": 119 }
+			},
+			"gamename": {
+				"gamename-CS": { "x": 0.5, "width": 155, "height": 51 }
+			},
+			"item": {
+				"item": { "x": 22.93, "y": -26.7, "width": 160, "height": 154 }
+			},
+			"text-bot": {
+				"text-bot-CN": { "width": 187, "height": 116 }
+			},
+			"text-bot2": {
+				"text-bot-CN": { "width": 187, "height": 116 }
+			},
+			"text-top": {
+				"text-top-CN": { "width": 119, "height": 74 }
+			},
+			"text-top2": {
+				"text-top-CN": { "width": 119, "height": 74 }
+			}
+		}
+	}
+],
+"animations": {
+	"show": {
+		"slots": {
+			"banner2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "color": "ffffffbc", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "color": "ffffff00" }
+				]
+			},
+			"flare2": {
+				"color": [
+					{ "color": "ffffff80", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffff80", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2, "color": "ffffff80" }
+				]
+			},
+			"text-bot2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5333, "color": "ffffff9a", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "color": "ffffff01" }
+				]
+			},
+			"text-top2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"flare": {
+				"scale": [
+					{ "time": 0.5333, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 0.8667, "x": 0.96, "y": 0.96, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 1.2 }
+				]
+			},
+			"bottom": {
+				"scale": [
+					{ "time": 0.5667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9, "x": 0.9, "y": 0.9, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "x": 1.02, "y": 1.02 },
+					{ "time": 1.2333 }
+				]
+			},
+			"item": {
+				"scale": [
+					{},
+					{ "time": 1.3333, "x": 1.02, "y": 1.02 },
+					{ "time": 2 }
+				]
+			},
+			"top": {
+				"scale": [
+					{ "time": 0.1333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "x": 0.9, "y": 0.9, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667 }
+				]
+			},
+			"effect-bot": {
+				"scale": [
+					{ "time": 0.3 },
+					{ "time": 0.6, "x": 0.9, "y": 0.9 },
+					{ "time": 0.8333 }
+				]
+			}
+		}
+	}
+}
+}

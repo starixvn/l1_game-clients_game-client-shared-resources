@@ -1,0 +1,48 @@
+
+banner-game.webp
+size: 467,472
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+banner
+  rotate: false
+  xy: 2, 100
+  size: 191, 370
+  orig: 193, 373
+  offset: 1, 1
+  index: -1
+flare
+  rotate: false
+  xy: 415, 273
+  size: 32, 33
+  orig: 36, 40
+  offset: 2, 3
+  index: -1
+gamename-THAI
+  rotate: true
+  xy: 415, 308
+  size: 162, 39
+  orig: 162, 39
+  offset: 0, 0
+  index: -1
+gold
+  rotate: true
+  xy: 195, 15
+  size: 182, 270
+  orig: 183, 270
+  offset: 1, 0
+  index: -1
+item
+  rotate: false
+  xy: 195, 199
+  size: 218, 271
+  orig: 219, 272
+  offset: 1, 0
+  index: -1
+textbot-THAI
+  rotate: false
+  xy: 2, 2
+  size: 182, 96
+  orig: 184, 100
+  offset: 1, 2
+  index: -1

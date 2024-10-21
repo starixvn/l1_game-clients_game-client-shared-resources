@@ -1,0 +1,12 @@
+{
+  "languages": {
+    "en": true,
+    "vi": true,
+    "th": true,
+    "id": true,
+    "zh_tw": true,
+    "zh_cn": true
+  },
+  "premultipliedAlpha": false,
+  "version": 4
+}

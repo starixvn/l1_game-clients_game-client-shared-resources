@@ -34,6 +34,9 @@
     "78": {
       "vi": "Xí Ngầu\nTúc Cầu",
       "id": "Dadu\nSepak Bola"
+    },
+    "93": {
+      "vi": "Tung Xu\nBóng Đá"
     }
   },
   "gameNamesFontSize": {
@@ -46,6 +49,9 @@
     },
     "70": {
       "th": 48
+    },
+    "93": {
+      "th": 44
     }
   }
 }

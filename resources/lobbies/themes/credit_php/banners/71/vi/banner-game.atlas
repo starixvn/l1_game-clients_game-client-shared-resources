@@ -1,0 +1,62 @@
+
+banner-game.webp
+size: 294,554
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+banner
+  rotate: false
+  xy: 2, 118
+  size: 191, 371
+  orig: 194, 375
+  offset: 2, 2
+  index: -1
+effect-bot
+  rotate: false
+  xy: 2, 491
+  size: 196, 61
+  orig: 256, 64
+  offset: 19, 1
+  index: -1
+flare
+  rotate: true
+  xy: 2, 2
+  size: 114, 106
+  orig: 114, 106
+  offset: 0, 0
+  index: -1
+gamename-VN
+  rotate: true
+  xy: 200, 387
+  size: 165, 84
+  orig: 165, 84
+  offset: 0, 0
+  index: -1
+item-1
+  rotate: true
+  xy: 195, 284
+  size: 101, 97
+  orig: 105, 100
+  offset: 2, 1
+  index: -1
+item-2
+  rotate: false
+  xy: 195, 186
+  size: 97, 96
+  orig: 99, 98
+  offset: 1, 1
+  index: -1
+item-3
+  rotate: false
+  xy: 195, 103
+  size: 83, 81
+  orig: 85, 83
+  offset: 1, 1
+  index: -1
+text-bot-VN
+  rotate: false
+  xy: 110, 19
+  size: 162, 82
+  orig: 162, 82
+  offset: 0, 0
+  index: -1

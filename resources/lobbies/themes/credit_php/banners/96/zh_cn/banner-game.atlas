@@ -1,0 +1,55 @@
+
+banner-game.webp
+size: 408,522
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+banner
+  rotate: false
+  xy: 2, 150
+  size: 191, 370
+  orig: 193, 373
+  offset: 1, 1
+  index: -1
+effect-bot
+  rotate: false
+  xy: 2, 5
+  size: 193, 143
+  orig: 296, 147
+  offset: 59, 4
+  index: -1
+flare
+  rotate: true
+  xy: 280, 17
+  size: 145, 88
+  orig: 145, 89
+  offset: 0, 1
+  index: -1
+gamename
+  rotate: false
+  xy: 195, 164
+  size: 187, 108
+  orig: 190, 111
+  offset: 2, 3
+  index: -1
+item
+  rotate: true
+  xy: 195, 274
+  size: 246, 211
+  orig: 257, 241
+  offset: 8, 29
+  index: -1
+text-bot-CN
+  rotate: true
+  xy: 197, 2
+  size: 160, 81
+  orig: 162, 82
+  offset: 1, 1
+  index: -1
+text-top-CN
+  rotate: true
+  xy: 370, 13
+  size: 149, 36
+  orig: 150, 37
+  offset: 1, 0
+  index: -1

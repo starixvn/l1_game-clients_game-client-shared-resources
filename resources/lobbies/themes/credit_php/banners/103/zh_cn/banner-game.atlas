@@ -1,0 +1,216 @@
+
+banner-game.webp
+size: 261,1036
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: true
+  xy: 189, 475
+  size: 71, 70
+  orig: 96, 96
+  offset: 11, 11
+  index: -1
+02
+  rotate: false
+  xy: 2, 275
+  size: 79, 78
+  orig: 96, 96
+  offset: 7, 10
+  index: -1
+03
+  rotate: true
+  xy: 150, 3
+  size: 72, 65
+  orig: 96, 96
+  offset: 10, 13
+  index: -1
+04
+  rotate: false
+  xy: 86, 304
+  size: 80, 78
+  orig: 96, 96
+  offset: 6, 9
+  index: -1
+05
+  rotate: false
+  xy: 195, 957
+  size: 64, 77
+  orig: 96, 96
+  offset: 17, 11
+  index: -1
+06
+  rotate: false
+  xy: 113, 384
+  size: 74, 78
+  orig: 96, 96
+  offset: 11, 10
+  index: -1
+07
+  rotate: true
+  xy: 189, 402
+  size: 71, 69
+  orig: 96, 96
+  offset: 15, 18
+  index: -1
+08
+  rotate: false
+  xy: 78, 77
+  size: 73, 73
+  orig: 96, 96
+  offset: 14, 9
+  index: -1
+09
+  rotate: false
+  xy: 168, 251
+  size: 79, 75
+  orig: 96, 96
+  offset: 9, 9
+  index: -1
+10
+  rotate: true
+  xy: 2, 196
+  size: 77, 78
+  orig: 96, 96
+  offset: 7, 8
+  index: -1
+11
+  rotate: true
+  xy: 189, 548
+  size: 80, 70
+  orig: 96, 96
+  offset: 7, 10
+  index: -1
+12
+  rotate: false
+  xy: 189, 328
+  size: 67, 72
+  orig: 96, 96
+  offset: 19, 13
+  index: -1
+13
+  rotate: false
+  xy: 82, 152
+  size: 76, 75
+  orig: 96, 96
+  offset: 11, 11
+  index: -1
+14
+  rotate: true
+  xy: 164, 174
+  size: 75, 78
+  orig: 96, 96
+  offset: 10, 12
+  index: -1
+15
+  rotate: false
+  xy: 160, 100
+  size: 74, 72
+  orig: 96, 96
+  offset: 8, 12
+  index: -1
+16
+  rotate: true
+  xy: 77, 2
+  size: 73, 71
+  orig: 96, 96
+  offset: 12, 10
+  index: -1
+17
+  rotate: true
+  xy: 2, 121
+  size: 73, 74
+  orig: 96, 96
+  offset: 13, 9
+  index: -1
+18
+  rotate: true
+  xy: 83, 229
+  size: 73, 79
+  orig: 96, 96
+  offset: 9, 11
+  index: -1
+19
+  rotate: false
+  xy: 113, 464
+  size: 74, 80
+  orig: 96, 96
+  offset: 9, 7
+  index: -1
+20
+  rotate: false
+  xy: 2, 46
+  size: 73, 73
+  orig: 96, 96
+  offset: 9, 11
+  index: -1
+SHA-256
+  rotate: true
+  xy: 2, 436
+  size: 108, 109
+  orig: 119, 117
+  offset: 6, 2
+  index: -1
+bg-tw
+  rotate: false
+  xy: 2, 664
+  size: 191, 370
+  orig: 193, 373
+  offset: 1, 1
+  index: -1
+coin-1
+  rotate: false
+  xy: 234, 696
+  size: 25, 28
+  orig: 26, 29
+  offset: 0, 1
+  index: -1
+coin-2
+  rotate: false
+  xy: 195, 692
+  size: 37, 32
+  orig: 38, 32
+  offset: 1, 0
+  index: -1
+coin-3
+  rotate: false
+  xy: 2, 630
+  size: 191, 32
+  orig: 191, 87
+  offset: 0, 1
+  index: -1
+dice-1
+  rotate: true
+  xy: 2, 355
+  size: 79, 82
+  orig: 83, 87
+  offset: 2, 3
+  index: -1
+dice-2
+  rotate: true
+  xy: 195, 726
+  size: 59, 61
+  orig: 63, 63
+  offset: 2, 1
+  index: -1
+flare
+  rotate: true
+  xy: 195, 658
+  size: 32, 33
+  orig: 36, 40
+  offset: 2, 3
+  index: -1
+gamename-tw
+  rotate: true
+  xy: 195, 787
+  size: 168, 62
+  orig: 168, 62
+  offset: 0, 0
+  index: -1
+text-bot-CN
+  rotate: false
+  xy: 2, 546
+  size: 185, 82
+  orig: 186, 82
+  offset: 1, 0
+  index: -1

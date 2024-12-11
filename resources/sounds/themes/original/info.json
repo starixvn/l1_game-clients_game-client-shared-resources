@@ -1,0 +1,44 @@
+{
+  "song1": {
+    "path": "background-music/song1",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song2": {
+    "path": "background-music/song2",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song3": {
+    "path": "background-music/song3",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song4": {
+    "path": "background-music/song4",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song5": {
+    "path": "background-music/song5",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song6": {
+    "path": "background-music/song6",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song7": {
+    "path": "background-music/song7",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  }
+}

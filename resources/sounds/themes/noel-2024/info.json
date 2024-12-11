@@ -1,0 +1,110 @@
+{
+  "song1": {
+    "path": "background-music/song1",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song2": {
+    "path": "background-music/song2",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song3": {
+    "path": "background-music/song3",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song4": {
+    "path": "background-music/song4",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song5": {
+    "path": "background-music/song5",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song6": {
+    "path": "background-music/song6",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song7": {
+    "path": "background-music/song7",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song8": {
+    "path": "background-music/song8",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song9": {
+    "path": "background-music/song9",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song10": {
+    "path": "background-music/song10",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song11": {
+    "path": "background-music/song11",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song12": {
+    "path": "background-music/song12",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song13": {
+    "path": "background-music/song13",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song14": {
+    "path": "background-music/song14",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song15": {
+    "path": "background-music/song15",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song16": {
+    "path": "background-music/song16",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song17": {
+    "path": "background-music/song17",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  },
+  "song18": {
+    "path": "background-music/song18",
+    "type": "music",
+    "isLazyLoad": true,
+    "isRemote": true
+  }
+}

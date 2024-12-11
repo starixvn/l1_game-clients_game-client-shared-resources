@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "defaultTheme": "noel-2024",
+  "backgroundMusic": {
+    "version": 1
+  },
+  "themes": ["halloween-2024", "noel-2024", "original"]
+}

@@ -1,0 +1,188 @@
+
+banner-game.webp
+size: 507,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Snowflake 2
+  rotate: true
+  xy: 495, 503
+  size: 7, 8
+  orig: 34, 28
+  offset: 27, 20
+  index: -1
+bag
+  rotate: false
+  xy: 349, 95
+  size: 93, 74
+  orig: 93, 74
+  offset: 0, 0
+  index: -1
+banhsau
+  rotate: false
+  xy: 473, 213
+  size: 31, 26
+  orig: 31, 29
+  offset: 0, 1
+  index: -1
+banhtruoc
+  rotate: false
+  xy: 473, 174
+  size: 30, 37
+  orig: 32, 39
+  offset: 1, 1
+  index: -1
+bg
+  rotate: true
+  xy: 2, 330
+  size: 191, 370
+  orig: 193, 373
+  offset: 1, 1
+  index: -1
+bg-new
+  rotate: true
+  xy: 2, 155
+  size: 173, 345
+  orig: 180, 360
+  offset: 2, 0
+  index: -1
+dautenlua1
+  rotate: false
+  xy: 349, 256
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+day1
+  rotate: true
+  xy: 349, 307
+  size: 21, 23
+  orig: 21, 23
+  offset: 0, 0
+  index: -1
+day2
+  rotate: false
+  xy: 349, 277
+  size: 21, 28
+  orig: 21, 28
+  offset: 0, 0
+  index: -1
+dayngang
+  rotate: false
+  xy: 473, 134
+  size: 29, 38
+  orig: 29, 39
+  offset: 0, 1
+  index: -1
+fan
+  rotate: false
+  xy: 444, 79
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+gif1
+  rotate: false
+  xy: 473, 311
+  size: 32, 37
+  orig: 32, 37
+  offset: 0, 0
+  index: -1
+gif2
+  rotate: false
+  xy: 473, 241
+  size: 31, 35
+  orig: 31, 35
+  offset: 0, 0
+  index: -1
+gif3
+  rotate: true
+  xy: 473, 278
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: -1
+hat
+  rotate: true
+  xy: 419, 13
+  size: 64, 34
+  orig: 64, 34
+  offset: 0, 0
+  index: -1
+rau
+  rotate: true
+  xy: 2, 95
+  size: 58, 39
+  orig: 58, 39
+  offset: 0, 0
+  index: -1
+ria
+  rotate: true
+  xy: 349, 220
+  size: 34, 19
+  orig: 35, 19
+  offset: 0, 0
+  index: -1
+santa
+  rotate: false
+  xy: 220, 86
+  size: 64, 67
+  orig: 81, 82
+  offset: 0, 15
+  index: -1
+smoke
+  rotate: true
+  xy: 374, 350
+  size: 171, 119
+  orig: 172, 123
+  offset: 0, 0
+  index: -1
+snow1
+  rotate: false
+  xy: 495, 512
+  size: 9, 9
+  orig: 13, 13
+  offset: 2, 2
+  index: -1
+taytrai
+  rotate: true
+  xy: 455, 44
+  size: 33, 39
+  orig: 36, 40
+  offset: 3, 1
+  index: -1
+taytruoc
+  rotate: false
+  xy: 286, 105
+  size: 52, 48
+  orig: 52, 48
+  offset: 0, 0
+  index: -1
+text-trang
+  rotate: true
+  xy: 374, 171
+  size: 177, 97
+  orig: 179, 99
+  offset: 1, 1
+  index: -1
+text-xanh
+  rotate: false
+  xy: 211, 6
+  size: 206, 71
+  orig: 208, 74
+  offset: 1, 1
+  index: -1
+than
+  rotate: false
+  xy: 2, 2
+  size: 207, 91
+  orig: 209, 104
+  offset: 0, 13
+  index: -1
+title
+  rotate: false
+  xy: 43, 99
+  size: 175, 54
+  orig: 177, 56
+  offset: 1, 1
+  index: -1

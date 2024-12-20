@@ -1,3 +1,23 @@
 {
-  "theme": "noel-2024"
+  "theme": "noel-2024",
+  "currencyGroups": {
+    "Credit_PHP": {
+      "theme": "credit_php"
+    },
+    "Cash_PHP": {
+      "theme": "credit_php"
+    },
+    "Credit_Indo": {
+      "theme": "credit_php"
+    },
+    "Credit_Thai": {
+      "theme": "credit_php"
+    },
+    "Cash_Indo": {
+      "theme": "credit_php"
+    },
+    "Cash_Thai": {
+      "theme": "credit_php"
+    }
+  }
 }

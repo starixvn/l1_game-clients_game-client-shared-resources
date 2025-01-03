@@ -1,0 +1,111 @@
+
+banner-game.webp
+size: 810,222
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 2, 17
+  size: 203, 400
+  orig: 205, 402
+  offset: 1, 1
+  index: -1
+bag
+  rotate: false
+  xy: 674, 65
+  size: 52, 51
+  orig: 54, 56
+  offset: 1, 2
+  index: -1
+ball
+  rotate: false
+  xy: 766, 177
+  size: 42, 43
+  orig: 52, 49
+  offset: 2, 2
+  index: -1
+empty
+  rotate: false
+  xy: 725, 62
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+empty 2
+  rotate: false
+  xy: 725, 62
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+en 1
+  rotate: false
+  xy: 404, 117
+  size: 200, 103
+  orig: 204, 110
+  offset: 2, 3
+  index: -1
+en 2
+  rotate: false
+  xy: 404, 12
+  size: 200, 103
+  orig: 204, 110
+  offset: 2, 3
+  index: -1
+gold light
+  rotate: true
+  xy: 674, 118
+  size: 102, 90
+  orig: 106, 94
+  offset: 2, 2
+  index: -1
+live a
+  rotate: false
+  xy: 725, 31
+  size: 7, 6
+  orig: 9, 8
+  offset: 1, 1
+  index: -1
+live b
+  rotate: false
+  xy: 766, 118
+  size: 13, 12
+  orig: 15, 14
+  offset: 1, 1
+  index: -1
+live c
+  rotate: true
+  xy: 766, 132
+  size: 18, 19
+  orig: 21, 21
+  offset: 2, 1
+  index: -1
+live stream
+  rotate: true
+  xy: 728, 39
+  size: 77, 38
+  orig: 79, 40
+  offset: 1, 1
+  index: -1
+money
+  rotate: true
+  xy: 674, 10
+  size: 53, 49
+  orig: 55, 52
+  offset: 1, 2
+  index: -1
+slogan id
+  rotate: true
+  xy: 606, 2
+  size: 218, 66
+  orig: 220, 68
+  offset: 1, 1
+  index: -1
+star
+  rotate: false
+  xy: 766, 152
+  size: 24, 23
+  orig: 29, 29
+  offset: 1, 3
+  index: -1

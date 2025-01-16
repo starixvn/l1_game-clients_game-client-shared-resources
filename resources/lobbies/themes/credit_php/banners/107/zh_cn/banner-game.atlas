@@ -1,0 +1,223 @@
+
+banner-game.webp
+size: 507,531
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 183, 8
+  size: 150, 90
+  orig: 150, 90
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 362, 51
+  size: 150, 57
+  orig: 150, 57
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 315, 324
+  size: 150, 102
+  orig: 150, 102
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 315, 428
+  size: 156, 101
+  orig: 156, 101
+  offset: 0, 0
+  index: -1
+Bitcoin00
+  rotate: false
+  xy: 315, 289
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+Bitcoin01
+  rotate: false
+  xy: 467, 391
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+Bitcoin02
+  rotate: false
+  xy: 474, 168
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+Bitcoin03
+  rotate: false
+  xy: 474, 133
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+Bitcoin04
+  rotate: false
+  xy: 474, 63
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+Bitcoin05
+  rotate: false
+  xy: 473, 426
+  size: 26, 33
+  orig: 26, 33
+  offset: 0, 0
+  index: -1
+Bitcoin06
+  rotate: false
+  xy: 335, 30
+  size: 21, 33
+  orig: 23, 33
+  offset: 0, 0
+  index: -1
+Bitcoin07
+  rotate: true
+  xy: 358, 29
+  size: 20, 33
+  orig: 20, 33
+  offset: 0, 0
+  index: -1
+Bitcoin08
+  rotate: true
+  xy: 2, 2
+  size: 16, 33
+  orig: 16, 33
+  offset: 0, 0
+  index: -1
+Bitcoin09
+  rotate: true
+  xy: 72, 6
+  size: 12, 33
+  orig: 12, 33
+  offset: 0, 0
+  index: -1
+Bitcoin10
+  rotate: false
+  xy: 351, 289
+  size: 8, 33
+  orig: 8, 33
+  offset: 0, 0
+  index: -1
+Bitcoin11
+  rotate: true
+  xy: 142, 11
+  size: 7, 33
+  orig: 7, 33
+  offset: 0, 0
+  index: -1
+Bitcoin12
+  rotate: true
+  xy: 107, 8
+  size: 10, 33
+  orig: 10, 33
+  offset: 0, 0
+  index: -1
+Bitcoin13
+  rotate: true
+  xy: 37, 4
+  size: 14, 33
+  orig: 14, 33
+  offset: 0, 0
+  index: -1
+Bitcoin14
+  rotate: false
+  xy: 483, 297
+  size: 18, 33
+  orig: 18, 33
+  offset: 0, 0
+  index: -1
+Bitcoin15
+  rotate: true
+  xy: 467, 332
+  size: 22, 33
+  orig: 22, 33
+  offset: 0, 0
+  index: -1
+Bitcoin16
+  rotate: false
+  xy: 335, 65
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: -1
+Bitcoin17
+  rotate: false
+  xy: 473, 461
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+Bitcoin18
+  rotate: false
+  xy: 473, 496
+  size: 29, 33
+  orig: 35, 35
+  offset: 3, 1
+  index: -1
+Bitcoin19
+  rotate: false
+  xy: 474, 98
+  size: 31, 33
+  orig: 35, 35
+  offset: 2, 1
+  index: -1
+Bitcoin20
+  rotate: false
+  xy: 467, 356
+  size: 33, 33
+  orig: 35, 35
+  offset: 1, 1
+  index: -1
+CN name
+  rotate: true
+  xy: 421, 40
+  size: 161, 51
+  orig: 169, 66
+  offset: 8, 8
+  index: -1
+base
+  rotate: false
+  xy: 2, 281
+  size: 311, 248
+  orig: 338, 248
+  offset: 26, 0
+  index: -1
+bg
+  rotate: true
+  xy: 2, 100
+  size: 179, 358
+  orig: 179, 358
+  offset: 0, 0
+  index: -1
+gold
+  rotate: false
+  xy: 474, 34
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 362, 203
+  size: 119, 119
+  orig: 143, 124
+  offset: 13, 4
+  index: -1
+slogan CN
+  rotate: false
+  xy: 2, 20
+  size: 179, 78
+  orig: 179, 92
+  offset: 0, 7
+  index: -1

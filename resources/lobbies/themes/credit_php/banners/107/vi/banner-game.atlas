@@ -1,0 +1,223 @@
+
+banner-game.webp
+size: 982,278
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 315, 5
+  size: 150, 90
+  orig: 150, 90
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 613, 11
+  size: 150, 57
+  orig: 150, 57
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 833, 5
+  size: 150, 102
+  orig: 150, 102
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 675, 70
+  size: 156, 101
+  orig: 156, 101
+  offset: 0, 0
+  index: -1
+Bitcoin00
+  rotate: true
+  xy: 937, 121
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+Bitcoin01
+  rotate: false
+  xy: 937, 86
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+Bitcoin02
+  rotate: false
+  xy: 937, 16
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+Bitcoin03
+  rotate: false
+  xy: 765, 35
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+Bitcoin04
+  rotate: true
+  xy: 467, 5
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+Bitcoin05
+  rotate: true
+  xy: 537, 7
+  size: 26, 33
+  orig: 26, 33
+  offset: 0, 0
+  index: -1
+Bitcoin06
+  rotate: true
+  xy: 2, 5
+  size: 21, 33
+  orig: 23, 33
+  offset: 0, 0
+  index: -1
+Bitcoin07
+  rotate: true
+  xy: 37, 6
+  size: 20, 33
+  orig: 20, 33
+  offset: 0, 0
+  index: -1
+Bitcoin08
+  rotate: true
+  xy: 107, 10
+  size: 16, 33
+  orig: 16, 33
+  offset: 0, 0
+  index: -1
+Bitcoin09
+  rotate: true
+  xy: 937, 2
+  size: 12, 33
+  orig: 12, 33
+  offset: 0, 0
+  index: -1
+Bitcoin10
+  rotate: false
+  xy: 972, 122
+  size: 8, 33
+  orig: 8, 33
+  offset: 0, 0
+  index: -1
+Bitcoin11
+  rotate: false
+  xy: 972, 87
+  size: 7, 33
+  orig: 7, 33
+  offset: 0, 0
+  index: -1
+Bitcoin12
+  rotate: false
+  xy: 970, 16
+  size: 10, 33
+  orig: 10, 33
+  offset: 0, 0
+  index: -1
+Bitcoin13
+  rotate: true
+  xy: 142, 12
+  size: 14, 33
+  orig: 14, 33
+  offset: 0, 0
+  index: -1
+Bitcoin14
+  rotate: true
+  xy: 72, 8
+  size: 18, 33
+  orig: 18, 33
+  offset: 0, 0
+  index: -1
+Bitcoin15
+  rotate: true
+  xy: 572, 11
+  size: 22, 33
+  orig: 22, 33
+  offset: 0, 0
+  index: -1
+Bitcoin16
+  rotate: true
+  xy: 613, 71
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: -1
+Bitcoin17
+  rotate: true
+  xy: 502, 5
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+Bitcoin18
+  rotate: false
+  xy: 798, 35
+  size: 29, 33
+  orig: 35, 35
+  offset: 3, 1
+  index: -1
+Bitcoin19
+  rotate: true
+  xy: 765, 2
+  size: 31, 33
+  orig: 35, 35
+  offset: 2, 1
+  index: -1
+Bitcoin20
+  rotate: false
+  xy: 937, 51
+  size: 33, 33
+  orig: 35, 35
+  offset: 1, 1
+  index: -1
+base
+  rotate: false
+  xy: 2, 28
+  size: 311, 248
+  orig: 338, 248
+  offset: 26, 0
+  index: -1
+bg
+  rotate: true
+  xy: 315, 97
+  size: 179, 358
+  orig: 179, 358
+  offset: 0, 0
+  index: -1
+gold
+  rotate: false
+  xy: 800, 6
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 855, 157
+  size: 119, 119
+  orig: 143, 124
+  offset: 13, 4
+  index: -1
+slogan vi
+  rotate: false
+  xy: 675, 173
+  size: 178, 103
+  orig: 178, 117
+  offset: 0, 14
+  index: -1
+vi name
+  rotate: false
+  xy: 467, 35
+  size: 144, 60
+  orig: 148, 62
+  offset: 4, 0
+  index: -1

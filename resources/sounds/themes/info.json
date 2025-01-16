@@ -1,8 +1,13 @@
 {
-  "version": 1,
-  "defaultTheme": "noel-2024",
+  "version": 2,
+  "defaultTheme": "tet-2025",
   "backgroundMusic": {
-    "version": 1
+    "version": 2
   },
-  "themes": ["halloween-2024", "noel-2024", "original"]
+  "themes": [
+    "tet-2025",
+    "halloween-2024",
+    "noel-2024",
+    "original"
+  ]
 }

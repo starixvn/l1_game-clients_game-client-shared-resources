@@ -1,5 +1,5 @@
 {
-  "theme": "tet-2025",
+  "theme": "default",
   "currencyGroups": {
     "Credit_PHP": {
       "theme": "credit_php"

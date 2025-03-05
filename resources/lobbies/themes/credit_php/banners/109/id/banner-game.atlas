@@ -1,0 +1,195 @@
+
+banner-game.webp
+size: 331,1036
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 2, 674
+  size: 180, 360
+  orig: 182, 362
+  offset: 1, 1
+  index: -1
+Circle_rays_19
+  rotate: false
+  xy: 2, 197
+  size: 151, 149
+  orig: 165, 163
+  offset: 7, 7
+  index: -1
+Layer 46
+  rotate: true
+  xy: 254, 105
+  size: 55, 58
+  orig: 58, 61
+  offset: 2, 2
+  index: -1
+Layer-47
+  rotate: true
+  xy: 254, 54
+  size: 49, 57
+  orig: 58, 61
+  offset: 6, 3
+  index: -1
+b1
+  rotate: true
+  xy: 96, 44
+  size: 47, 46
+  orig: 50, 48
+  offset: 2, 1
+  index: -1
+b10
+  rotate: false
+  xy: 184, 419
+  size: 140, 353
+  orig: 143, 356
+  offset: 2, 2
+  index: -1
+b2
+  rotate: true
+  xy: 68, 4
+  size: 34, 31
+  orig: 37, 34
+  offset: 2, 1
+  index: -1
+b3
+  rotate: true
+  xy: 101, 11
+  size: 31, 30
+  orig: 33, 33
+  offset: 1, 1
+  index: -1
+b4
+  rotate: true
+  xy: 305, 203
+  size: 34, 24
+  orig: 37, 26
+  offset: 1, 1
+  index: -1
+b5
+  rotate: false
+  xy: 2, 2
+  size: 31, 33
+  orig: 33, 43
+  offset: 1, 1
+  index: -1
+b6
+  rotate: false
+  xy: 2, 2
+  size: 31, 33
+  orig: 33, 43
+  offset: 1, 1
+  index: -1
+b7
+  rotate: false
+  xy: 51, 40
+  size: 43, 51
+  orig: 45, 59
+  offset: 1, 1
+  index: -1
+b8
+  rotate: false
+  xy: 289, 24
+  size: 36, 28
+  orig: 39, 36
+  offset: 1, 6
+  index: -1
+b9
+  rotate: false
+  xy: 305, 165
+  size: 16, 36
+  orig: 19, 38
+  offset: 1, 1
+  index: -1
+cai xeng
+  rotate: true
+  xy: 2, 37
+  size: 54, 47
+  orig: 56, 49
+  offset: 1, 1
+  index: -1
+cuc-da-bitcoin
+  rotate: true
+  xy: 2, 450
+  size: 159, 171
+  orig: 210, 204
+  offset: 28, 18
+  index: -1
+game name -id
+  rotate: false
+  xy: 2, 611
+  size: 177, 61
+  orig: 179, 63
+  offset: 1, 1
+  index: -1
+light-trait-1r
+  rotate: false
+  xy: 155, 162
+  size: 148, 126
+  orig: 210, 204
+  offset: 28, 34
+  index: -1
+light-trait-2g
+  rotate: false
+  xy: 144, 27
+  size: 108, 133
+  orig: 210, 204
+  offset: 61, 45
+  index: -1
+light-trait-3b
+  rotate: true
+  xy: 184, 774
+  size: 136, 144
+  orig: 210, 204
+  offset: 43, 35
+  index: -1
+symbol-1r
+  rotate: false
+  xy: 171, 290
+  size: 154, 127
+  orig: 210, 204
+  offset: 29, 58
+  index: -1
+symbol-2g
+  rotate: false
+  xy: 184, 912
+  size: 145, 122
+  orig: 210, 204
+  offset: 33, 29
+  index: -1
+symbol-3b
+  rotate: true
+  xy: 2, 93
+  size: 102, 140
+  orig: 210, 204
+  offset: 44, 27
+  index: -1
+symbol-bitcoin
+  rotate: false
+  xy: 254, 2
+  size: 33, 50
+  orig: 210, 204
+  offset: 134, 55
+  index: -1
+symbol-bitcon-top
+  rotate: true
+  xy: 305, 239
+  size: 49, 24
+  orig: 210, 204
+  offset: 83, 150
+  index: -1
+symbol-ethereum
+  rotate: false
+  xy: 35, 2
+  size: 31, 33
+  orig: 210, 204
+  offset: 53, 68
+  index: -1
+text id
+  rotate: false
+  xy: 2, 348
+  size: 167, 100
+  orig: 169, 102
+  offset: 1, 1
+  index: -1

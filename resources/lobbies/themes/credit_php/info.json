@@ -1,7 +1,7 @@
 {
   "versionBanner": 2,
-  "versionGameIcon": 5,
-  "versionMiniGameIcon": 3,
+  "versionGameIcon": 6,
+  "versionMiniGameIcon": 4,
   "ignoreCapitalizeGameNames": [22, 26, 27, 31, 65, 69, 75],
   "gameNamesBreakLine": {
     "26": {

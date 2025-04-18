@@ -1,65 +1,68 @@
 {
-  "versionBanner": 2,
-  "versionGameIcon": 6,
-  "versionMiniGameIcon": 4,
-  "ignoreCapitalizeGameNames": [22, 26, 27, 31, 65, 69, 75],
-  "gameNamesBreakLine": {
-    "26": {
-      "en": "VIP\nFish Prawn Crab",
-      "id": "VIP Ikan Udang\nKepiting"
-    },
-    "28": {
-      "vi": "Xóc Đĩa\nĐối Kháng"
-    },
-    "47": {
-      "vi": "Đảo\nChâu Báu",
-      "id": "Pulau\nHarta Karun"
-    },
-    "61": {
-      "en": "Win\nThree Cards",
-      "id": "Menang\nTiga Kartu"
-    },
-    "67": {
-      "vi": "Đại Chiến\nRồng Hổ",
-      "id": "Tarung\nNaga Harimau"
-    },
-    "68": {
-      "th": "ปฏิบัติการ\nสุดท้าย"
-    },
-    "71": {
-      "vi": "Xí Ngầu\nLục Sắc",
-      "id": "Permainan\nWarna"
-    },
-    "75": {
-      "en": "Bandar\nQiu Qiu",
-      "id": "Bandar\nQiu Qiu"
-    },
-    "76": {
-      "en": "Dragon\nPearl",
-      "id": "Dragon\nPearl"
-    },
-    "78": {
-      "vi": "Xí Ngầu\nTúc Cầu",
-      "id": "Dadu\nSepak Bola"
-    },
-    "93": {
-      "vi": "Tung Xu\nBóng Đá",
-      "en": "Soccer\nCoin Toss"
-    }
-  },
-  "gameNamesFontSize": {
-    "3": {
-      "en": 44
-    },
-    "26": {
-      "en": 44,
-      "id": 44
-    },
-    "70": {
-      "th": 48
-    },
-    "93": {
-      "th": 44
-    }
-  }
+	"versionBanner": 2,
+	"versionGameIcon": 6,
+	"versionMiniGameIcon": 4,
+	"ignoreCapitalizeGameNames": [22, 26, 27, 31, 65, 69, 75],
+	"gameNamesBreakLine": {
+		"26": {
+			"en": "VIP\nFish Prawn Crab",
+			"id": "VIP Ikan Udang\nKepiting"
+		},
+		"28": {
+			"vi": "Xóc Đĩa\nĐối Kháng"
+		},
+		"47": {
+			"vi": "Đảo\nChâu Báu",
+			"id": "Pulau\nHarta Karun"
+		},
+		"61": {
+			"en": "Win\nThree Cards",
+			"id": "Menang\nTiga Kartu"
+		},
+		"67": {
+			"vi": "Đại Chiến\nRồng Hổ",
+			"id": "Tarung\nNaga Harimau"
+		},
+		"68": {
+			"th": "ปฏิบัติการ\nสุดท้าย"
+		},
+		"71": {
+			"vi": "Xí Ngầu\nLục Sắc",
+			"id": "Permainan\nWarna"
+		},
+		"75": {
+			"en": "Bandar\nQiu Qiu",
+			"id": "Bandar\nQiu Qiu"
+		},
+		"76": {
+			"en": "Dragon\nPearl",
+			"id": "Dragon\nPearl"
+		},
+		"78": {
+			"vi": "Xí Ngầu\nTúc Cầu",
+			"id": "Dadu\nSepak Bola"
+		},
+		"93": {
+			"vi": "Tung Xu\nBóng Đá",
+			"en": "Soccer\nCoin Toss"
+		},
+		"117": {
+			"th": "เทพ\nแห่งโชคลาภ"
+		}
+	},
+	"gameNamesFontSize": {
+		"3": {
+			"en": 44
+		},
+		"26": {
+			"en": 44,
+			"id": 44
+		},
+		"70": {
+			"th": 48
+		},
+		"93": {
+			"th": 44
+		}
+	}
 }

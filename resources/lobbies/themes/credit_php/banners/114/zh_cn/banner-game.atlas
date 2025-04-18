@@ -1,0 +1,48 @@
+
+banner-game.webp
+size: 886,211
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 2, 6
+  size: 203, 400
+  orig: 203, 400
+  offset: 0, 0
+  index: -1
+ball
+  rotate: false
+  xy: 404, 48
+  size: 237, 161
+  orig: 238, 176
+  offset: 1, 15
+  index: -1
+bg-text
+  rotate: true
+  xy: 827, 24
+  size: 185, 57
+  orig: 224, 57
+  offset: 4, 0
+  index: -1
+en 1
+  rotate: true
+  xy: 643, 21
+  size: 188, 93
+  orig: 193, 99
+  offset: 2, 3
+  index: -1
+slogan cn 1
+  rotate: false
+  xy: 404, 2
+  size: 162, 44
+  orig: 162, 44
+  offset: 0, 0
+  index: -1
+slogan cn 2
+  rotate: true
+  xy: 738, 52
+  size: 157, 87
+  orig: 157, 88
+  offset: 0, 1
+  index: -1

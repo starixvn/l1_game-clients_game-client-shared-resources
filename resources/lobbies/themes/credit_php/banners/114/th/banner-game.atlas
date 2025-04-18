@@ -1,0 +1,48 @@
+
+banner-game.webp
+size: 379,499
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 2, 97
+  size: 203, 400
+  orig: 203, 400
+  offset: 0, 0
+  index: -1
+ball
+  rotate: true
+  xy: 207, 260
+  size: 237, 161
+  orig: 238, 176
+  offset: 1, 15
+  index: -1
+bg-text
+  rotate: false
+  xy: 192, 21
+  size: 185, 57
+  orig: 224, 57
+  offset: 4, 0
+  index: -1
+en 1
+  rotate: false
+  xy: 2, 2
+  size: 188, 93
+  orig: 193, 99
+  offset: 2, 3
+  index: -1
+slogan th 2
+  rotate: true
+  xy: 207, 80
+  size: 178, 78
+  orig: 178, 78
+  offset: 0, 0
+  index: -1
+slogan vn 1
+  rotate: true
+  xy: 287, 99
+  size: 159, 79
+  orig: 159, 79
+  offset: 0, 0
+  index: -1

@@ -1,111 +1,111 @@
 
 banner-game.webp
-size: 903,207
+size: 805,189
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 BG
   rotate: true
-  xy: 2, 2
-  size: 203, 400
-  orig: 205, 402
+  xy: 2, 5
+  size: 182, 360
+  orig: 184, 362
   offset: 1, 1
   index: -1
 bag
-  rotate: true
-  xy: 845, 60
-  size: 52, 51
-  orig: 54, 56
-  offset: 1, 2
+  rotate: false
+  xy: 731, 4
+  size: 46, 47
+  orig: 50, 52
+  offset: 3, 1
   index: -1
 ball
   rotate: false
-  xy: 842, 15
-  size: 42, 43
-  orig: 52, 49
-  offset: 2, 2
+  xy: 765, 64
+  size: 38, 38
+  orig: 48, 45
+  offset: 2, 3
   index: -1
 empty
   rotate: false
-  xy: 889, 180
+  xy: 2, 2
   size: 1, 1
   orig: 1, 1
   offset: 0, 0
   index: -1
 empty 2
   rotate: false
-  xy: 889, 180
+  xy: 2, 2
   size: 1, 1
   orig: 1, 1
   offset: 0, 0
   index: -1
 gold light
-  rotate: false
-  xy: 662, 22
-  size: 102, 90
-  orig: 106, 94
-  offset: 2, 2
+  rotate: true
+  xy: 597, 10
+  size: 92, 81
+  orig: 97, 86
+  offset: 3, 3
   index: -1
 live a
-  rotate: true
-  xy: 889, 183
+  rotate: false
+  xy: 597, 2
   size: 7, 6
   orig: 9, 8
   offset: 1, 1
   index: -1
 live b
-  rotate: true
-  xy: 889, 192
-  size: 13, 12
-  orig: 15, 14
+  rotate: false
+  xy: 717, 39
+  size: 12, 12
+  orig: 14, 14
   offset: 1, 1
   index: -1
 live c
   rotate: false
-  xy: 817, 27
-  size: 18, 19
-  orig: 21, 21
-  offset: 2, 1
+  xy: 702, 11
+  size: 17, 18
+  orig: 19, 20
+  offset: 1, 1
   index: -1
 live stream
-  rotate: false
-  xy: 766, 74
-  size: 77, 38
-  orig: 79, 40
+  rotate: true
+  xy: 680, 31
+  size: 71, 35
+  orig: 73, 37
   offset: 1, 1
   index: -1
 money
   rotate: true
-  xy: 766, 19
-  size: 53, 49
-  orig: 55, 52
-  offset: 1, 2
+  xy: 717, 53
+  size: 49, 46
+  orig: 51, 48
+  offset: 1, 1
   index: -1
 slogan tw
   rotate: false
-  xy: 662, 114
-  size: 225, 91
-  orig: 227, 93
+  xy: 597, 104
+  size: 204, 83
+  orig: 206, 85
   offset: 1, 1
   index: -1
 star
   rotate: true
-  xy: 817, 48
-  size: 24, 23
-  orig: 29, 29
+  xy: 680, 7
+  size: 22, 20
+  orig: 27, 27
   offset: 1, 3
   index: -1
 tw 1
   rotate: false
-  xy: 404, 108
-  size: 256, 97
-  orig: 285, 100
-  offset: 10, 1
+  xy: 364, 99
+  size: 231, 88
+  orig: 257, 91
+  offset: 9, 1
   index: -1
 tw 2
   rotate: false
-  xy: 404, 9
-  size: 256, 97
-  orig: 285, 100
-  offset: 10, 1
+  xy: 364, 9
+  size: 231, 88
+  orig: 257, 91
+  offset: 9, 1
   index: -1

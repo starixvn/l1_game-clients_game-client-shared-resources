@@ -1,31 +1,31 @@
 {
   "skeleton": {
-    "hash": "CaiVQ8OS0xk2wNNeBqtf+NFbsZk",
+    "hash": "owXKHyHyeSKDazgzpEfdRLfW2nI",
     "spine": "3.8.99",
-    "x": -113.28,
-    "y": -201,
-    "width": 228.44,
-    "height": 402,
+    "x": -130.3,
+    "y": -186.46,
+    "width": 263.1,
+    "height": 367.46,
     "images": "./images/",
     "audio": "D:/MYWORKFOLDER/20 soccer/PH version/spine"
   },
   "bones": [
     { "name": "root" },
     { "name": "BG", "parent": "root" },
-    { "name": "bag", "parent": "root", "x": 79.61, "y": -182.24 },
+    { "name": "bag", "parent": "root", "x": 73.83, "y": -170.69 },
     { "name": "money", "parent": "bag", "x": -29.2, "y": 29.74 },
-    { "name": "live-stream", "parent": "root", "x": -83.59, "y": -181.12 },
+    { "name": "live-stream", "parent": "root", "x": -83.59, "y": -166.39 },
     { "name": "live-icon", "parent": "live-stream", "x": 55.95, "y": 19.76 },
-    { "name": "ball", "parent": "root", "x": -84.79, "y": -122.66 },
-    { "name": "star", "parent": "root", "x": 48.25, "y": -154.47 },
-    { "name": "gold-light", "parent": "root", "x": -59.68, "y": 67.5 },
-    { "name": "slogan", "parent": "root", "x": 2.44, "y": 27.35 },
-    { "name": "game-name", "parent": "root", "x": 5.3, "y": 81.97 },
-    { "name": "gold-light2", "parent": "root", "x": 62.76, "y": 31.52 },
-    { "name": "star2", "parent": "root", "x": 33.92, "y": -126.93 },
-    { "name": "star3", "parent": "root", "x": 22.4, "y": -155.6 },
-    { "name": "star4", "parent": "root", "x": 72.98, "y": -140.98 },
-    { "name": "star5", "parent": "root", "x": 56.4, "y": -134.24 }
+    { "name": "ball", "parent": "root", "x": -77.09, "y": -111.6 },
+    { "name": "star", "parent": "root", "x": 42.48, "y": -142.93 },
+    { "name": "gold-light", "parent": "root", "x": -81.2, "y": 92.71 },
+    { "name": "slogan", "parent": "root", "x": 2.44, "y": 19.17 },
+    { "name": "game-name", "parent": "root", "x": 18.54, "y": 62.18 },
+    { "name": "gold-light2", "parent": "root", "x": 84.9, "y": 25.87 },
+    { "name": "star2", "parent": "root", "x": 28.15, "y": -115.39 },
+    { "name": "star3", "parent": "root", "x": 16.63, "y": -144.05 },
+    { "name": "star4", "parent": "root", "x": 67.21, "y": -129.44 },
+    { "name": "star5", "parent": "root", "x": 50.63, "y": -122.7 }
   ],
   "slots": [
     { "name": "BG", "bone": "BG", "attachment": "BG" },
@@ -35,14 +35,14 @@
     { "name": "slogan-en", "bone": "slogan", "attachment": "empty" },
     { "name": "slogan-id", "bone": "slogan", "attachment": "empty" },
     { "name": "slogan-ph", "bone": "slogan", "attachment": "empty" },
-    { "name": "slogan-th", "bone": "slogan", "attachment": "slogan th" },
+    { "name": "slogan-th", "bone": "slogan", "attachment": "empty" },
     { "name": "slogan-vi", "bone": "slogan", "attachment": "empty" },
-    { "name": "slogan-cn", "bone": "slogan", "attachment": "empty" },
+    { "name": "slogan-cn", "bone": "slogan", "attachment": "slogan en" },
     { "name": "slogan-tw", "bone": "slogan", "attachment": "empty" },
     { "name": "game-name-tw-1", "bone": "game-name", "attachment": "empty" },
-    { "name": "game-name-cn-1", "bone": "game-name", "attachment": "empty" },
+    { "name": "game-name-cn-1", "bone": "game-name", "attachment": "en 1" },
     { "name": "game-name-vi-1", "bone": "game-name", "attachment": "empty" },
-    { "name": "game-name-en-1", "bone": "game-name", "attachment": "en 1" },
+    { "name": "game-name-en-1", "bone": "game-name", "attachment": "empty" },
     {
       "name": "live-stream",
       "bone": "live-stream",
@@ -87,16 +87,16 @@
     {
       "name": "default",
       "attachments": {
-        "BG": { "BG": { "x": 0.5, "width": 205, "height": 402 } },
-        "bag": { "bag": { "x": -7.61, "y": 10.24, "width": 54, "height": 56 } },
-        "ball": { "ball": { "x": 3.79, "y": 1.16, "width": 52, "height": 49 } },
+        "BG": { "BG": { "x": 0.5, "width": 184, "height": 362 } },
+        "bag": { "bag": { "x": -7.61, "y": 10.24, "width": 50, "height": 52 } },
+        "ball": { "ball": { "x": 3.79, "y": 1.16, "width": 48, "height": 45 } },
         "game-name-cn-1": {
-          "empty": { "x": -20.8, "y": 65.03, "width": 3, "height": 3 },
-          "empty 2": { "x": -20.8, "y": 65.03, "width": 3, "height": 3 }
+          "en 1": { "x": -20.8, "y": 65.03, "width": 182, "height": 100 },
+          "en 2": { "x": -20.8, "y": 65.03, "width": 184, "height": 100 }
         },
         "game-name-en-1": {
-          "en 1": { "x": -6.3, "y": 34.03, "width": 204, "height": 110 },
-          "en 2": { "x": -6.3, "y": 34.03, "width": 204, "height": 110 }
+          "empty": { "x": -6.3, "y": 34.03, "width": 3, "height": 3 },
+          "empty 2": { "x": -6.3, "y": 34.03, "width": 3, "height": 3 }
         },
         "game-name-tw-1": {
           "empty": { "x": -20.8, "y": 63.03, "width": 3, "height": 3 },
@@ -107,28 +107,28 @@
           "empty 2": { "x": -19.8, "y": 39.53, "width": 3, "height": 3 }
         },
         "gold-light": {
-          "gold light": { "x": -0.6, "y": -0.42, "width": 106, "height": 94 }
+          "gold light": { "x": -0.6, "y": -0.42, "width": 97, "height": 86 }
         },
         "gold-light2": {
-          "gold light": { "x": -0.6, "y": -0.42, "width": 106, "height": 94 }
+          "gold light": { "x": -0.6, "y": -0.42, "width": 97, "height": 86 }
         },
         "live-a": {
           "live a": { "x": 3.14, "y": 1.36, "width": 9, "height": 8 }
         },
         "live-b": {
-          "live b": { "x": 6.14, "y": 3.36, "width": 15, "height": 14 }
+          "live b": { "x": 6.14, "y": 3.36, "width": 14, "height": 14 }
         },
         "live-c": {
-          "live c": { "x": 9.14, "y": 6.86, "width": 21, "height": 21 }
+          "live c": { "x": 9.14, "y": 6.86, "width": 19, "height": 20 }
         },
         "live-stream": {
-          "live stream": { "x": 38.09, "y": 18.12, "width": 79, "height": 40 }
+          "live stream": { "x": 38.09, "y": 18.12, "width": 73, "height": 37 }
         },
         "money": {
-          "money": { "x": -4.9, "y": 4.5, "width": 55, "height": 52 }
+          "money": { "x": -4.9, "y": 4.5, "width": 51, "height": 48 }
         },
         "slogan-cn": {
-          "empty": { "x": -1.44, "y": 34.65, "width": 3, "height": 3 }
+          "slogan en": { "x": -1.44, "y": 34.65, "width": 206, "height": 60 }
         },
         "slogan-en": {
           "empty": { "x": -0.44, "y": 23.65, "width": 3, "height": 3 }
@@ -140,7 +140,7 @@
           "empty": { "x": -2.44, "y": 23.65, "width": 3, "height": 3 }
         },
         "slogan-th": {
-          "slogan th": { "x": -1.44, "y": 21.15, "width": 192, "height": 67 }
+          "empty": { "x": -1.44, "y": 21.15, "width": 3, "height": 3 }
         },
         "slogan-tw": {
           "empty": { "x": -1.94, "y": 35.15, "width": 3, "height": 3 }
@@ -149,19 +149,19 @@
           "empty": { "x": -2.44, "y": 24.15, "width": 3, "height": 3 }
         },
         "star": {
-          "star": { "x": 0.79, "y": -0.41, "width": 29, "height": 29 }
+          "star": { "x": 0.79, "y": -0.41, "width": 27, "height": 27 }
         },
         "star2": {
-          "star": { "x": 0.79, "y": -0.41, "width": 29, "height": 29 }
+          "star": { "x": 0.79, "y": -0.41, "width": 27, "height": 27 }
         },
         "star3": {
-          "star": { "x": 0.79, "y": -0.41, "width": 29, "height": 29 }
+          "star": { "x": 0.79, "y": -0.41, "width": 27, "height": 27 }
         },
         "star4": {
-          "star": { "x": 0.79, "y": -0.41, "width": 29, "height": 29 }
+          "star": { "x": 0.79, "y": -0.41, "width": 27, "height": 27 }
         },
         "star5": {
-          "star": { "x": 0.79, "y": -0.41, "width": 29, "height": 29 }
+          "star": { "x": 0.79, "y": -0.41, "width": 27, "height": 27 }
         }
       }
     }
@@ -170,22 +170,6 @@
     "show": {
       "slots": {
         "game-name-cn-1": {
-          "attachment": [
-            { "time": 0.1667, "name": "empty 2" },
-            { "time": 0.3333, "name": "empty" },
-            { "time": 0.5, "name": "empty 2" },
-            { "time": 0.6667, "name": "empty" },
-            { "time": 0.8333, "name": "empty 2" },
-            { "time": 1, "name": "empty" },
-            { "time": 1.1667, "name": "empty 2" },
-            { "time": 1.3333, "name": "empty" },
-            { "time": 1.5, "name": "empty 2" },
-            { "time": 1.6667, "name": "empty" },
-            { "time": 1.8333, "name": "empty 2" },
-            { "time": 2, "name": "empty" }
-          ]
-        },
-        "game-name-en-1": {
           "attachment": [
             { "time": 0.1667, "name": "en 2" },
             { "time": 0.3333, "name": "en 1" },
@@ -199,6 +183,22 @@
             { "time": 1.6667, "name": "en 1" },
             { "time": 1.8333, "name": "en 2" },
             { "time": 2, "name": "en 1" }
+          ]
+        },
+        "game-name-en-1": {
+          "attachment": [
+            { "time": 0.1667, "name": "empty 2" },
+            { "time": 0.3333, "name": "empty" },
+            { "time": 0.5, "name": "empty 2" },
+            { "time": 0.6667, "name": "empty" },
+            { "time": 0.8333, "name": "empty 2" },
+            { "time": 1, "name": "empty" },
+            { "time": 1.1667, "name": "empty 2" },
+            { "time": 1.3333, "name": "empty" },
+            { "time": 1.5, "name": "empty 2" },
+            { "time": 1.6667, "name": "empty" },
+            { "time": 1.8333, "name": "empty 2" },
+            { "time": 2, "name": "empty" }
           ]
         },
         "game-name-tw-1": {

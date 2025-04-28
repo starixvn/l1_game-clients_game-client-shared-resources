@@ -1,1 +1,122 @@
-{"skeleton":{"hash":"RIunalyy/nEvxe0ELhSo6kzi0ys","spine":"3.8.99","x":-117.92,"y":-200,"width":248.93,"height":400,"images":"./images/","audio":"D:/MYWORKFOLDER/20 soccer/PH version/spine"},"bones":[{"name":"root"},{"name":"BG","parent":"root"},{"name":"ball","parent":"root","x":-2.71,"y":-59.41},{"name":"slogan","parent":"root","x":2.44,"y":123.73},{"name":"game-name","parent":"root","x":5.3,"y":100.79}],"slots":[{"name":"BG","bone":"BG","attachment":"BG"},{"name":"bg-slogan","bone":"slogan","attachment":"bg-text"},{"name":"bg-slogan2","bone":"slogan","attachment":"bg-text"},{"name":"ball","bone":"ball","attachment":"ball"},{"name":"Slogan-1","bone":"slogan","attachment":"slogan vn 1"},{"name":"Slogan-2","bone":"slogan","attachment":"slogan vn 2"},{"name":"gamename","bone":"game-name","attachment":"vn 1"},{"name":"gamename2","bone":"game-name","color":"ff000082","attachment":"vn 1","blend":"additive"}],"skins":[{"name":"default","attachments":{"BG":{"BG":{"x":0.5,"width":203,"height":400}},"Slogan-1":{"slogan vn 1":{"x":-0.44,"y":-67.46,"width":159,"height":79}},"Slogan-2":{"slogan vn 2":{"x":-0.44,"y":-270.77,"width":171,"height":79}},"ball":{"ball":{"x":3.79,"y":19.99,"width":238,"height":176}},"bg-slogan":{"bg-text":{"x":12.8,"y":-65.76,"width":224,"height":57}},"bg-slogan2":{"bg-text":{"x":16.57,"y":-271.33,"width":224,"height":57}},"gamename":{"vn 1":{"x":-6.3,"y":34.03,"width":198,"height":111}},"gamename2":{"vn 1":{"x":-6.3,"y":34.03,"width":198,"height":111}}}}],"animations":{"animation":{"slots":{"gamename2":{"color":[{"color":"ff000000","curve":"stepped"},{"time":0.1333,"color":"ff000000"},{"time":0.1667,"color":"ff000080","curve":"stepped"},{"time":0.3,"color":"ff000080"},{"time":0.3333,"color":"ff000000","curve":"stepped"},{"time":0.4667,"color":"ff000000"},{"time":0.5,"color":"ff000080","curve":"stepped"},{"time":0.6333,"color":"ff000080"},{"time":0.6667,"color":"ff000000","curve":"stepped"},{"time":0.8,"color":"ff000000"},{"time":0.8333,"color":"ff000080","curve":"stepped"},{"time":0.9667,"color":"ff000080"},{"time":1,"color":"ff000000","curve":"stepped"},{"time":1.1333,"color":"ff000000"},{"time":1.1667,"color":"ff000080","curve":"stepped"},{"time":1.3,"color":"ff000080"},{"time":1.3333,"color":"ff000000","curve":"stepped"},{"time":1.4667,"color":"ff000000"},{"time":1.5,"color":"ff000080","curve":"stepped"},{"time":1.6333,"color":"ff000080"},{"time":1.6667,"color":"ff000000","curve":"stepped"},{"time":1.8,"color":"ff000000"},{"time":1.8333,"color":"ff000080"}]}},"bones":{"slogan":{"translate":[{"x":0.68,"y":0.14,"curve":0.382,"c2":0.57,"c3":0.735},{"time":0.3333,"curve":0.25,"c3":0.75},{"time":1.3333,"x":2.4,"y":0.48,"curve":0.243,"c3":0.649,"c4":0.6},{"time":2,"x":0.68,"y":0.14}]},"ball":{"scale":[{},{"time":1,"x":1.1,"y":1.1},{"time":2}]}}}}}
+{
+  "skeleton": {
+    "hash": "Uq9NsPE4TnDeAACYIvUV0/uoPMA",
+    "spine": "3.8.99",
+    "x": -117.92,
+    "y": -200,
+    "width": 248.93,
+    "height": 400,
+    "images": "./images/",
+    "audio": "D:/MYWORKFOLDER/20 soccer/PH version/spine"
+  },
+  "bones": [
+    { "name": "root" },
+    { "name": "BG", "parent": "root" },
+    { "name": "ball", "parent": "root", "x": -2.71, "y": -45.85 },
+    { "name": "slogan", "parent": "root", "x": 2.44, "y": 141.05 },
+    { "name": "game-name", "parent": "root", "x": 7.56, "y": 93.26 }
+  ],
+  "slots": [
+    { "name": "BG", "bone": "BG", "attachment": "BG" },
+    { "name": "bg-slogan", "bone": "slogan", "attachment": "bg-text" },
+    { "name": "bg-slogan2", "bone": "slogan", "attachment": "bg-text" },
+    { "name": "ball", "bone": "ball", "attachment": "ball" },
+    { "name": "Slogan-1", "bone": "slogan", "attachment": "slogan vn 1" },
+    { "name": "Slogan-2", "bone": "slogan", "attachment": "slogan vn 2" },
+    { "name": "gamename", "bone": "game-name", "attachment": "vn 1" },
+    {
+      "name": "gamename2",
+      "bone": "game-name",
+      "color": "ff000082",
+      "attachment": "vn 1",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "BG": { "BG": { "x": 0.5, "width": 182, "height": 360 } },
+        "Slogan-1": {
+          "slogan vn 1": { "y": -74.55, "width": 143, "height": 71 }
+        },
+        "Slogan-2": {
+          "slogan vn 2": {
+            "x": -0.44,
+            "y": -270.77,
+            "width": 154,
+            "height": 71
+          }
+        },
+        "ball": {
+          "ball": { "x": 3.79, "y": 19.99, "width": 214, "height": 158 }
+        },
+        "bg-slogan": {
+          "bg-text": { "x": 12.8, "y": -65.76, "width": 224, "height": 57 }
+        },
+        "bg-slogan2": {
+          "bg-text": { "x": 16.57, "y": -271.33, "width": 224, "height": 57 }
+        },
+        "gamename": {
+          "vn 1": { "x": -6.3, "y": 34.03, "width": 178, "height": 100 }
+        },
+        "gamename2": {
+          "vn 1": { "x": -6.3, "y": 34.03, "width": 178, "height": 100 }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "show": {
+      "slots": {
+        "gamename2": {
+          "color": [
+            { "color": "ff000000", "curve": "stepped" },
+            { "time": 0.1333, "color": "ff000000" },
+            { "time": 0.1667, "color": "ff000080", "curve": "stepped" },
+            { "time": 0.3, "color": "ff000080" },
+            { "time": 0.3333, "color": "ff000000", "curve": "stepped" },
+            { "time": 0.4667, "color": "ff000000" },
+            { "time": 0.5, "color": "ff000080", "curve": "stepped" },
+            { "time": 0.6333, "color": "ff000080" },
+            { "time": 0.6667, "color": "ff000000", "curve": "stepped" },
+            { "time": 0.8, "color": "ff000000" },
+            { "time": 0.8333, "color": "ff000080", "curve": "stepped" },
+            { "time": 0.9667, "color": "ff000080" },
+            { "time": 1, "color": "ff000000", "curve": "stepped" },
+            { "time": 1.1333, "color": "ff000000" },
+            { "time": 1.1667, "color": "ff000080", "curve": "stepped" },
+            { "time": 1.3, "color": "ff000080" },
+            { "time": 1.3333, "color": "ff000000", "curve": "stepped" },
+            { "time": 1.4667, "color": "ff000000" },
+            { "time": 1.5, "color": "ff000080", "curve": "stepped" },
+            { "time": 1.6333, "color": "ff000080" },
+            { "time": 1.6667, "color": "ff000000", "curve": "stepped" },
+            { "time": 1.8, "color": "ff000000" },
+            { "time": 1.8333, "color": "ff000080" }
+          ]
+        }
+      },
+      "bones": {
+        "slogan": {
+          "translate": [
+            { "x": 0.68, "y": 0.14, "curve": 0.382, "c2": 0.57, "c3": 0.735 },
+            { "time": 0.3333, "curve": 0.25, "c3": 0.75 },
+            {
+              "time": 1.3333,
+              "x": 2.4,
+              "y": 0.48,
+              "curve": 0.243,
+              "c3": 0.649,
+              "c4": 0.6
+            },
+            { "time": 2, "x": 0.68, "y": 0.14 }
+          ]
+        },
+        "ball": {
+          "scale": [{}, { "time": 1, "x": 1.1, "y": 1.1 }, { "time": 2 }]
+        }
+      }
+    }
+  }
+}

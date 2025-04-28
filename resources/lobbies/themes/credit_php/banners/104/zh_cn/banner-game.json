@@ -1,31 +1,31 @@
 {
   "skeleton": {
-    "hash": "WtpnmcEhe7OebashLZK3wlIZh3k",
+    "hash": "2BflXFt1NUkT2UXXBIWxd5OTAMY",
     "spine": "3.8.99",
-    "x": -158,
-    "y": -201,
-    "width": 295.3,
-    "height": 402,
+    "x": -144.66,
+    "y": -186.46,
+    "width": 277.46,
+    "height": 367.46,
     "images": "./images/",
     "audio": "D:/MYWORKFOLDER/20 soccer/PH version/spine"
   },
   "bones": [
     { "name": "root" },
     { "name": "BG", "parent": "root" },
-    { "name": "bag", "parent": "root", "x": 79.61, "y": -182.24 },
+    { "name": "bag", "parent": "root", "x": 73.83, "y": -170.69 },
     { "name": "money", "parent": "bag", "x": -29.2, "y": 29.74 },
-    { "name": "live-stream", "parent": "root", "x": -83.59, "y": -181.12 },
+    { "name": "live-stream", "parent": "root", "x": -83.59, "y": -166.39 },
     { "name": "live-icon", "parent": "live-stream", "x": 55.95, "y": 19.76 },
-    { "name": "ball", "parent": "root", "x": -84.79, "y": -122.66 },
-    { "name": "star", "parent": "root", "x": 48.25, "y": -154.47 },
+    { "name": "ball", "parent": "root", "x": -77.09, "y": -111.6 },
+    { "name": "star", "parent": "root", "x": 42.48, "y": -142.93 },
     { "name": "gold-light", "parent": "root", "x": -81.2, "y": 92.71 },
-    { "name": "slogan", "parent": "root", "x": 2.44, "y": 27.35 },
-    { "name": "game-name", "parent": "root", "x": 5.3, "y": 81.97 },
-    { "name": "gold-light2", "parent": "root", "x": 84.9, "y": 29.06 },
-    { "name": "star2", "parent": "root", "x": 33.92, "y": -126.93 },
-    { "name": "star3", "parent": "root", "x": 22.4, "y": -155.6 },
-    { "name": "star4", "parent": "root", "x": 72.98, "y": -140.98 },
-    { "name": "star5", "parent": "root", "x": 56.4, "y": -134.24 }
+    { "name": "slogan", "parent": "root", "x": 2.44, "y": 19.17 },
+    { "name": "game-name", "parent": "root", "x": 4.64, "y": 64.83 },
+    { "name": "gold-light2", "parent": "root", "x": 84.9, "y": 25.87 },
+    { "name": "star2", "parent": "root", "x": 28.15, "y": -115.39 },
+    { "name": "star3", "parent": "root", "x": 16.63, "y": -144.05 },
+    { "name": "star4", "parent": "root", "x": 67.21, "y": -129.44 },
+    { "name": "star5", "parent": "root", "x": 50.63, "y": -122.7 }
   ],
   "slots": [
     { "name": "BG", "bone": "BG", "attachment": "BG" },
@@ -87,12 +87,12 @@
     {
       "name": "default",
       "attachments": {
-        "BG": { "BG": { "x": 0.5, "width": 205, "height": 402 } },
-        "bag": { "bag": { "x": -7.61, "y": 10.24, "width": 54, "height": 56 } },
-        "ball": { "ball": { "x": 3.79, "y": 1.16, "width": 52, "height": 49 } },
+        "BG": { "BG": { "x": 0.5, "width": 184, "height": 362 } },
+        "bag": { "bag": { "x": -7.61, "y": 10.24, "width": 50, "height": 52 } },
+        "ball": { "ball": { "x": 3.79, "y": 1.16, "width": 48, "height": 45 } },
         "game-name-cn-1": {
-          "cn 1": { "x": -20.8, "y": 65.03, "width": 285, "height": 100 },
-          "cn 2": { "x": -20.8, "y": 65.03, "width": 285, "height": 100 }
+          "cn 1": { "x": -20.8, "y": 65.03, "width": 257, "height": 91 },
+          "cn 2": { "x": -20.8, "y": 65.03, "width": 257, "height": 91 }
         },
         "game-name-en-1": {
           "empty": { "x": -6.3, "y": 34.03, "width": 3, "height": 3 },
@@ -107,28 +107,28 @@
           "empty 2": { "x": -19.8, "y": 39.53, "width": 3, "height": 3 }
         },
         "gold-light": {
-          "gold light": { "x": -0.6, "y": -0.42, "width": 106, "height": 94 }
+          "gold light": { "x": -0.6, "y": -0.42, "width": 97, "height": 86 }
         },
         "gold-light2": {
-          "gold light": { "x": -0.6, "y": -0.42, "width": 106, "height": 94 }
+          "gold light": { "x": -0.6, "y": -0.42, "width": 97, "height": 86 }
         },
         "live-a": {
           "live a": { "x": 3.14, "y": 1.36, "width": 9, "height": 8 }
         },
         "live-b": {
-          "live b": { "x": 6.14, "y": 3.36, "width": 15, "height": 14 }
+          "live b": { "x": 6.14, "y": 3.36, "width": 14, "height": 14 }
         },
         "live-c": {
-          "live c": { "x": 9.14, "y": 6.86, "width": 21, "height": 21 }
+          "live c": { "x": 9.14, "y": 6.86, "width": 19, "height": 20 }
         },
         "live-stream": {
-          "live stream": { "x": 38.09, "y": 18.12, "width": 79, "height": 40 }
+          "live stream": { "x": 38.09, "y": 18.12, "width": 73, "height": 37 }
         },
         "money": {
-          "money": { "x": -4.9, "y": 4.5, "width": 55, "height": 52 }
+          "money": { "x": -4.9, "y": 4.5, "width": 51, "height": 48 }
         },
         "slogan-cn": {
-          "slogan cn": { "x": -1.44, "y": 34.65, "width": 226, "height": 92 }
+          "slogan cn": { "x": -1.44, "y": 34.65, "width": 205, "height": 84 }
         },
         "slogan-en": {
           "empty": { "x": -0.44, "y": 23.65, "width": 3, "height": 3 }
@@ -149,19 +149,19 @@
           "empty": { "x": -2.44, "y": 24.15, "width": 3, "height": 3 }
         },
         "star": {
-          "star": { "x": 0.79, "y": -0.41, "width": 29, "height": 29 }
+          "star": { "x": 0.79, "y": -0.41, "width": 27, "height": 27 }
         },
         "star2": {
-          "star": { "x": 0.79, "y": -0.41, "width": 29, "height": 29 }
+          "star": { "x": 0.79, "y": -0.41, "width": 27, "height": 27 }
         },
         "star3": {
-          "star": { "x": 0.79, "y": -0.41, "width": 29, "height": 29 }
+          "star": { "x": 0.79, "y": -0.41, "width": 27, "height": 27 }
         },
         "star4": {
-          "star": { "x": 0.79, "y": -0.41, "width": 29, "height": 29 }
+          "star": { "x": 0.79, "y": -0.41, "width": 27, "height": 27 }
         },
         "star5": {
-          "star": { "x": 0.79, "y": -0.41, "width": 29, "height": 29 }
+          "star": { "x": 0.79, "y": -0.41, "width": 27, "height": 27 }
         }
       }
     }

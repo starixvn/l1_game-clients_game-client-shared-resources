@@ -1,48 +1,48 @@
 
 banner-game.webp
-size: 833,220
+size: 526,285
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 BG
   rotate: true
-  xy: 2, 15
-  size: 203, 400
-  orig: 203, 400
-  offset: 0, 0
+  xy: 149, 102
+  size: 181, 360
+  orig: 182, 360
+  offset: 1, 0
   index: -1
 ball
-  rotate: false
-  xy: 404, 57
-  size: 237, 161
-  orig: 238, 176
-  offset: 1, 15
+  rotate: true
+  xy: 2, 71
+  size: 212, 145
+  orig: 214, 158
+  offset: 2, 13
   index: -1
 bg-text
   rotate: false
-  xy: 643, 66
+  xy: 2, 12
   size: 185, 57
   orig: 224, 57
   offset: 4, 0
   index: -1
 en 1
   rotate: false
-  xy: 643, 125
-  size: 188, 93
-  orig: 193, 99
+  xy: 189, 17
+  size: 169, 83
+  orig: 174, 89
   offset: 2, 3
   index: -1
 slogan in 1
   rotate: false
-  xy: 643, 11
-  size: 152, 53
-  orig: 152, 53
+  xy: 360, 2
+  size: 137, 48
+  orig: 137, 48
   offset: 0, 0
   index: -1
 slogan in 2
   rotate: false
-  xy: 404, 2
-  size: 182, 53
-  orig: 182, 53
+  xy: 360, 52
+  size: 164, 48
+  orig: 164, 48
   offset: 0, 0
   index: -1

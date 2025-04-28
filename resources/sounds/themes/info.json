@@ -4,10 +4,8 @@
   "backgroundMusic": {
     "version": 2
   },
-  "themes": [
-    "tet-2025",
-    "halloween-2024",
-    "noel-2024",
-    "original"
-  ]
+  "sounds": {
+    "version": 1
+  },
+  "themes": ["tet-2025", "halloween-2024", "noel-2024", "original"]
 }

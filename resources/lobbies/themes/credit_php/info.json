@@ -74,6 +74,16 @@
 		}
 	},
 	"labelGameType": {
+		"47": {
+			"gameType": "cascading",
+			"x": -119,
+			"y": -100
+		},
+		"66": {
+			"gameType": "cascading",
+			"x": -119,
+			"y": -100
+		},
 		"121": {
 			"gameType": "cascading",
 			"x": -119,

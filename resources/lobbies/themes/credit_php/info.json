@@ -2,7 +2,15 @@
 	"versionBanner": 2,
 	"versionGameIcon": 6,
 	"versionMiniGameIcon": 4,
-	"ignoreCapitalizeGameNames": [22, 26, 27, 31, 65, 69, 75],
+	"ignoreCapitalizeGameNames": [
+		22,
+		26,
+		27,
+		31,
+		65,
+		69,
+		75
+	],
 	"gameNamesBreakLine": {
 		"26": {
 			"en": "VIP\nFish Prawn Crab",
@@ -63,6 +71,13 @@
 		},
 		"93": {
 			"th": 44
+		}
+	},
+	"labelGameType": {
+		"121": {
+			"gameType": "cascading",
+			"x": -119,
+			"y": -100
 		}
 	}
 }

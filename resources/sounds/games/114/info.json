@@ -49,9 +49,9 @@
       "isRemote": true,
       "remoteType": "game"
     },
-    "goal_1_5": {
+    "goal_3_5": {
       "type": "sfx",
-      "path": "commentators/goal/goal_1_5",
+      "path": "commentators/goal/goal_3_5",
       "isLazyLoad": true,
       "supportedLanguages": ["vi", "en"],
       "isRemote": true,
@@ -89,9 +89,9 @@
       "isRemote": true,
       "remoteType": "game"
     },
-    "goal_1_6": {
+    "goal_3_6": {
       "type": "sfx",
-      "path": "commentators/goal/goal_1_6",
+      "path": "commentators/goal/goal_3_6",
       "isLazyLoad": true,
       "supportedLanguages": ["vi", "en"],
       "isRemote": true,
@@ -121,9 +121,9 @@
       "isRemote": true,
       "remoteType": "game"
     },
-    "goal_1_7": {
+    "goal_3_7": {
       "type": "sfx",
-      "path": "commentators/goal/goal_1_7",
+      "path": "commentators/goal/goal_3_7",
       "isLazyLoad": true,
       "supportedLanguages": ["vi", "en"],
       "isRemote": true,
@@ -337,9 +337,9 @@
       "isRemote": true,
       "remoteType": "game"
     },
-    "draw2_3_4": {
+    "draw2_4_1": {
       "type": "sfx",
-      "path": "commentators/draw2/draw2_3_4",
+      "path": "commentators/draw2/draw2_4_1",
       "isLazyLoad": true,
       "supportedLanguages": ["vi", "en"],
       "isRemote": true,

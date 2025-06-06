@@ -77,7 +77,7 @@
 			"th": 44
 		},
 		"130": {
-			"en": 35
+			"en": 44
 		}
 	},
 	"labelGameType": {
@@ -102,6 +102,21 @@
 			"y": -100
 		},
 		"126": {
+			"gameType": "cascading",
+			"x": -119,
+			"y": -100
+		},
+		"130": {
+			"gameType": "cascading",
+			"x": -119,
+			"y": -100
+		},
+		"123": {
+			"gameType": "cascading",
+			"x": -119,
+			"y": -100
+		},
+		"125": {
 			"gameType": "cascading",
 			"x": -119,
 			"y": -100

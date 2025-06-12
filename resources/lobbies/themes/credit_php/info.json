@@ -60,6 +60,9 @@
 		"122": {
 			"en": "Summer\nHeat",
 			"id": "Summer\nHeat"
+		},
+		"130": {
+			"en": "Aladdin's\nWishes"
 		}
 	},
 	"gameNamesFontSize": {
@@ -77,9 +80,8 @@
 			"th": 44
 		},
 		"130": {
-			"en": 44,
-			"vi": 45,
-			"th": 45
+			"vi": 46,
+			"th": 46
 		}
 	},
 	"labelGameType": {

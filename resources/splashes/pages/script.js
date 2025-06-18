@@ -269,7 +269,7 @@ class SplashManager {
 
     updateInterface() {
         const operatorKey = this.operator.toUpperCase();
-        const operatorConfig = OPERATORS["TIP88"] || { title: "Default Title", favicon: "default_favicon.ico" };
+        const operatorConfig = OPERATORS[operatorKey] || { title: "Default Title", favicon: "default_favicon.ico" };
 
         const appTypeClass = this.appType === 1 ? "portrait" : "";
 

@@ -133,6 +133,10 @@ p.footer {
     z-index: 999;
 }
 
+.splash-logo-container {
+    position: relative;
+}
+
 .splash_sabagames {
     position: absolute;
     top: calc(var(--vh, 1vh) * 38);
@@ -146,10 +150,11 @@ p.footer {
 .splash_text {
     position: absolute;
     top: calc(var(--vh, 1vh) * 50.6);
-    background: no-repeat center;
-    background-size: auto calc(var(--vh, 1vh) * 2.5);
+    --splash-text-height: calc(var(--vh, 1vh) * 3.44);
+    background: no-repeat top center;
+    background-size: auto var(--splash-text-height);
     width: 100%;
-    height: calc(var(--vh, 1vh) * 3.44);
+    height: var(--splash-text-height);
 }
 
 #splash.instant-game .splash_vgaming {
@@ -259,7 +264,7 @@ p.footer {
     width: 100%;
     --powered-by-height: calc(var(--vh, 1vh) * 4.8);
     height: var(--powered-by-height);
-    bottom: calc(var(--vh, 1vh) * 10.8);
+    top: calc(var(--vh, 1vh) * 84.35);
     background: no-repeat center;
     background-size: auto var(--powered-by-height);
 }
@@ -291,7 +296,7 @@ p.footer {
 .waiting-message {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    bottom: calc(var(--vh, 1vh) * 5.3);
+    top: calc(var(--vh, 1vh) * 91);
     width: 100%;
     font-size: calc(var(--vh, 1vh) * 2.65);
     opacity: 0;
@@ -427,9 +432,10 @@ p.footer {
     }
 
     .splash_text {
-        top: 50.6vw;
+        /* top: 50.6vw; */
+        top: 55.6vw; /* PORTRAIT INSTANT */
         background-size: auto 2.5vw;
-        height: 3.44vw;
+       
     }
 
     .splash_vgaming {
@@ -505,7 +511,8 @@ p.footer {
     }
 
     .loading_icon {
-        top: 60.17vw;
+        /* top: 60.17vw; */
+        top: 64.17vw; /* PORTRAIT INSTANT */
         background-size: auto 0.76vw;
         height: 0.76vw;
     }
@@ -518,12 +525,17 @@ p.footer {
 
     #powered-by.powered-by_tip88 {
         height: 4.8vw;
-        bottom: 10.8vw;
+        top: 84.35vw;
         background-size: auto 4.8vw;
     }
 
     .waiting-message {
-        bottom: 5.3vw;
+        top: 91vw;
+        font-size: 2.65vw;
+    }
+
+    .percentage {
+        top: 67vw;
         font-size: 2.65vw;
     }
 }

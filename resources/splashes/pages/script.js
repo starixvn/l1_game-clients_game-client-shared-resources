@@ -182,7 +182,7 @@ class SplashManager {
     }
 
     getCurrentLanguage() {
-        let language = "vi";
+        let language = "en";
         try {
             const storagePrefixKey = window.crossConfig?.storagePrefixKey;
             const languageKey = storagePrefixKey ? `${storagePrefixKey}_current_language` : "current_language";
@@ -269,7 +269,7 @@ class SplashManager {
 
     updateInterface() {
         const operatorKey = this.operator.toUpperCase();
-        const operatorConfig = OPERATORS["SP"] || { title: "Default Title", favicon: "default_favicon.ico" };
+        const operatorConfig = OPERATORS["TIP88"] || { title: "Default Title", favicon: "default_favicon.ico" };
 
         const appTypeClass = this.appType === 1 ? "portrait" : "";
 
@@ -290,18 +290,15 @@ class SplashManager {
         // Update splash logo
         const splashLogo = document.getElementById("splash_logo");
         splashLogo.className = `splash${operatorConfig.suffix}`;
-        console.log(splashLogo.className);
-        // const logo = this.createImg(operatorConfig.logo);
-        // logo && splashLogo.appendChild(logo);
 
-        // Update slogan
-        const slogan = document.getElementById("slogan");
-        const sloganImg = this.createImg(`./images/splash_text_${this.language}.webp?v=1`);
-        sloganImg && slogan.appendChild(sloganImg);
+        // Update tagline
+        const splashText = document.getElementById("splash_text");
+        const className = `splash_text_${this.language}`;
+        splashText.className += ` ${className}`;
 
         // Update powered by
         const poweredBy = document.getElementById("powered-by");
-        poweredBy.className = `powered-by-${operatorConfig.cssClass} ${this.language} ${appTypeClass}`;
+        poweredBy.className = `powered-by${operatorConfig.suffix} ${this.language} ${appTypeClass}`;
 
         // Update waiting message
         this.randomWaitingMessage(appTypeClass);

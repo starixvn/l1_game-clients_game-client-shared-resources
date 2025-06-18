@@ -133,7 +133,7 @@ p.footer {
     z-index: 999;
 }
 
-.splash {
+.splash_sabagames {
     position: absolute;
     top: calc(var(--vh, 1vh) * 38);
     --logo-height: calc(var(--vh, 1vh) * 11.95);
@@ -152,13 +152,13 @@ p.footer {
     height: calc(var(--vh, 1vh) * 3.44);
 }
 
-#splash.instant-game .splash_Vgaming {
+#splash.instant-game .splash_vgaming {
     top: 1vh;
     background-size: auto 16.5vh;
     height: 16.5vh;
 }
 
-.splash_Vgaming {
+.splash_vgaming {
     position: relative;
     top: calc(var(--vh, 1vh) * 31.7);
     --logo-height: calc(var(--vh, 1vh) * 18.32);
@@ -187,6 +187,7 @@ p.footer {
     width: auto;
     height: var(--logo-height);
 }
+
 
 .splash_text_vi {
     background-image: url("./images/splash_text_vi.webp?v=1");
@@ -245,7 +246,7 @@ p.footer {
     transform: translate(0, -50%);
 }
 
-#powered-by.powered-by {
+#powered-by.powered-by_sabagames {
     background: url("./images/powered_by.webp?v=1") no-repeat top center;
     --powered-by-height: calc(var(--vh, 1vh) * 4.07);
     background-size: auto var(--powered-by-height);
@@ -358,14 +359,15 @@ p.footer {
 }
 
 .percentage {
+    font-family: "Noto Serif", serif;
     position: absolute;
-    top: calc(var(--vh, 1vh) * 65);
-    --loading-icon-height: calc(var(--vh, 1vh) * 0.76);
+    top: calc(var(--vh, 1vh) * 62);
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    color: #fff;
-    font-size: 1.8em;
+    color: #ccc7b4;
+    font-size: calc(var(--vh, 1vh) * 2.65);
+    font-weight: 600;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1024px) and (orientation: portrait) {
@@ -418,7 +420,7 @@ p.footer {
         height: 8.79vw;
     }
 
-    .splash {
+    .splash_sabagames {
         top: 37.9vw;
         background-size: auto 11.95vw;
         height: 11.95vw;
@@ -430,7 +432,7 @@ p.footer {
         height: 3.44vw;
     }
 
-    .splash_Vgaming {
+    .splash_vgaming {
         top: 31.67vw;
         background-size: auto 18.32vw;
         height: 18.32vw;
@@ -447,7 +449,7 @@ p.footer {
         background-size: auto 24.04vw;
     }
 
-    #splash.instant-game .splash_Vgaming {
+    #splash.instant-game .splash_vgaming {
         top: 0vh;
         left: 0px;
         background-size: auto 14.1vh;
@@ -475,7 +477,7 @@ p.footer {
         z-index: 999;
     }
 
-    #splash.instant-game .splash {
+    #splash.instant-game .splash_sabagames {
         top: 4vh;
         background-size: auto 9.5vh;
     }

@@ -210,9 +210,9 @@ class SplashManager {
 
         try {
             const storagePrefixKey = window.crossConfig?.storagePrefixKey;
-            const sessionKey = storagePrefixKey ? `${storagePrefixKey}_ss` : "ss";
-            const sessionData = JSON.parse(localStorage.getItem(sessionKey) || "{}");
-            return +sessionData?.system || 0;
+            const appTypeKey = storagePrefixKey ? `${storagePrefixKey}_appType` : "appType";
+            const storedAppType = localStorage.getItem(appTypeKey) || 0;
+            return this.getDataFromURLParams("appType") || storedAppType;
         } catch (e) {
             return 0;
         }

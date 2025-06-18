@@ -16,7 +16,11 @@
     <div id="powered-by" class="powered-by"></div>
     <div id="waiting-message" class="waiting-message"></div>
     <div id="percentage" class="percentage"></div>
-    <script src="script.js?v=1.0.1"></script>
+    <script>
+        const scriptTag = document.createElement('script');
+        scriptTag.src = `script.js?v=${Date.now()}`;
+        document.body.appendChild(scriptTag);
+    </script>
 </div>
 </body>
 </html>

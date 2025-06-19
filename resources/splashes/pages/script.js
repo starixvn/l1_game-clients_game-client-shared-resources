@@ -45,6 +45,16 @@ const LANGUAGE_MAP = {
     "zh-TW": "zh_tw",
 };
 
+const APP_TYPE_MAP = {
+    1: "Club",
+    2: "Mobi",
+    3: "Instant",
+    4: "MegaKeno",
+    5: "App",
+    6: "DesktopDirect",
+    7: "MobileDirect",
+};
+
 const waitingMessages = {
     en: ["If this is your first visit, downloading may take a while", "Checking and downloading the latest update packages..."],
     vi: ["Lần truy cập đầu tiên, việc tải dữ liệu sẽ mất chút thời gian.", "Đang kiểm tra và tải gói cập nhật game mới nhất..."],
@@ -271,7 +281,8 @@ class SplashManager {
         const operatorKey = this.operator.toUpperCase();
         const operatorConfig = OPERATORS[operatorKey] || { title: "Default Title", favicon: "default_favicon.ico" };
 
-        const appTypeClass = this.appType === 1 ? "portrait" : "";
+        const appTypeName = APP_TYPE_MAP[this.appType] || "";
+        const appTypeClass = appTypeName ? appTypeName.toLowerCase().replace(/\s+/g, '-') : "";
 
         // Update title and favicon
         const title =
@@ -284,7 +295,7 @@ class SplashManager {
 
         // Update splash log container
         const splashContainer = document.getElementById("splash-logo-container");
-        splashContainer.className = `splash-logo-container ${appTypeClass}`;
+        splashContainer.className = `splash-logo-container splash-${appTypeClass}`;
 
 
         // Update splash logo
@@ -298,7 +309,7 @@ class SplashManager {
 
         // Update powered by
         const poweredBy = document.getElementById("powered-by");
-        poweredBy.className = `powered-by${operatorConfig.suffix} ${this.language} ${appTypeClass}`;
+        poweredBy.className = `powered-by${operatorConfig.suffix} ${this.language}`;
 
         // Update waiting message
         this.randomWaitingMessage(appTypeClass);

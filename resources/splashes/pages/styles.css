@@ -106,24 +106,6 @@ a:hover {
     color: #666;
 }
 
-p.header {
-    font-size: small;
-}
-
-p.footer {
-    font-size: x-small;
-}
-
-#Background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    background-size: auto 100vh;
-}
-
 .splash-container {
     position: absolute;
     top: var(--scrollY, 0px);
@@ -135,6 +117,7 @@ p.footer {
 
 .splash-logo-container {
     position: relative;
+    height: 100%;
 }
 
 .splash_sabagames {
@@ -155,12 +138,6 @@ p.footer {
     background-size: auto var(--splash-text-height);
     width: 100%;
     height: var(--splash-text-height);
-}
-
-#splash.instant-game .splash_vgaming {
-    top: 1vh;
-    background-size: auto 16.5vh;
-    height: 16.5vh;
 }
 
 .splash_vgaming {
@@ -193,7 +170,6 @@ p.footer {
     height: var(--logo-height);
 }
 
-
 .splash_text_vi {
     background-image: url("./images/splash_text_vi.webp?v=1");
 }
@@ -216,33 +192,6 @@ p.footer {
 
 .splash_text_zh_tw {
     background-image: url("./images/splash_text_zh_tw.webp?v=1");
-}
-
-#splash.instant-game .splash_game_name {
-    display: none;
-}
-
-#splash.instant-game .splash {
-    top: 4vh;
-    background-size: auto 11.1vh;
-}
-
-#splash.instant-game .splash_bg_game {
-    top: 1.9vh;
-    background-image: url("./images/landscape_game_background.webp?v=2");
-    background-size: auto;
-}
-
-#splash.instant-game .splash_tip88 {
-    top: 0.7vh;
-    background-size: auto 17.76vh;
-    height: 17.76vh;
-}
-
-#splash.instant-game .splash_sabaplay {
-    top: 0.7vh;
-    background-size: auto 16.96vh;
-    height: 16.96vh;
 }
 
 #powered-by {
@@ -296,7 +245,7 @@ p.footer {
 .waiting-message {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: calc(var(--vh, 1vh) * 91);
+    bottom: calc(var(--vh, 1vh) * 6);
     width: 100%;
     font-size: calc(var(--vh, 1vh) * 2.65);
     opacity: 0;
@@ -333,22 +282,6 @@ p.footer {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 100%;
-}
-
-#splash.instant-game .splash_text {
-    top: 19.6vh;
-    background-size: auto 4.28vh;
-    height: 4.28vh;
-}
-
-.text {
-    margin-bottom: 36px;
-    text-transform: capitalize;
-    background: linear-gradient(to bottom, #ffe28e 0%, #f9a71a 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 1.8em;
-    font-family: Arial;
 }
 
 .loading_icon {
@@ -432,10 +365,8 @@ p.footer {
     }
 
     .splash_text {
-        /* top: 50.6vw; */
-        top: 55.6vw; /* PORTRAIT INSTANT */
+        top: 50.6vw;
         background-size: auto 2.5vw;
-       
     }
 
     .splash_vgaming {
@@ -455,12 +386,6 @@ p.footer {
         background-size: auto 24.04vw;
     }
 
-    #splash.instant-game .splash_vgaming {
-        top: 0vh;
-        left: 0px;
-        background-size: auto 14.1vh;
-    }
-
     .centered-image {
         top: 50vh;
     }
@@ -469,50 +394,8 @@ p.footer {
         background-size: auto 25vh;
     }
 
-    body.instant-game {
-        background-size: auto 100vh;
-    }
-
-    #splash.instant-game {
-        transform: rotate(0deg);
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 999;
-    }
-
-    #splash.instant-game .splash_sabagames {
-        top: 4vh;
-        background-size: auto 9.5vh;
-    }
-
-    #splash.instant-game .splash_bg_game {
-        top: -1vh;
-        background-image: url("./../splash-resources/portrait_game_background.webp?v=2");
-    }
-
-    #splash.instant-game .splash_sabaplay {
-        top: 0vh;
-        background-size: auto 14.5vh;
-    }
-
-    #splash.instant-game .splash_tip88 {
-        top: 0.7vh;
-        background-size: auto 15.18vh;
-        height: 15.18vh;
-    }
-
-    #splash.instant-game .splash_text {
-        top: 17.5vh;
-        background-size: auto 3.66vh;
-        height: 3.66vh;
-    }
-
     .loading_icon {
-        /* top: 60.17vw; */
-        top: 64.17vw; /* PORTRAIT INSTANT */
+        top: 60.17vw;
         background-size: auto 0.76vw;
         height: 0.76vw;
     }

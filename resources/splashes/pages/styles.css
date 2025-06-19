@@ -400,18 +400,6 @@ a:hover {
         height: 0.76vw;
     }
 
-    #powered-by.powered-by {
-        background-size: auto 4.07vw;
-        height: 4.07vw;
-        top: 84.35vw;
-    }
-
-    #powered-by.powered-by_tip88 {
-        height: 4.8vw;
-        top: 84.35vw;
-        background-size: auto 4.8vw;
-    }
-
     .waiting-message {
         top: 91vw;
         font-size: 2.65vw;
@@ -420,6 +408,46 @@ a:hover {
     .percentage {
         top: 67vw;
         font-size: 2.65vw;
+    }
+
+    /* Instant Portrait */
+
+    .splash-instant .splash_sabagames {
+        background-size: auto 16.5vw;
+        height: 16.5vw;
+    }
+
+    .splash-instant .splash_vgaming {
+        background-size: auto 22.32vw;
+        height: 22.32vw;
+    }
+
+    .splash-instant .splash_sabaplay {
+        background-size: auto 29.32vw;
+        height: 29.32vw;
+    }
+
+    .splash-instant .splash_tip88 {
+        background-size: auto 28.32vw;
+        height: 28.32vw;
+    }
+
+    .splash-instant .splash_text {
+        top: 56.6vw;
+        background-size: auto 3.5vw;
+    }
+
+    .splash-instant .loading_icon {
+        top: 67.17vw;
+    }
+
+    .splash-instant .percentage {
+        top: 71vw;
+        font-size: 3.5vw;
+    }
+
+    .splash-instant .waiting-message {
+        font-size: 3.5vw;
     }
 }
 

@@ -243,16 +243,15 @@ a:hover {
 }
 
 .waiting-message {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Noto Serif",'Times New Roman', Times, serif;
     position: absolute;
-    bottom: calc(var(--vh, 1vh) * 6);
+    bottom: calc(var(--vh, 1vh) * 3);
     width: 100%;
     font-size: calc(var(--vh, 1vh) * 2.65);
     opacity: 0;
     color: #ccc7b4;
-    letter-spacing: -0.2px;
     transition: all 1s ease;
-    transform: translateY(20px);
+    transform: translateY(10px);
     visibility: hidden;
 }
 
@@ -398,12 +397,7 @@ a:hover {
         top: 60.17vw;
         background-size: auto 0.76vw;
         height: 0.76vw;
-    }
-
-    .waiting-message {
-        top: 91vw;
-        font-size: 2.65vw;
-    }
+    }    
 
     .percentage {
         top: 67vw;
@@ -413,11 +407,13 @@ a:hover {
     /* Instant Portrait */
 
     .splash-instant .splash_sabagames {
+        top: 49vw;
         background-size: auto 16.5vw;
         height: 16.5vw;
     }
 
     .splash-instant .splash_vgaming {
+        top: 44vw;
         background-size: auto 22.32vw;
         height: 22.32vw;
     }
@@ -425,29 +421,37 @@ a:hover {
     .splash-instant .splash_sabaplay {
         background-size: auto 29.32vw;
         height: 29.32vw;
+        top: 38vw;
     }
 
     .splash-instant .splash_tip88 {
         background-size: auto 28.32vw;
         height: 28.32vw;
+        top: 37vw;
     }
 
     .splash-instant .splash_text {
-        top: 56.6vw;
+        top: 68vw;
         background-size: auto 3.5vw;
     }
 
     .splash-instant .loading_icon {
-        top: 67.17vw;
+        top: 79vw;
+        background-size: auto 1vw;
+        height: 1vw;
     }
 
     .splash-instant .percentage {
-        top: 71vw;
+        top: 82vw;
         font-size: 3.5vw;
     }
 
     .splash-instant .waiting-message {
-        font-size: 3.5vw;
+        font-size: 3.3vw;
+    }
+
+    .splash-instant #powered-by.powered-by_tip88 {
+        top: calc(var(--vh, 1vh) * 88.35);
     }
 }
 

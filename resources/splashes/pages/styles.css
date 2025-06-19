@@ -122,7 +122,7 @@ a:hover {
 
 .splash_sabagames {
     position: absolute;
-    top: calc(var(--vh, 1vh) * 38);
+    top: calc(var(--vh, 1vh) * 31);
     --logo-height: calc(var(--vh, 1vh) * 11.95);
     background: url("./images/logo_saba.webp") no-repeat top center;
     background-size: auto var(--logo-height);
@@ -132,8 +132,8 @@ a:hover {
 
 .splash_text {
     position: absolute;
-    top: calc(var(--vh, 1vh) * 50.6);
-    --splash-text-height: calc(var(--vh, 1vh) * 3.44);
+    top: calc(var(--vh, 1vh) * 44.6);
+    --splash-text-height: calc(var(--vh, 1vh) * 3);
     background: no-repeat top center;
     background-size: auto var(--splash-text-height);
     width: 100%;
@@ -142,8 +142,8 @@ a:hover {
 
 .splash_vgaming {
     position: relative;
-    top: calc(var(--vh, 1vh) * 31.7);
-    --logo-height: calc(var(--vh, 1vh) * 18.32);
+    top: calc(var(--vh, 1vh) * 24);
+    --logo-height: calc(var(--vh, 1vh) * 19.5);
     background: url("./images/logo_vgaming.webp?v=3") no-repeat center;
     background-size: auto var(--logo-height);
     width: auto;
@@ -152,7 +152,7 @@ a:hover {
 
 .splash_sabaplay {
     position: relative;
-    top: calc(var(--vh, 1vh) * 26.1);
+    top: calc(var(--vh, 1vh) * 20.1);
     --logo-height: calc(var(--vh, 1vh) * 23.79);
     background: url("./images/logo_sabaplay.webp?v=3") no-repeat center;
     background-size: auto var(--logo-height);
@@ -162,7 +162,7 @@ a:hover {
 
 .splash_tip88 {
     position: relative;
-    top: calc(var(--vh, 1vh) * 26.1);
+    top: calc(var(--vh, 1vh) * 19);
     --logo-height: calc(var(--vh, 1vh) * 24.04);
     background: url("./images/logo_tip88.webp?v=3") no-repeat center;
     background-size: auto var(--logo-height);
@@ -211,9 +211,9 @@ a:hover {
 
 #powered-by.powered-by_tip88 {
     width: 100%;
-    --powered-by-height: calc(var(--vh, 1vh) * 4.8);
+    --powered-by-height: calc(var(--vh, 1vh) * 5);
     height: var(--powered-by-height);
-    top: calc(var(--vh, 1vh) * 84.35);
+    top: calc(var(--vh, 1vh) * 83.35);
     background: no-repeat center;
     background-size: auto var(--powered-by-height);
 }
@@ -245,7 +245,7 @@ a:hover {
 .waiting-message {
     font-family: "Noto Serif",'Times New Roman', Times, serif;
     position: absolute;
-    bottom: calc(var(--vh, 1vh) * 3);
+    bottom: calc(var(--vh, 1vh) * 5);
     width: 100%;
     font-size: calc(var(--vh, 1vh) * 2.65);
     opacity: 0;
@@ -285,7 +285,7 @@ a:hover {
 
 .loading_icon {
     position: absolute;
-    top: calc(var(--vh, 1vh) * 60.17);
+    top: calc(var(--vh, 1vh) * 52.17);
     --loading-icon-height: calc(var(--vh, 1vh) * 0.76);
     left: 50%;
     transform: translateX(-50%);
@@ -298,7 +298,7 @@ a:hover {
 .percentage {
     font-family: "Noto Serif", serif;
     position: absolute;
-    top: calc(var(--vh, 1vh) * 62);
+    top: calc(var(--vh, 1vh) * 58);
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
@@ -447,6 +447,7 @@ a:hover {
     }
 
     .splash-instant .waiting-message {
+        bottom: calc(var(--vh, 1vh) * 3);
         font-size: 3.3vw;
     }
 

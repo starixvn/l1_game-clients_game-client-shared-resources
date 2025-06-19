@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
   <link rel="icon" id="favicon" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@600&amp;display=swap" rel="stylesheet">
   <title>Splash Page</title>
@@ -21,6 +20,11 @@
   const scriptTag = document.createElement('script');
   scriptTag.src = `script.js?v=${Date.now()}`;
   document.body.appendChild(scriptTag);
+
+  const link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.href = "styles.css?v=" + new Date().getTime();
+  document.head.appendChild(link);
 </script>
 </body>
 </html>

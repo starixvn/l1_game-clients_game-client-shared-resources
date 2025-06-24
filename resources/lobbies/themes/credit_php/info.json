@@ -132,6 +132,16 @@
 			"gameType": "cascading",
 			"x": -119,
 			"y": -100
+		},
+		"129": {
+			"gameType": "cascading",
+			"x": -119,
+			"y": -100
+		},
+		"127": {
+			"gameType": "cascading",
+			"x": -119,
+			"y": -100
 		}
 	}
 }

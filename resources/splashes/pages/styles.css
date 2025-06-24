@@ -246,13 +246,14 @@ a:hover {
     font-family: "Noto Serif",'Times New Roman', Times, serif;
     position: absolute;
     bottom: calc(var(--vh, 1vh) * 5);
-    width: 100%;
     font-size: calc(var(--vh, 1vh) * 2.65);
+    width: 100%;
     opacity: 0;
     color: #ccc7b4;
     transition: all 1s ease;
     transform: translateY(10px);
     visibility: hidden;
+    padding: 0 10px;
 }
 
 .waiting-message.show {
@@ -305,6 +306,10 @@ a:hover {
     color: #ccc7b4;
     font-size: calc(var(--vh, 1vh) * 2.65);
     font-weight: 600;
+}
+
+.splash-instant .waiting-message {
+    display: none;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1024px) and (orientation: portrait) {
@@ -397,11 +402,15 @@ a:hover {
         top: 60.17vw;
         background-size: auto 0.76vw;
         height: 0.76vw;
-    }    
+    }
 
     .percentage {
         top: 67vw;
-        font-size: 2.65vw;
+        font-size: 3vw;
+    }
+
+    .waiting-message {
+        font-size: 3vw;
     }
 
     /* Instant Portrait */
@@ -443,16 +452,12 @@ a:hover {
 
     .splash-instant .percentage {
         top: 82vw;
-        font-size: 3.5vw;
-    }
-
-    .splash-instant .waiting-message {
-        bottom: calc(var(--vh, 1vh) * 3);
-        font-size: 3.3vw;
+        font-size: 4.5vw;
     }
 
     .splash-instant #powered-by.powered-by_tip88 {
-        top: calc(var(--vh, 1vh) * 88.35);
+        --powered-by-height: calc(var(--vh, 1vh) * 6);
+        top: calc(var(--vh, 1vh) * 82.35);
     }
 }
 

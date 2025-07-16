@@ -304,7 +304,7 @@ class SplashManager {
 
         // Update tagline
         const splashText = document.getElementById("splash_text");
-        const className = `splash_text_${this.language}`;
+        const className = operatorConfig.name === OPERATORS.SP.name ? `splash_text${operatorConfig.suffix}_${this.language}` : `splash_text_${this.language}`;
         splashText.className += ` ${className}`;
 
         // Update powered by

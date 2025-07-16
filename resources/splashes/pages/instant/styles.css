@@ -194,6 +194,31 @@ a:hover {
     background-image: url("./images/splash_text_zh_tw.webp?v=1");
 }
 
+/* SabaPlay */
+.splash_text_sabaplay_en {
+    background-image: url("./images/splash_text_sabaplay_en.webp?v=1");
+}
+
+.splash_text_sabaplay_vi {
+    background-image: url("./images/splash_text_sabaplay_vi.webp?v=1");
+}
+
+.splash_text_sabaplay_th {
+    background-image: url("./images/splash_text_sabaplay_th.webp?v=1");
+}
+
+.splash_text_sabaplay_id {
+    background-image: url("./images/splash_text_sabaplay_id.webp?v=1");
+}
+
+.splash_text_sabaplay_zh_cn {
+    background-image: url("./images/splash_text_sabaplay_zh_cn.webp?v=1");
+}
+
+.splash_text_sabaplay_zh_tw {
+    background-image: url("./images/splash_text_sabaplay_zh_tw.webp?v=1");
+}
+
 #powered-by {
     position: absolute;
     -ms-transform: translate(0, -50%);

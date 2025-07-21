@@ -1,9 +1,20 @@
 {
-  "vi": "noto-serif-regular",
-  "id": "noto-serif-regular",
-  "en": "noto-serif-regular",
-  "th": "noto-serif-regular-thai",
-  "zh_cn": "noto-serif-regular-zhcn",
-  "zh_tw": "noto-serif-regular-zhtw",
-  "ja": "noto-serif-regular-japanese"
+  "regular": {
+    "vi": "noto-serif-regular",
+    "id": "noto-serif-regular",
+    "en": "noto-serif-regular",
+    "th": "noto-serif-regular-thai",
+    "zh_cn": "noto-serif-regular-zhcn",
+    "zh_tw": "noto-serif-regular-zhtw",
+    "ja": "noto-serif-regular-japanese"
+  },
+  "bold": {
+    "vi": "noto-serif-bold",
+    "id": "noto-serif-bold",
+    "en": "noto-serif-bold",
+    "th": "noto-serif-bold-thai",
+    "zh_cn": "noto-serif-bold-zhcn",
+    "zh_tw": "noto-serif-bold-zhtw",
+    "ja": "noto-serif-bold-japanese"
+  }
 }

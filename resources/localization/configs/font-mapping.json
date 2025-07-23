@@ -1,8 +1,14 @@
 {
   "bold": {
-    "ja": "noto-serif-ja-bold.ttf"
+    "ja": {
+      "name": "noto-serif-ja-bold.ttf",
+      "loadRemote": true
+    }
   },
   "regular": {
-    "ja": "noto-serif-ja-regular.ttf"
+    "ja": {
+      "name": "noto-serif-ja-regular.ttf",
+      "loadRemote": true
+    }
   }
 }

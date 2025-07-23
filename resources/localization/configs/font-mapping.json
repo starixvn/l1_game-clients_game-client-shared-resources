@@ -1,1 +1,8 @@
-{}
+{
+  "bold": {
+    "ja": "noto-serif-ja-bold.ttf"
+  },
+  "regular": {
+    "ja": "noto-serif-ja-regular.ttf"
+  }
+}

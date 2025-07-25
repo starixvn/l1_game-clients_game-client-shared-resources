@@ -39,6 +39,7 @@ const OPERATORS = {
 const LANGUAGE_MAP = {
     "vi-VN": "vi",
     "en-US": "en",
+    "ja-JP": "ja",
     "th-TH": "th",
     "id-ID": "id",
     "zh-CN": "zh_cn",
@@ -58,6 +59,7 @@ const APP_TYPE_MAP = {
 const waitingMessages = {
     en: ["If this is your first visit, downloading may take a while", "Checking and downloading the latest update packages..."],
     vi: ["Lần truy cập đầu tiên, việc tải dữ liệu sẽ mất chút thời gian.", "Đang kiểm tra và tải gói cập nhật game mới nhất..."],
+    ja: ["初めてのご利用の場合、ダウンロードに時間がかかることがあります。", "最新のアップデートを確認・ダウンロード中…"],
     id: [
         "Jika ini adalah kunjungan pertama Anda, pengunduhan mungkin memakan waktu cukup lama.",
         "Memeriksa dan mengunduh paket pembaruan terbaru...",
@@ -100,6 +102,7 @@ function getLanguageURLparams(locale) {
         "vi-VN": "vi",
         "en-US": "en",
         "en-UK": "en",
+        "ja-JP": "ja",
         "th-TH": "th",
         "id-ID": "id",
         "zh-CN": "zh_cn",

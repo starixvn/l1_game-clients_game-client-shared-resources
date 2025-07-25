@@ -194,6 +194,10 @@ a:hover {
     background-image: url("./images/splash_text_zh_tw.webp?v=1");
 }
 
+.splash_text_ja {
+    background-image: url("./images/splash_text_ja.webp?v=1");
+}
+
 /* SabaPlay */
 .splash_text_sabaplay_en {
     background-image: url("./images/splash_text_sabaplay_en.webp?v=1");
@@ -217,6 +221,10 @@ a:hover {
 
 .splash_text_sabaplay_zh_tw {
     background-image: url("./images/splash_text_sabaplay_zh_tw.webp?v=1");
+}
+
+.splash_text_sabaplay_ja {
+    background-image: url("./images/splash_text_sabaplay_ja.webp?v=1");
 }
 
 #powered-by {
@@ -265,6 +273,10 @@ a:hover {
 
 #powered-by.powered-by_tip88.zh_tw {
     background-image: url("./images/powered_by_Vgaming_zh_tw.webp?v=1");
+}
+
+#powered-by.powered-by_tip88.ja {
+    background-image: url("./images/powered_by_Vgaming_ja.webp?v=1");
 }
 
 .waiting-message {

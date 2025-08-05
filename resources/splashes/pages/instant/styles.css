@@ -198,6 +198,10 @@ a:hover {
     background-image: url("./images/splash_text_ja.webp?v=1");
 }
 
+.splash_text_es {
+    background-image: url("./images/splash_text_es.webp?v=1");
+}
+
 /* SabaPlay */
 .splash_text_sabaplay_en {
     background-image: url("./images/splash_text_sabaplay_en.webp?v=1");
@@ -225,6 +229,10 @@ a:hover {
 
 .splash_text_sabaplay_ja {
     background-image: url("./images/splash_text_sabaplay_ja.webp?v=1");
+}
+
+.splash_text_sabaplay_es {
+    background-image: url("./images/splash_text_sabaplay_es.webp?v=1");
 }
 
 #powered-by {

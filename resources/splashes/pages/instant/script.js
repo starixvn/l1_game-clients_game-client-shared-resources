@@ -45,6 +45,10 @@ const LANGUAGE_MAP = {
     "id-ID": "id",
     "zh-CN": "zh_cn",
     "zh-TW": "zh_tw",
+    "ko-KR": "ko",
+    "tr-TR": "tr",
+    "pt-BR": "pt_br",
+    "fil-PH": "fil_ph",
 };
 
 const APP_TYPE_MAP = {
@@ -69,6 +73,10 @@ const waitingMessages = {
     th: ["หากคุณเข้าชมครั้งแรก อาจใช้เวลาในการดาวน์โหลดสักครู่", "กำลังตรวจสอบและกำลังดาวน์โหลดเกมของการอัพเดทล่าสุด"],
     zh_cn: ["如果这是您第一次访问，下载可能需要一段时间。", "正在检查和下载最新的更新包..."],
     zh_tw: ["如果這是您第一次訪問，下載可能需要一段時間。", "正在檢查和下載最新的更新包..."],
+    ko: ["처음 방문하시는 경우, 다운로드에 시간이 다소 소요될 수 있습니다.", "최신 업데이트 패키지를 확인하고 다운로드 중입니다..."],
+    tr: ["Bu ilk ziyaretinizse, indirme biraz zaman alabilir.", "En son güncelleme paketleri kontrol ediliyor ve indiriliyor..."],
+    pt_br: ["Se esta é sua primeira visita, o download pode demorar um pouco.", "Verificando e baixando os pacotes de atualização mais recentes..."],
+    fil_ph: ["Kung ito ang inyong unang pagbisita, maaaring magtagal nang kaunti ang pag-download.", "Chini-check at dina-download ang pinakabagong mga packages ng update..."],
 };
 
 // Constants for element IDs
@@ -110,6 +118,10 @@ function getLanguageURLparams(locale) {
         "id-ID": "id",
         "zh-CN": "zh_cn",
         "zh-TW": "zh_tw",
+        "ko-KR": "ko",
+        "tr-TR": "tr",
+        "pt-BR": "pt_br",
+        "fil-PH": "fil_ph",
     };
     return dict[locale] || "en";
 }

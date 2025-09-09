@@ -175,6 +175,16 @@
 			"gameType": "cascading",
 			"x": -119,
 			"y": -100
+		},
+		"155": {
+			"gameType": "cascading",
+			"x": -119,
+			"y": -100
+		},
+		"142": {
+			"gameType": "cascading",
+			"x": -119,
+			"y": -100
 		}
 	}
 }

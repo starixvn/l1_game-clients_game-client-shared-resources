@@ -25,7 +25,10 @@ if (fs.existsSync(folder)) {
     let data = fs.readFileSync(path.join(folder, file), "utf-8");
 
     for (const [index, file] of Object.entries(files)) {
-      data = data.replaceAll(file, newFiles[index]);
+      const search = path.parse(path.basename(file)).name;
+      const replacement = path.parse(path.basename(newFiles[index])).name;
+
+      data = data.replaceAll(search, replacement);
     }
 
     if (file.startsWith("_virtual_cc")) {

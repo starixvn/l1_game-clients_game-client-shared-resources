@@ -14,7 +14,7 @@ if (fs.existsSync(folder)) {
     const { name, ext } = path.parse(filename);
     const splitted = name.split("-");
     const newName =
-      splitted.length <= 2
+      splitted.length <= 2 && !file.startsWith("cc-")
         ? splitted.concat([version]).join("-")
         : splitted.slice(0, -1).concat([version]).join("-");
 

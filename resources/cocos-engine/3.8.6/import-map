@@ -1,5 +1,1 @@
-{
-  "imports": {
-    "cc": "./cc-v3.js"
-  }
-}
+{"imports":{"cc":"./cc-v4.js"}}

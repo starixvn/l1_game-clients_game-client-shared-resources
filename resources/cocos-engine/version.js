@@ -32,7 +32,6 @@ if (fs.existsSync(folder)) {
       const from = path.parse(file);
       const replacement = path.parse(newFiles[index]);
 
-      console.log(from.base, replacement.base);
       data = data.replaceAll(from.base, replacement.base);
     }
 
@@ -46,4 +45,12 @@ if (fs.existsSync(folder)) {
     fs.unlinkSync(path.join(folder, file));
     fs.writeFileSync(path.join(folder, newFiles[index]), data);
   }
+
+  const importMap = (data = JSON.stringify({
+    imports: {
+      cc: `./cc-${version}.js`,
+    },
+  }));
+
+  fs.writeFileSync(path.join(folder, "import-map"), importMap);
 }

@@ -1,5 +1,5 @@
 {
   "imports": {
-    "cc": "./cc.js?v=5"
+    "cc": "./v1.js?v=1"
   }
 }

@@ -5,15 +5,7 @@ please put all cocos engine resource here
 - Step 1: Build project.
 - Step 2: Copy folder "cocos-js" from folder "build/web-mobile"
 - Steo 3: Rename folder by version name
-- Step 4: Edit file \_virtual_cc:
-
-* find "scriptPackage" , then see below
-  "scriptPackages");return t?Promise.all(t.map((function(t){return e.import(t)})))
-
-  replace : return e.import(t)
-  to : return e.import(`${window.location.origin}${window.location.pathname}${t.replace("..", "")}`)
-
-- Step 5: Create the import-map file following this content
+- Step 4: Create the import-map file following this content
 
 ```
 {
@@ -21,4 +13,10 @@ please put all cocos engine resource here
     "cc": "./cc.js?v=1"
   }
 }
+```
+
+- Step 5: Update version:
+
+```
+node .\resources\cocos-engine\version.js .\resources\cocos-engine\3.8.6 <version>
 ```

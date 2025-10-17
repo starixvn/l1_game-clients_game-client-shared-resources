@@ -3,6 +3,7 @@ const path = require("path");
 const { argv } = require("process");
 const folder = argv.at(2);
 const version = argv.at(3) ?? "v1";
+const oldVersion = argv.at(4) ?? "v1";
 
 if (fs.existsSync(folder)) {
   const files = fs
@@ -13,10 +14,8 @@ if (fs.existsSync(folder)) {
     const filename = path.basename(file);
     const { name, ext } = path.parse(filename);
     const splitted = name.split("-");
-    const newName =
-      splitted.length <= 2 && !file.startsWith("cc-")
-        ? splitted.concat([version]).join("-")
-        : splitted.slice(0, -1).concat([version]).join("-");
+    const last = splitted.at(-1).replace(oldVersion, "") + version;
+    const newName = splitted.slice(0, -1).concat([last]).join("-");
 
     if (file === "import-map") {
       return file;
@@ -48,7 +47,7 @@ if (fs.existsSync(folder)) {
 
   const importMap = (data = JSON.stringify({
     imports: {
-      cc: `./cc-${version}.js`,
+      cc: `./cc${version}.js`,
     },
   }));
 

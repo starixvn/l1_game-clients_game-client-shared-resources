@@ -12,7 +12,11 @@ if (fs.existsSync(folder)) {
     const dirname = path.dirname(file);
     const filename = path.basename(file);
     const { name, ext } = path.parse(filename);
-    const newName = name.split("-").slice(0, -1).concat([version]).join("-");
+    const splitted = name.split("-");
+    const newName =
+      splitted.length <= 2
+        ? splitted.concat([version]).join("-")
+        : splitted.slice(0, -1).concat([version]).join("-");
 
     if (file === "import-map") {
       return file;
@@ -25,10 +29,11 @@ if (fs.existsSync(folder)) {
     let data = fs.readFileSync(path.join(folder, file), "utf-8");
 
     for (const [index, file] of Object.entries(files)) {
-      const search = path.parse(path.basename(file)).name;
-      const replacement = path.parse(path.basename(newFiles[index])).name;
+      const from = path.parse(file);
+      const replacement = path.parse(newFiles[index]);
 
-      data = data.replaceAll(search, replacement);
+      console.log(from.base, replacement.base);
+      data = data.replaceAll(from.base, replacement.base);
     }
 
     if (file.startsWith("_virtual_cc")) {

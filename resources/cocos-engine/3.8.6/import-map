@@ -1,5 +1,5 @@
 {
   "imports": {
-    "cc": "./../../shared-resources/cocos-engine/3.8.6/cc.js?v=1"
+    "cc": "./cc.js?v=1"
   }
 }

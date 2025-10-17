@@ -18,7 +18,7 @@ please put all cocos engine resource here
 ```
 {
   "imports": {
-    "cc": "./../../shared-resources/cocos-engine/<YOUR VERSION>/cc.js?v=1"
+    "cc": "./cc.js?v=1"
   }
 }
 ```

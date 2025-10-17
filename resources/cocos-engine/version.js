@@ -7,7 +7,7 @@ const oldVersion = argv.at(4) ?? "v1";
 
 if (fs.existsSync(folder)) {
   const files = fs
-    .readdirSync(folder, { recursive: true })
+    .readdirSync(folder)
     .filter((file) => fs.statSync(path.join(folder, file)).isFile());
   const newFiles = files.map((file) => {
     const dirname = path.dirname(file);

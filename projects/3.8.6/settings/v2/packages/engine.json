@@ -143,7 +143,7 @@
             "_value": true
           },
           "tiled-map": {
-            "_value": false
+            "_value": true
           },
           "vendor-google": {
             "_value": false
@@ -216,6 +216,7 @@
           "rich-text",
           "spine-3.8",
           "terrain",
+          "tiled-map",
           "tween",
           "ui",
           "ui-skew",
@@ -229,5 +230,10 @@
         }
       }
     }
+  },
+  "macroConfig": {
+    "ENABLE_TILEDMAP_CULLING": false,
+    "BATCHER2D_MEM_INCREMENT": 2048,
+    "ENABLE_WEBGL_HIGHP_STRUCT_VALUES": true
   }
 }

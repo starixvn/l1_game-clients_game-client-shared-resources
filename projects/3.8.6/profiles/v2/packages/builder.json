@@ -16,7 +16,9 @@
       "includeModules": {
         "gfx-webgl2": "off"
       }
-    }
+    },
+    "useBuiltinServer": false,
+    "mainBundleIsRemote": false
   },
   "BuildTaskManager": {
     "taskMap": {

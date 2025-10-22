@@ -1,1 +1,6 @@
-{"imports":{"cc":"./cc.js"}}
+{
+  "imports": {
+    "cc": "./cc.js",
+    "bundle-loader": "./bundle-loader.js"
+  }
+}

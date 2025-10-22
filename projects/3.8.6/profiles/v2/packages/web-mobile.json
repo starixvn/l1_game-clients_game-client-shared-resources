@@ -14,7 +14,9 @@
         "includeModules": {
           "gfx-webgl2": "off"
         }
-      }
+      },
+      "useBuiltinServer": false,
+      "mainBundleIsRemote": false
     },
     "taskOptionsMap": {
       "1761098281355": {

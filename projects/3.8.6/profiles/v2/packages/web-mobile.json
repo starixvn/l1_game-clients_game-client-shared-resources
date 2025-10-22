@@ -9,18 +9,15 @@
       "outputName": "web-mobile",
       "mainBundleCompressionType": "merge_dep",
       "platform": "web-mobile",
+      "md5Cache": false,
       "overwriteProjectSettings": {
         "includeModules": {
           "gfx-webgl2": "off"
-        },
-        "macroConfig": {
-          "cleanupImageCache": "off"
         }
-      },
-      "md5Cache": false
+      }
     },
     "taskOptionsMap": {
-      "1760685747094": {
+      "1761098281355": {
         "useWebGPU": false,
         "orientation": "auto",
         "embedWebDebugger": false,

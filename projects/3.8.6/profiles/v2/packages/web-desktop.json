@@ -4,14 +4,6 @@
     "common": {
       "polyfills": {
         "asyncFunctions": true
-      },
-      "overwriteProjectSettings": {
-        "macroConfig": {
-          "cleanupImageCache": "off"
-        },
-        "includeModules": {
-          "gfx-webgl2": "off"
-        }
       }
     }
   }

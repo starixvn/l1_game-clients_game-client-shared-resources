@@ -1,0 +1,111 @@
+
+banner-game.webp
+size: 578,264
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1000
+  rotate: true
+  xy: 477, 4
+  size: 84, 42
+  orig: 86, 42
+  offset: 1, 0
+  index: -1
+20x
+  rotate: false
+  xy: 505, 154
+  size: 35, 32
+  orig: 38, 34
+  offset: 1, 1
+  index: -1
+420
+  rotate: false
+  xy: 505, 226
+  size: 71, 36
+  orig: 73, 36
+  offset: 1, 0
+  index: -1
+50x
+  rotate: true
+  xy: 505, 117
+  size: 35, 32
+  orig: 38, 34
+  offset: 1, 1
+  index: -1
+5x
+  rotate: true
+  xy: 539, 92
+  size: 26, 31
+  orig: 28, 34
+  offset: 1, 2
+  index: -1
+620
+  rotate: false
+  xy: 505, 188
+  size: 71, 36
+  orig: 73, 36
+  offset: 1, 0
+  index: -1
+70x
+  rotate: false
+  xy: 539, 120
+  size: 35, 32
+  orig: 37, 34
+  offset: 1, 1
+  index: -1
+banner
+  rotate: true
+  xy: 2, 71
+  size: 191, 370
+  orig: 193, 373
+  offset: 1, 1
+  index: -1
+blink
+  rotate: true
+  xy: 390, 2
+  size: 86, 85
+  orig: 107, 108
+  offset: 10, 11
+  index: -1
+coins
+  rotate: true
+  xy: 374, 90
+  size: 172, 129
+  orig: 172, 129
+  offset: 0, 0
+  index: -1
+flare
+  rotate: true
+  xy: 542, 154
+  size: 32, 33
+  orig: 36, 40
+  offset: 2, 3
+  index: -1
+gamename
+  rotate: false
+  xy: 191, 8
+  size: 194, 61
+  orig: 196, 64
+  offset: 0, 1
+  index: -1
+peg-hover
+  rotate: false
+  xy: 505, 102
+  size: 13, 13
+  orig: 15, 15
+  offset: 1, 1
+  index: -1
+small-ball
+  rotate: false
+  xy: 374, 74
+  size: 14, 14
+  orig: 16, 16
+  offset: 1, 1
+  index: -1
+text-bot-EN
+  rotate: false
+  xy: 2, 3
+  size: 187, 66
+  orig: 188, 66
+  offset: 1, 0
+  index: -1

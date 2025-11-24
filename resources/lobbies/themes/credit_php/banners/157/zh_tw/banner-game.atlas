@@ -1,0 +1,118 @@
+
+banner-game.webp
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ga/BG
+  rotate: false
+  xy: 2, 145
+  size: 181, 360
+  orig: 182, 360
+  offset: 1, 0
+  index: -1
+ga/bottom L
+  rotate: true
+  xy: 185, 151
+  size: 31, 70
+  orig: 31, 70
+  offset: 0, 0
+  index: -1
+ga/bottom R
+  rotate: true
+  xy: 257, 154
+  size: 28, 60
+  orig: 28, 60
+  offset: 0, 0
+  index: -1
+ga/canh
+  rotate: false
+  xy: 306, 327
+  size: 77, 72
+  orig: 77, 72
+  offset: 0, 0
+  index: -1
+ga/chanphai
+  rotate: true
+  xy: 385, 332
+  size: 67, 92
+  orig: 67, 92
+  offset: 0, 0
+  index: -1
+ga/chantrai
+  rotate: true
+  xy: 345, 255
+  size: 70, 96
+  orig: 70, 96
+  offset: 0, 0
+  index: -1
+ga/duoi
+  rotate: true
+  xy: 306, 401
+  size: 104, 127
+  orig: 104, 127
+  offset: 0, 0
+  index: -1
+ga/eye L
+  rotate: false
+  xy: 319, 162
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+ga/eye R
+  rotate: true
+  xy: 435, 422
+  size: 17, 20
+  orig: 17, 20
+  offset: 0, 0
+  index: -1
+ga/head 1
+  rotate: true
+  xy: 185, 184
+  size: 130, 158
+  orig: 130, 158
+  offset: 0, 0
+  index: -1
+ga/head 2
+  rotate: true
+  xy: 2, 4
+  size: 139, 168
+  orig: 139, 168
+  offset: 0, 0
+  index: -1
+ga/logo-tc
+  rotate: true
+  xy: 341, 2
+  size: 180, 113
+  orig: 180, 113
+  offset: 0, 0
+  index: -1
+ga/mouse1
+  rotate: true
+  xy: 443, 269
+  size: 61, 43
+  orig: 63, 45
+  offset: 1, 1
+  index: -1
+ga/mouth2
+  rotate: false
+  xy: 435, 441
+  size: 46, 64
+  orig: 46, 64
+  offset: 0, 0
+  index: -1
+ga/text-tc
+  rotate: true
+  xy: 185, 316
+  size: 189, 119
+  orig: 189, 119
+  offset: 0, 0
+  index: -1
+ga/than
+  rotate: true
+  xy: 172, 4
+  size: 139, 167
+  orig: 139, 167
+  offset: 0, 0
+  index: -1

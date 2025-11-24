@@ -5,7 +5,9 @@
     "th": true,
     "id": true,
     "zh_tw": true,
-    "zh_cn": true
+    "zh_cn": true,
+    "es": true,
+    "ja": true
   },
   "premultipliedAlpha": false,
   "version": 2
